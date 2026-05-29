@@ -2,5 +2,11 @@
   {
     "listing": "/news/2026-01-15-dublin-paper.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-01-15-dublin-paper.html"
+    ]
   }
 ]
