@@ -25,17 +25,20 @@ You'll find my [research projects](projects.qmd), [publications](publications.qm
 
 Feel free to get in touch.
 
-## News
-
-::: {#listing-news}
-:::
+::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
 ## Upcoming
 
-- **11/12 June 2026** — Research Workshop 'Governing Migration: Between
-National Sovereignty and Global Interdependence', Danube University Krems (AT)
-- **1-3 July 2026** — ECPR Standing Group European Union Conference, University of Catania (IT).
+- **22 Apr 2026** — Keynote, *Inter-State Trust over Asylum Policies*, University of Geneva.
+- **15–16 Jan 2026** — Annual Congress, Swiss Political Science Association, Zurich.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## News
+
+- **18 May 2026** — Blogbeitrag zu Schweizer EU-Solidarität (18.May 2026): Der neue EU-Migrationspakt der nächsten Monat in Kraft tritt enthält einen neuen Solidaritätsmechanismus. Die Teilnahme daran ist für die Schweiz freiwillig. Die Implikationen dieses Entscheids diskutiere ich zusammen mit Maud Bachelet in einem Beitrag für DeFacto. Deutsche Version / Version française 
+- **13 May 2026** — New article published (13.May 2026): In a new article published in 'European Union Politics', I investigated together with Florian Trauner and Philipp Stutz how the Dublin system redistributes asylum responsibilities among member states. We demonstrate that against the common perception, Dublin transfers contribute to more fairness among states as a result of uneven compliance with the Dublin rules. Link to the article Accepted version / Summary blog post
 :::
 
 :::
