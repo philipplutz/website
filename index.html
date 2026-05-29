@@ -33,12 +33,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -71,66 +70,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-news'] = new List('listing-listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -209,80 +150,54 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="prof_pic.jpg" class="about-image
-  rounded " style="width: 14em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Philipp Lutz</h1>
-<p class="subtitle lead"><a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br><a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)<br></p>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="grid home-grid">
+<div class="g-col-12 g-col-md-4">
+<p><img src="prof_pic.jpg" class="home-portrait img-fluid"></p>
+<section id="upcoming" class="level3">
+<h3 class="anchored" data-anchor-id="upcoming">Upcoming</h3>
+<ul>
+<li><strong>22 Apr 2026</strong> — Keynote <em>Inter-State Trust over Asylum Policies</em>, University of Geneva</li>
+<li><strong>15–16 Jan 2026</strong> — SPSA Annual Congress, University of Zurich</li>
+</ul>
+</section>
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+<section id="philipp-lutz" class="level1 g-col-12 g-col-md-8">
+<h1>Philipp Lutz</h1>
+<p class="home-subtitle">
+<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br> <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
+</p>
 <p>Welcome!</p>
 <p>I’m a political scientist at the University of Geneva (SNF Ambizione Fellow) and the Vrije Universiteit Amsterdam (Assistant Professor).</p>
 <p>I study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.</p>
 <p>You’ll find my <a href="./projects.html">research projects</a>, <a href="./publications.html">publications</a>, and CV on this site.</p>
 <p>Feel free to get in touch.</p>
-<div class="grid">
-<section id="upcoming" class="level2 g-col-12 g-col-md-6">
-<h2 data-anchor-id="upcoming">Upcoming</h2>
-<ul>
-<li><strong>22 Apr 2026</strong> — Keynote, <em>Inter-State Trust over Asylum Policies</em>, University of Geneva.</li>
-<li><strong>15–16 Jan 2026</strong> — Annual Congress, Swiss Political Science Association, Zurich.</li>
-</ul>
-</section>
-<section id="news" class="level2 g-col-12 g-col-md-6">
-<h2 data-anchor-id="news">News</h2>
+<section id="news" class="level3">
+<h3 class="anchored" data-anchor-id="news">News</h3>
 <ul>
 <li><strong>18 May 2026</strong> — Blogbeitrag zu Schweizer EU-Solidarität (18.May 2026): Der neue EU-Migrationspakt der nächsten Monat in Kraft tritt enthält einen neuen Solidaritätsmechanismus. Die Teilnahme daran ist für die Schweiz freiwillig. Die Implikationen dieses Entscheids diskutiere ich zusammen mit Maud Bachelet in einem Beitrag für DeFacto. Deutsche Version / Version française</li>
 <li><strong>13 May 2026</strong> — New article published (13.May 2026): In a new article published in ‘European Union Politics’, I investigated together with Florian Trauner and Philipp Stutz how the Dublin system redistributes asylum responsibilities among member states. We demonstrate that against the common perception, Dublin transfers contribute to more fairness among states as a result of uneven compliance with the Dublin rules. Link to the article Accepted version / Summary blog post</li>
 </ul>
 </section>
+</section>
 </div>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing-news">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1780090100901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/2026-06-11-workshop-krems.html" class="no-external">Research workshop at Danube University Krems</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./news/2026-06-11-workshop-krems.html" class="no-external">
-<div class="listing-date">
-Jun 11, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1780090100900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/2026-01-15-dublin-paper.html" class="no-external">New article in <em>European Union Politics</em></a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./news/2026-01-15-dublin-paper.html" class="no-external">
-<div class="listing-date">
-Jan 15, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
