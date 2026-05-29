@@ -29,3 +29,13 @@ Feel free to get in touch.
 
 ::: {#listing-news}
 :::
+
+::: {.g-col-12 .g-col-md-6}
+## Upcoming
+
+- **11/12 June 2026** — Research Workshop 'Governing Migration: Between
+National Sovereignty and Global Interdependence', Danube University Krems (AT)
+- **1-3 July 2026** — ECPR Standing Group European Union Conference, University of Catania (IT).
+:::
+
+:::
