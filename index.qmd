@@ -5,6 +5,13 @@ about:
   image: prof_pic.jpg
   image-width: 14em
   image-shape: rounded
+listing:
+  - id: listing-news
+    contents: news
+    type: default
+    sort: "date desc"
+    max-items: 5
+    fields: [date, title]
   links:
     - icon: envelope
       text: Email
@@ -19,13 +26,6 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/philipp-lutz-78254489
 ---
-listing:
-  - id: listing-news
-    contents: news
-    type: default
-    sort: "date desc"
-    max-items: 5
-    fields: [date, title]
 
 Hi — I'm a political scientist and SNSF Ambizione Fellow at the University of Geneva, Assistant Professor at the Vrije Universiteit Amsterdam, and an associated researcher at the [nccr – on the move](https://nccr-onthemove.ch/).
 
