@@ -1,0 +1,6 @@
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  date-format: medium
+  fields: [date, title]
