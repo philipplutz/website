@@ -1,6 +1,6 @@
 ---
 title: "Philipp Lutz"
-subtitle: "Senior Researcher at University of Geneva (CH) & Assistant Professor at Vrije Universiteit Amsterdam (NL)"
+subtitle: "University of Geneva (CH) & Vrije Universiteit Amsterdam (NL)"
 about:
   template: trestles
   image: prof_pic.jpg
