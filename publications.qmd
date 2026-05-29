@@ -1,0 +1,24 @@
+---
+title: "Publications"
+---
+
+## Peer-reviewed articles
+
+### 2026
+
+**The fairness of Dublin transfers in the European asylum system.**
+Lutz, P., Trauner, F., & Stutz, P. *European Union Politics*.
+[Link to article] · [Replication data]
+
+<!--
+To add a new paper, copy a block and edit. Format:
+
+### YEAR
+
+**Title of paper.**
+Authors. *Journal*, volume(issue), pages.
+[Link] · [PDF] · [Replication]
+
+For multiple papers in a year, just add another block under the same year heading.
+For working papers, add a "## Working papers" section above "## Peer-reviewed articles".
+-->

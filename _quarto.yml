@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Philipp Lutz"
+  description: "Political scientist studying migration and European integration."
+  site-url: https://philipplutz.github.io/website
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:p.lutz@vu.nl"
+        aria-label: Email
+      - text: "Scholar"
+        href: https://scholar.google.com/citations?user=Ml32muAAAAAJ
+      - text: "ORCID"
+        href: https://orcid.org/0000-0003-2373-0180
+      - text: "Bluesky"
+        href: https://bsky.app/profile/lutzphilipp.bsky.social
+      - icon: linkedin
+        href: https://www.linkedin.com/in/philipp-lutz-78254489
+        aria-label: LinkedIn
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: article
+    grid:
+      sidebar-width: 200px
+      body-width: 800px
+      margin-width: 200px

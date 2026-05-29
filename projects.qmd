@@ -1,0 +1,34 @@
+---
+title: "Projects"
+---
+
+## The Dublin Explorer
+
+An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
+
+<!--
+The iframe below embeds the live Shiny app from shinyapps.io.
+Replace YOUR-ACCOUNT and YOUR-APP-URL with the actual values once known.
+The free shinyapps.io tier sleeps when idle, so first load may show
+several seconds of blank space while the server wakes.
+-->
+
+<iframe src="https://YOUR-ACCOUNT.shinyapps.io/YOUR-APP-URL/"
+        width="100%" height="700"
+        style="border: 1px solid #ddd;"
+        loading="lazy">
+</iframe>
+
+If the dashboard does not load above, you can [open it directly](https://YOUR-ACCOUNT.shinyapps.io/YOUR-APP-URL/).
+
+---
+
+<!--
+To add another project, follow this pattern:
+
+## Project name
+
+Short description.
+
+[Project URL or repo link]
+-->

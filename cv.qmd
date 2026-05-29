@@ -1,0 +1,22 @@
+---
+title: "CV"
+---
+
+Download my [full CV (PDF)](cv.pdf).
+
+<!--
+To make the link work, upload a file named cv.pdf to the root of the repo.
+Until you do, the link will 404 — that's fine for now.
+
+If you'd rather show CV content inline rather than linking a PDF,
+replace everything below with markdown sections like:
+
+## Positions
+- 2024–present, Assistant Professor, Vrije Universiteit Amsterdam
+- 2023–present, SNSF Ambizione Fellow, University of Geneva
+
+## Education
+- 2019, PhD in Political Science, University of Bern
+
+etc.
+-->

@@ -1,0 +1,27 @@
+---
+title: "Philipp Lutz"
+about:
+  template: trestles
+  image: prof_pic.jpg
+  image-width: 14em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:p.lutz@vu.nl"
+    - text: Scholar
+      href: https://scholar.google.com/citations?user=Ml32muAAAAAJ
+    - text: ORCID
+      href: https://orcid.org/0000-0003-2373-0180
+    - text: Bluesky
+      href: https://bsky.app/profile/lutzphilipp.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/philipp-lutz-78254489
+---
+
+Hi — I'm a political scientist and SNSF Ambizione Fellow at the University of Geneva, Assistant Professor at the Vrije Universiteit Amsterdam, and an associated researcher at the [nccr – on the move](https://nccr-onthemove.ch/).
+
+I study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.
+
+You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site. Feel free to get in touch.

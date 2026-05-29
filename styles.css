@@ -1,0 +1,56 @@
+/* ============================================================
+   YOUR CUSTOM STYLES
+   This file is yours. Edit anything. Add anything. Save and commit.
+   Each rule is a normal CSS rule: a selector, then properties.
+   Comments are between /* and */ /* (like this).
+   ============================================================ */
+
+/* Make the page title (your name on the homepage) lighter weight
+   rather than the default bold. Delete this rule to keep it bold. */
+.quarto-title h1.title {
+  font-weight: 500;
+}
+
+/* Make the bio paragraphs slightly larger for readability. */
+.quarto-about-trestles .about-entity p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Tighten spacing between the photo and the bio text on the homepage. */
+.quarto-about-trestles {
+  gap: 2rem;
+}
+
+/* ============================================================
+   COMMON TWEAKS — uncomment any of these as needed
+   ============================================================ */
+
+/* Change the accent colour used for links throughout the site.
+   Pick any hex code (https://htmlcolorcodes.com/) */
+/*
+a, .navbar a:hover, .nav-link.active {
+  color: #1f5582 !important;
+}
+*/
+
+/* Wider content area (default body-width is set in _quarto.yml; this is a finer override) */
+/*
+.content {
+  max-width: 900px;
+}
+*/
+
+/* Smaller navbar */
+/*
+.navbar {
+  padding: 0.25rem 1rem;
+}
+*/
+
+/* Hide the "Published" date that Quarto adds by default to pages */
+/*
+.quarto-title-meta {
+  display: none;
+}
+*/
