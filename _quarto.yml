@@ -40,3 +40,6 @@ format:
       sidebar-width: 200px
       body-width: 800px
       margin-width: 200px
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
