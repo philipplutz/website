@@ -1,19 +1,29 @@
 ---
-title: "Philipp Lutz"
-subtitle: '<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br><a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)<br>'
-about:
-  template: trestles
-  image: prof_pic.jpg
-  image-width: 14em
-  image-shape: rounded
-listing:
-  - id: listing-news
-    contents: news
-    type: default
-    sort: "date desc"
-    max-items: 5
-    fields: [date, title]
+title: ""
+pagetitle: "Philipp Lutz"
 ---
+
+::: {.grid .home-grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](prof_pic.jpg){.home-portrait}
+
+### Upcoming
+
+- **22 Apr 2026** — Keynote *Inter-State Trust over Asylum Policies*, University of Geneva
+- **15–16 Jan 2026** — SPSA Annual Congress, University of Zurich
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+# Philipp Lutz
+
+<p class="home-subtitle">
+<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br>
+<a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
+</p>
 
 Welcome!
 
@@ -21,24 +31,15 @@ I'm a political scientist at the University of Geneva (SNF Ambizione Fellow) and
 
 I study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.
 
-You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site. 
+You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site.
 
 Feel free to get in touch.
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-## Upcoming
-
-- **22 Apr 2026** — Keynote, *Inter-State Trust over Asylum Policies*, University of Geneva.
-- **15–16 Jan 2026** — Annual Congress, Swiss Political Science Association, Zurich.
-:::
-
-::: {.g-col-12 .g-col-md-6}
-## News
+### News
 
 - **18 May 2026** — Blogbeitrag zu Schweizer EU-Solidarität (18.May 2026): Der neue EU-Migrationspakt der nächsten Monat in Kraft tritt enthält einen neuen Solidaritätsmechanismus. Die Teilnahme daran ist für die Schweiz freiwillig. Die Implikationen dieses Entscheids diskutiere ich zusammen mit Maud Bachelet in einem Beitrag für DeFacto. Deutsche Version / Version française 
 - **13 May 2026** — New article published (13.May 2026): In a new article published in 'European Union Politics', I investigated together with Florian Trauner and Philipp Stutz how the Dublin system redistributes asylum responsibilities among member states. We demonstrate that against the common perception, Dublin transfers contribute to more fairness among states as a result of uneven compliance with the Dublin rules. Link to the article Accepted version / Summary blog post
+
 :::
 
 :::
