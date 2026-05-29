@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.\n\n\n\nIf the dashboard does not load above, you can open it directly."
+  },
+  {
+    "objectID": "projects.html#the-dublin-explorer",
+    "href": "projects.html#the-dublin-explorer",
+    "title": "Projects",
+    "section": "",
+    "text": "An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.\n\n\n\nIf the dashboard does not load above, you can open it directly."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download my full CV (PDF)."
+  },
+  {
+    "objectID": "SETUP.html",
+    "href": "SETUP.html",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "You’re replacing the al-folio contents in your existing website repo with these files. The repo name stays the same, your site URL stays the same (philipplutz.github.io/website), your photo stays the same — only the engine changes.\n\n\n\n_quarto.yml — site configuration (navbar, theme, URLs)\nindex.qmd — homepage with bio (replaces _pages/about.md)\npublications.qmd — publications list (replaces _bibliography/papers.bib)\nprojects.qmd — Dublin Explorer project page\ncv.qmd — CV page (links to a PDF you upload separately)\nstyles.css — YOUR stylesheet, fully editable\n.github/workflows/publish.yml — auto-build on every commit\n.gitignore — standard ignores\n\n\n\n\n\n\nIn your repo, you need to delete all the existing al-folio files BEFORE uploading the Quarto ones. The cleanest way:\nOption A — fresh start in the same repo (recommended): - Go to repo Settings → at the very bottom, “Danger Zone” → “Delete this repository” - Re-create a new repo with the EXACT same name (website) - This gives you a clean empty repo to upload Quarto into\nOption B — delete files individually: - More tedious. Skip unless you really want to preserve commit history.\nUse Option A. The commit history of the al-folio attempt isn’t worth keeping.\n\n\n\nIn the new empty website repo: - “Add file” → “Upload files” - Drag in ALL files from this folder. Including .github (you’ll need to reveal hidden files first: Mac Cmd+Shift+. in Finder; Windows enable Hidden items in View) - Commit\n\n\n\n\nUpload your headshot to the repo root, named exactly prof_pic.jpg\nCommit\n\n\n\n\n\nUpload your CV PDF to the repo root, named exactly cv.pdf\nCommit\n\n\n\n\n\nRepo Settings → Pages → Source → “Deploy from a branch”\nBranch: gh-pages (this branch is created automatically by the workflow on first build)\nFolder: / (root) → Save\n\nWait for the first build to complete (check the Actions tab). Then your site should appear at https://philipplutz.github.io/website\n\n\n\n\nThe point of Quarto is that you can edit anything yourself.\n\nChange the bio → edit index.qmd, commit\nAdd a paper → edit publications.qmd, follow the format comment in the file\nChange a colour → edit styles.css, uncomment the “accent colour” block\nAdd a page → create a new .qmd file, add it to the navbar list in _quarto.yml\n\nEvery commit triggers a rebuild (1–2 minutes). The Actions tab shows progress.\n\n\n\nSearch the files for these and replace:\n\nIn projects.qmd: YOUR-ACCOUNT.shinyapps.io/YOUR-APP-URL → real Shiny URL\nIn publications.qmd: verify Dublin paper details (volume/pages/DOI/link)\nThe Dublin paper currently lacks a link. Either link to the publisher page when available, or to a preprint.\n\n\n\n\nQuarto has ~25 built-in themes. Edit _quarto.yml, find the line theme: cosmo, change cosmo to one of: flatly, journal, litera, lumen, sandstone, simplex, yeti, zephyr. Commit. The whole site restyles automatically."
+  },
+  {
+    "objectID": "SETUP.html#whats-in-this-package",
+    "href": "SETUP.html#whats-in-this-package",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "_quarto.yml — site configuration (navbar, theme, URLs)\nindex.qmd — homepage with bio (replaces _pages/about.md)\npublications.qmd — publications list (replaces _bibliography/papers.bib)\nprojects.qmd — Dublin Explorer project page\ncv.qmd — CV page (links to a PDF you upload separately)\nstyles.css — YOUR stylesheet, fully editable\n.github/workflows/publish.yml — auto-build on every commit\n.gitignore — standard ignores"
+  },
+  {
+    "objectID": "SETUP.html#migration-steps",
+    "href": "SETUP.html#migration-steps",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "In your repo, you need to delete all the existing al-folio files BEFORE uploading the Quarto ones. The cleanest way:\nOption A — fresh start in the same repo (recommended): - Go to repo Settings → at the very bottom, “Danger Zone” → “Delete this repository” - Re-create a new repo with the EXACT same name (website) - This gives you a clean empty repo to upload Quarto into\nOption B — delete files individually: - More tedious. Skip unless you really want to preserve commit history.\nUse Option A. The commit history of the al-folio attempt isn’t worth keeping.\n\n\n\nIn the new empty website repo: - “Add file” → “Upload files” - Drag in ALL files from this folder. Including .github (you’ll need to reveal hidden files first: Mac Cmd+Shift+. in Finder; Windows enable Hidden items in View) - Commit\n\n\n\n\nUpload your headshot to the repo root, named exactly prof_pic.jpg\nCommit\n\n\n\n\n\nUpload your CV PDF to the repo root, named exactly cv.pdf\nCommit\n\n\n\n\n\nRepo Settings → Pages → Source → “Deploy from a branch”\nBranch: gh-pages (this branch is created automatically by the workflow on first build)\nFolder: / (root) → Save\n\nWait for the first build to complete (check the Actions tab). Then your site should appear at https://philipplutz.github.io/website"
+  },
+  {
+    "objectID": "SETUP.html#after-its-live-editing",
+    "href": "SETUP.html#after-its-live-editing",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "The point of Quarto is that you can edit anything yourself.\n\nChange the bio → edit index.qmd, commit\nAdd a paper → edit publications.qmd, follow the format comment in the file\nChange a colour → edit styles.css, uncomment the “accent colour” block\nAdd a page → create a new .qmd file, add it to the navbar list in _quarto.yml\n\nEvery commit triggers a rebuild (1–2 minutes). The Actions tab shows progress."
+  },
+  {
+    "objectID": "SETUP.html#placeholders-to-fill-in",
+    "href": "SETUP.html#placeholders-to-fill-in",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "Search the files for these and replace:\n\nIn projects.qmd: YOUR-ACCOUNT.shinyapps.io/YOUR-APP-URL → real Shiny URL\nIn publications.qmd: verify Dublin paper details (volume/pages/DOI/link)\nThe Dublin paper currently lacks a link. Either link to the publisher page when available, or to a preprint."
+  },
+  {
+    "objectID": "SETUP.html#if-you-dont-like-the-look",
+    "href": "SETUP.html#if-you-dont-like-the-look",
+    "title": "Migrating to Quarto",
+    "section": "",
+    "text": "Quarto has ~25 built-in themes. Edit _quarto.yml, find the line theme: cosmo, change cosmo to one of: flatly, journal, litera, lumen, sandstone, simplex, yeti, zephyr. Commit. The whole site restyles automatically."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "The fairness of Dublin transfers in the European asylum system. Lutz, P., Trauner, F., & Stutz, P. European Union Politics. [Link to article] · [Replication data]"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "The fairness of Dublin transfers in the European asylum system. Lutz, P., Trauner, F., & Stutz, P. European Union Politics. [Link to article] · [Replication data]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Philipp Lutz",
+    "section": "",
+    "text": "Hi — I’m a political scientist and SNSF Ambizione Fellow at the University of Geneva, Assistant Professor at the Vrije Universiteit Amsterdam, and an associated researcher at the nccr – on the move.\nI study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.\nYou’ll find my research projects, publications, and CV on this site. Feel free to get in touch."
+  }
+]
