@@ -2,21 +2,106 @@
 title: "CV"
 ---
 
-Download my [full CV (PDF)](cv.pdf).
+[Download as PDF](cv.pdf) · *Last updated: March 2026*
 
-<!--
-To make the link work, upload a file named cv.pdf to the root of the repo.
-Until you do, the link will 404 — that's fine for now.
+## Current positions
 
-If you'd rather show CV content inline rather than linking a PDF,
-replace everything below with markdown sections like:
-
-## Positions
-- 2024–present, Assistant Professor, Vrije Universiteit Amsterdam
-- 2023–present, SNSF Ambizione Fellow, University of Geneva
+- **Senior Researcher (Ambizione Fellow)**, University of Geneva, Department of Political Science and International Relations (04/2023–present)
+- **Universitair Docent (Senior Assistant Professor)**, Vrije Universiteit Amsterdam, Department of Political Science and Public Administration (06/2022–present; tenured 07/2023; promoted to Senior Assistant Professor 05/2024)
 
 ## Education
-- 2019, PhD in Political Science, University of Bern
 
-etc.
--->
+- **PhD in Political Science (Dr. rer. soc.)**, University of Bern, 10/2015–04/2019. Advisors: Prof. Klaus Armingeon and Prof. Marc Helbling.
+- **MA in Swiss and Comparative Politics**, University of Bern, 2013–2015.
+- **BA in Social Science (major) & Eastern European Studies (minor)**, University of Bern, 2009–2013.
+
+## Awards & grants
+
+- **NWO Open Competition Grant** (2026), Dutch Research Council, €50,000. *The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies.*
+- **Ambizione Fellowship** (2022), Swiss National Science Foundation, CHF 821,000. Independent research grant on European responsibility-sharing in migration governance.
+- **Rudolf Wildenmann Prize** (2018), European Consortium for Political Research. Best paper at ECPR Joint Sessions, Nicosia.
+- **ecsasuisse Best Article Prize** (2021), European Communities Studies Association.
+- **Rising Star Award** (2020), nominated by the University of Geneva for the ECPR young scholar award.
+- **SNSF collaborative grants** within the *nccr on the move* programme: "Migration, Trade and Technology" (2024, with Chueri, Nadler, Gandelberger); "Control Perceptions and Immigration Preferences" (2021, with Bitschnau); "Contested Liberalism in Diverse Societies" (2020, with Manser-Egli).
+- **MOSAiCH survey modules** (2017, 2023), FORS Swiss Centre of Expertise in the Social Sciences.
+
+## International experiences
+
+- **Visiting Fellowship**, European Institute, London School of Economics and Political Science (09/2021–08/2024).
+- **Guest researcher**, Department of Political and Social Sciences, European University Institute (09/2018–12/2018).
+- **Erasmus exchange year**, Faculty of Social Sciences, University of Ljubljana (09/2010–06/2011).
+
+## Employment history
+
+- **Post-Doctoral researcher**, University of Geneva, with Prof. Sandra Lavenex (05/2019–05/2022).
+- **Research Fellow**, *nccr on the move*, University of Neuchâtel (02/2019–05/2022).
+- **Teaching and Research Assistant**, University of Bern, with Prof. Klaus Armingeon (10/2015–04/2019).
+- **Research Assistant**, KPM Center for Public Management, University of Bern (03/2016–09/2016).
+- **Senior Policy Fellow**, foraus – Swiss think-tank for foreign policy (09/2015–02/2017).
+
+## Teaching
+
+Recent courses include *Comparative Politics: Democracies and Other Regimes* (VU Amsterdam, with Juliana Chueri), *State, Power, Conflict* (VU Amsterdam, 2022–2024), *Political Analysis* (VU Amsterdam), and a research colloquium in political science.
+
+Past teaching includes courses on migration and asylum policies at the Geneva Summer School, PhD workshops at the University of Neuchâtel on policy measurement, and BA seminars on comparative migration policy at the University of Bern. Supervision of bachelor and master theses at multiple institutions.
+
+## Workshops organized
+
+- *The Politics of Responsibility-sharing*, University of Geneva, March 2025 (with Maud Bachelet).
+- *Politics of Redistribution in the Era of Artificial Intelligence in Europe and Beyond*, VU Amsterdam, September 2024 (with Juliana Chueri and Ben Crum).
+- *Representative Democracy in Times of Globalization*, VU Amsterdam, January 2023 (with Wynand Kastart).
+- *The Frontiers of EU External Migration Governance*, London School of Economics, March 2022 (with Natascha Zaun).
+- *Migration Governance through Trade Agreements*, European University Institute, September 2021 (with M. Ruhs, B. Hoekman, S. Lavenex, P. Hoffmeyer-Zlotnik).
+
+## Selected invited talks (2023–2026)
+
+- Keynote: *Inter-State Trust over Asylum Policies*, University of Geneva, April 2026.
+- Workshop *Immigration and Democracy*, Leiden University, November 2025.
+- MPC GLOBALCIT Conference *Contested boundaries*, European University Institute, May 2025.
+- ERCOMER seminar, University of Utrecht, February 2024.
+- Pre-EPSA Political Economy Workshop, University of Glasgow, June 2023.
+
+Earlier invited talks include the Europe@LSE series (London School of Economics, 2022), Migration Policy Center at EUI (2018, 2019, 2023), University of Oxford (2020), University of Cambridge (2019), and Deakin University Melbourne (2020).
+
+## Service
+
+**Reviewer** for over 50 journals, including *American Political Science Review*, *British Journal of Political Science*, *European Journal of Political Research*, *International Organization*, *International Studies Quarterly*, *Journal of European Public Policy*, *Public Opinion Quarterly*, *Comparative Migration Studies*, and *Nature Communications*. Full list available on request.
+
+**Reviewer for funding organisations**: European Science Foundation (member of the ESF College of Expert Reviewers), Research Foundation Flanders.
+
+**Conferences**: IMISCOE 2023, 2024, 2025.
+
+**Expert consultant**: Chapel Hill Expert Survey (CHES), 2025.
+
+**Recent organizational roles**: Co-organizer of the Young Scholars Research Seminar at VU Amsterdam (2023–2025); co-organizer of the Doc/PostDoc-Colloquium at University of Geneva (2019–2022); PhD supervision at University of Geneva (2023–).
+
+## Datasets
+
+- **Refugee Dispersal Policy (RDP) Data Set** — refugee dispersal policies in European democracies (2020), with Walter Bartl.
+- **MITA Database** (Migration Provisions in Trade Agreements), 1960–2020, with Sandra Lavenex and Paula Hoffmeyer-Zlotnik.
+- **RESET-OECD** — resettlement policies of OECD countries, 1980–2019, with Lea Portmann.
+- **DEMIG Government extension** — migration policy choices in 18 West European countries, 1980–2014.
+
+## Policy outreach
+
+Recent policy papers include *Towards a Fairer EU Asylum Policy: Lessons from the Dublin System for the EU's Solidarity Mechanism* (European Policy Centre, 2025, with F. Trauner and P. Stutz), and *Europe's divide on immigration: Making responsibility-sharing work* (nccr on the move, 2025, with M. Bachelet).
+
+Active engagement with Swiss policy includes evaluation work for the Swiss Parliamentary Control of the Administration (2023–2024) on refugee dispersal policy. Long-standing involvement with foraus (Swiss think-tank for foreign policy) as Program Director Migration (2015–2019), Senior Policy Fellow (2015–2017), and member of the Review Board (2019–).
+
+## Publications
+
+See the [Publications](publications.qmd) page for the full list of 28 peer-reviewed articles, 11 book chapters, and outreach.
+
+## Languages
+
+German (native), English (fluent), French (fluent), Dutch (intermediate), Slovenian (basic), Albanian (basic).
+
+## Methods & software
+
+R, Stata, LaTeX, Adobe Illustrator, Qualtrics. Quantitative-comparative analysis and survey experiments.
+
+## Additional training
+
+- University Teaching Qualification (UTQ), Vrije Universiteit Amsterdam, 2023.
+- Essex Summer School: Pooled Time-Series Cross-Sectional Analysis, 2017.
+- Research Designs for Causal Inference, University of Bern, with Prof. Dominik Hangartner, 2014.
