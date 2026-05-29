@@ -22,9 +22,11 @@ website:
         aria-label: Email
       - text: "<i class='ai ai-google-scholar'></i>"
         href: "https://scholar.google.com/citations?user=Ml32muAAAAAJ"
+      - text: "<i class='ai ai-researchgate'></i>"
+        href: "https://www.researchgate.net/profile/Philipp-Lutz-2"
       - text: "<i class='ai ai-orcid'></i>"
         href: "https://orcid.org/0000-0003-2373-0180"
-      - text: "Bluesky"
+      - text: "<i class='ai ai-bluesky'></i>"
         href: "https://bsky.app/profile/lutzphilipp.bsky.social"
       - icon: linkedin
         href: "https://www.linkedin.com/in/philipp-lutz-78254489"
