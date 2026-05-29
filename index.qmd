@@ -12,19 +12,6 @@ listing:
     sort: "date desc"
     max-items: 5
     fields: [date, title]
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:p.lutz@vu.nl"
-    - text: Scholar
-      href: https://scholar.google.com/citations?user=Ml32muAAAAAJ
-    - text: ORCID
-      href: https://orcid.org/0000-0003-2373-0180
-    - text: Bluesky
-      href: https://bsky.app/profile/lutzphilipp.bsky.social
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/philipp-lutz-78254489
 ---
 
 *Senior Researcher at University of Geneva (CH) & Assistant Professor at Vrije Universiteit Amsterdam (NL)*
