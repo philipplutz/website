@@ -1,5 +1,6 @@
 ---
 title: "Philipp Lutz"
+subtitle: "Senior Researcher at University of Geneva (CH) & Assistant Professor at Vrije Universiteit Amsterdam (NL)"
 about:
   template: trestles
   image: prof_pic.jpg
@@ -14,13 +15,13 @@ listing:
     fields: [date, title]
 ---
 
-*Senior Researcher at University of Geneva (CH) & Assistant Professor at Vrije Universiteit Amsterdam (NL)*
-
 Welcome! — I'm a political scientist at the University of Geneva (SNF Ambizione Fellow) and the Vrije Universiteit Amsterdam (Assistant Professor).
 
 I study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.
 
-You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site. Feel free to get in touch.
+You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site. 
+
+Feel free to get in touch.
 
 ## News
 
