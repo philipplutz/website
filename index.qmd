@@ -1,6 +1,7 @@
 ---
 title: "Philipp Lutz"
 subtitle: "University of Geneva (CH)<br>Vrije Universiteit Amsterdam (NL)<br>nccr on the move"
+subtitle: '<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br><a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)<br>'
 about:
   template: trestles
   image: prof_pic.jpg
