@@ -2,13 +2,78 @@
 title: "Publications"
 ---
 
-## Peer-reviewed articles
+[Download CV (PDF)](cv.pdf)
+
+## Peer-reviewed journal articles
 
 ### 2026
 
-**The fairness of Dublin transfers in the European asylum system.**
-Lutz, P., Trauner, F., & Stutz, P. *European Union Politics*.
-[Link to article] · [Replication data]
+- **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView.
+- **Lutz, P.** & Bachelet, M. (2026) Europe's immigration divide: multidimensional responsibility-sharing as a solution? *Journal of European Public Policy*, FirstView.
+
+### 2025
+
+- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.
+- Bartl, W. & **Lutz, P.** (2025) Comparing refugee dispersal policies: Varieties of responsibility-sharing in Europe. *Governance*, 38(4): e70072.
+- Manser-Egli, S. & **Lutz, P.** (forthcoming) Integration for whom? The migration bias in social norms. *European Societies*.
+- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) Attracting migrants through the backdoor: Business migration in Switzerland. *Migration Studies*, 13(3): mnaf028.
+- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) Business migration between labour and trade: Evidence from Switzerland. *Comparative Migration Studies*, 13: 60.
+- **Lutz, P.** (2025) Do immigrants at bay keep the xenophobes away? Post-entry rights and public opposition to immigrant admission. *European Political Science Review*, 17(1): 128–142.
+
+### 2024
+
+- **Lutz, P.** & Caballero-Vélez, D. (2024) Refugee protection as a public good: What benefits do states derive? *Perspectives on Politics*, FirstView.
+- **Lutz, P.** (2024) Between common responsibility and national interest: When do Europeans support a common European migration policy? *European Union Politics*, 25(2): 313–332.
+- **Lutz, P.** (2024) Allowing mobility and preventing migration? The combination of entry and stay in immigration policies. *West European Politics*, 47(4): 840–866.
+- Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) Migration governance through trade agreements: Insights from the MITA dataset. *Review of International Organizations*, 19: 147–173.
+- Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) The limits of EU market power in migration externalization: Explaining migration control provisions in EU preferential trade agreements. *Journal of Common Market Studies*, 62(5): 1351–1378.
+
+### 2023
+
+- Lavenex, S. & **Lutz, P.** (2023) Third country access to EU agencies: Exploring spaces for influence. *Journal of Common Market Studies*, 61(6): 1563–1586.
+- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2023) Expanding, complementing, or substituting multilateralism? EU preferential trade agreements in the migration regime complex. *Politics and Governance*, 11(2): 49–61.
+- **Lutz, P.** & Bitschnau, M. (2023) Misperceptions about immigration: Reviewing their nature, motivations and determinants. *British Journal of Political Science*, 53(2): 674–689.
+- Armingeon, K. & **Lutz, P.** (2023) Citizens' response to a non-responsive government: The case of the Swiss initiative on mass immigration. *Comparative European Politics*, 21: 133–151.
+
+### 2022
+
+- **Lutz, P.** & Portmann, L. (2022) Why do states admit refugees? A comparative analysis of resettlement policies in OECD countries. *Journal of Ethnic and Migration Studies*, 48(11): 2515–2539.
+
+### 2021
+
+- Schultz, C., **Lutz, P.**, & Simon, S. (2021) Explaining the immigration policy mix: The relative openness towards asylum and labour migration. *European Journal of Political Research*, 60(4): 763–784.
+- **Lutz, P.**, Stünzi, A., & Manser-Egli, S. (2021) Responsibility-sharing in refugee protection: Lessons from climate governance. *International Studies Quarterly*, 65(2): 476–487.
+- **Lutz, P.** & Karstens, F. (2021) External borders and internal freedoms: How the refugee crisis shaped the bordering preferences of European citizens. *Journal of European Public Policy*, 28(3): 370–388.
+- **Lutz, P.** (2021) Loved and feared: Citizens' ambivalence towards free movement in the European Union. *Journal of European Public Policy*, 28(2): 268–288.
+- **Lutz, P.** (2021) Reassessing the gap-hypothesis: Tough talk and weak action in migration policy? *Party Politics*, 27(1): 174–186.
+
+### 2020
+
+- **Lutz, P.**, Kaufmann, D., & Stünzi, A. (2020) Humanitarian protection as a European public good: The strategic role of states and refugees. *Journal of Common Market Studies*, 58(3): 757–775.
+- Armingeon, K. & **Lutz, P.** (2020) Muddling between responsiveness and responsibility: The Swiss case of a non-implementation of a constitutional rule. *Comparative European Politics*, 18: 256–280.
+
+### 2019
+
+- **Lutz, P.** (2019) Variation in policy success: Radical right populism and migration policy. *West European Politics*, 42(3): 517–544.
+
+### 2018
+
+- Pleger, L., **Lutz, P.**, & Sager, F. (2018) Public acceptance of incentive-based spatial planning policies: A framing experiment. *Land Use Policy*, 73: 225–238.
+
+### 2017
+
+- **Lutz, P.** (2017) Two logics of policy intervention in immigrant integration: An institutionalist framework based on capabilities and aspirations. *Comparative Migration Studies*, 5(1): 1–19.
+
+## Book chapters and edited volumes
+
+- Lavenex, S., Alvarado, M., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2025) Chapter in *[edited volume]*, edited by C. Kuptsch & F. Mieres. Geneva: International Labour Organisation, pp. 107–128.
+- Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) Migration governance through trade agreements: A two-level analysis. In W. Sievers, R. Bauböck, M. Czaika, & A. Kraler (Eds.), *Drawing boundaries and crossing borders: Migration in Theorie und Praxis. Jahrbuch Migrationsforschung 7*. Vienna: Verlag der Österreichischen Akademie der Wissenschaften, pp. 169–184.
+- **Lutz, P.** & Knotz, C. (2022) The legitimacy of the welfare state in the age of migration. In B. Greve (Ed.), *De Gruyter Handbook of Contemporary Welfare States*. Berlin/Boston: De Gruyter, pp. 271–284.
+- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2022) Migration: Conflicts between foreign and domestic policy. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *A Swiss foreign policy for the 21st century*. Zurich: NZZ Libro, pp. 205–219.
+- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Une source de conflits entre les politiques extérieure et intérieure. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *La politique extérieure suisse au défi du XXIe siècle*. Genève: Slatkine, pp. 185–198.
+- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Im Konflikt zwischen Aussen- und Innenpolitik. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *Eine Aussenpolitik für die Schweiz im 21. Jahrhundert*. Zurich: NZZ Libro.
+- **Lutz, P.** (2020) Welfare states, demographic transition and immigration policies. In R. Careja, P. Emmenegger, & N. Giger (Eds.), *The European social model under pressure*. Springer, pp. 331–347.
+- **Lutz, P.** (2019
 
 <!--
 To add a new paper, copy a block and edit. Format:
