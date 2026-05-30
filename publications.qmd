@@ -9,11 +9,11 @@ title: "Publications"
 ### 2026
 
 - **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView.   [[DOI](https://doi.org/10.1177/14651165261446534)] · [[Accepted version](https://docs.google.com/document/d/1qGj7pQH8ZH5eTpMigEtJfRMeX9k6ujPJ/edit?usp=sharing&ouid=116655507152804691327&rtpof=true&sd=true)] · [[Dublin explorer](https://philipplutz.shinyapps.io/dublin_app/)]  · [[Blog post](https://blogs.lse.ac.uk/europpblog/2026/05/15/eu-dublin-system-asylum-fairness-statistics/)]
-- **Lutz, P.** & Bachelet, M. (2026) Europe's immigration divide: multidimensional responsibility-sharing as a solution? *Journal of European Public Policy*, FirstView. [[DOI](https://doi.org/10.1080/13501763.2026.2636284)] · [[Supplementary material](https://www.tandfonline.com/doi/suppl/10.1080/13501763.2026.2636284?scroll=top)
+- **Lutz, P.** & Bachelet, M. (2026) Europe's immigration divide: multidimensional responsibility-sharing as a solution? *Journal of European Public Policy*, FirstView. [[DOI](https://doi.org/10.1080/13501763.2026.2636284)] · [[Supplementary material](https://www.tandfonline.com/doi/suppl/10.1080/13501763.2026.2636284?scroll=top)]
 
 ### 2025
 
-- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.
+- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.  [[DOI](https://doi.org/10.1017/psrm.2025.10055)] · 
 - Bartl, W. & **Lutz, P.** (2025) Comparing refugee dispersal policies: Varieties of responsibility-sharing in Europe. *Governance*, 38(4): e70072.
 - Manser-Egli, S. & **Lutz, P.** (forthcoming) Integration for whom? The migration bias in social norms. *European Societies*.
 - Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) Attracting migrants through the backdoor: Business migration in Switzerland. *Migration Studies*, 13(3): mnaf028.
