@@ -31,7 +31,7 @@ I'm a political scientist at the University of Geneva (SNF Ambizione Fellow) and
 
 I study the politics of international migration and European integration. My research examines how publics form attitudes toward immigration and perceptions of immigrants, how states cooperate on migration and asylum, and the determinants of migration policies across countries. I received my PhD from the University of Bern in 2019.
 
-You'll find my [research projects](projects.qmd), [publications](publications.qmd), and CV on this site.
+You'll find my [research projects](projects.qmd), [publications](publications.qmd), and [CV](cv.qmd) on this site.
 
 Feel free to get in touch.
 
