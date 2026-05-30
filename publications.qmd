@@ -8,7 +8,11 @@ title: "Publications"
 
 ### 2026
 
-- **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView.   [[DOI](https://doi.org/10.1177/14651165261446534)] · [[Accepted version](https://docs.google.com/document/d/1qGj7pQH8ZH5eTpMigEtJfRMeX9k6ujPJ/edit?usp=sharing&ouid=116655507152804691327&rtpof=true&sd=true)] · [[Dublin explorer](https://philipplutz.shinyapps.io/dublin_app/)]  · [[Blog post](https://blogs.lse.ac.uk/europpblog/2026/05/15/eu-dublin-system-asylum-fairness-statistics/)]
+- **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView.   [[DOI](https://doi.org/10.1177/14651165261446534)] · [[Accepted version](https://docs.google.com/document/d/1qGj7pQH8ZH5eTpMigEtJfRMeX9k6ujPJ/edit?usp=sharing&ouid=116655507152804691327&rtpof=true&sd=true)] · [[Dublin explorer](https://philipplutz.shinyapps.io/dublin_app/)]  · [[Blog post](https://blogs.lse.ac.uk/europpblog/2026/05/15/eu-dublin-system-asylum-fairness-statistics/)] 
+<details>
+    <summary>Abstract</summary>
+    Solidarity and fairness in allocating refugee protection responsibilities is a central challenge in European asylum governance. The Dublin Regulation, assigning responsibility primarily to first countries of entry, has been criticised for exacerbating unequal burdens to member states. Yet systematic evidence on how Dublin transfers affect the distribution of responsibilities remains scarce. This article analyses Dublin statistics from 2008 to 2024 using a distribution key based on member states’ size and wealth as normative benchmark. We assess whether Dublin transfers reduce or exacerbate asymmetries between member states. Contrary to common perceptions, Dublin transfers modestly reduce inequitable distribution of asylum responsibilities, resulting from geographic arrival patterns paired with partial implementation. These findings challenge prevailing critiques and offer insights for evaluating the EU's solidarity mechanism.
+    </details>
 - **Lutz, P.** & Bachelet, M. (2026) Europe's immigration divide: multidimensional responsibility-sharing as a solution? *Journal of European Public Policy*, FirstView. [[DOI](https://doi.org/10.1080/13501763.2026.2636284)] · [[Supplementary material](https://www.tandfonline.com/doi/suppl/10.1080/13501763.2026.2636284?scroll=top)]
 
 ### 2025
