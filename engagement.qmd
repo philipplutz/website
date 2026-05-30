@@ -2,7 +2,9 @@
 title: "Public engagement"
 ---
 
-My research engages with public and policy debates on migration, asylum, and European integration. This page collects my policy papers and outreach publications. For public talks, media work, and think-tank roles, see my [CV](cv.qmd).
+My research engages with public and policy debates on migration, asylum, and European integration. This page collects my policy papers and outreach publications. For a detailed list of public contributions, see my [CV](cv.qmd).
+
+For media requests, public talks, or advisory work, please [email me](mailto:p.lutz@vu.nl).
 
 ## Policy papers
 
