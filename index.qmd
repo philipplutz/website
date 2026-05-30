@@ -7,14 +7,14 @@ pagetitle: "Philipp Lutz"
 
 ::: {.g-col-12 .g-col-md-4}
 
+![](prof_pic.jpg){.home-portrait}
+
 # Philipp Lutz
 
 <p class="home-subtitle">
 <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br>
 <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
 </p>
-
-![](prof_pic.jpg){.home-portrait}
 
 ### Upcoming
 
