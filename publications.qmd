@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-[Download CV (PDF)](cv.pdf)
+For the most up-to-date list and citation counts, see my [Google Scholar profile](https://scholar.google.com/citations?user=Ml32muAAAAAJ).
 
 ## Peer-reviewed journal articles (28)
 
@@ -143,7 +143,7 @@ Much of the literature on migration policy has proclaimed a gap between what par
 
 ### 2020
 
-- **Lutz, P.**, Kaufmann, D., & Stünzi, A. (2020) Humanitarian protection as a European public good: The strategic role of states and refugees. *Journal of Common Market Studies*, 58(3): 757–775. [[DOI](https://doi.org/10.1111/jcms.12974)] 
+- **Lutz, P.**, Kaufmann, D., & Stünzi, A. (2020) Humanitarian protection as a European public good: The strategic role of states and refugees. *Journal of Common Market Studies*, 58(3): 757–775. [[DOI](https://doi.org/10.1111/jcms.12974)] · [[Blog post](https://jcms.ideasoneurope.eu/2020/02/27/why-european-asylum-policies-should-account-for-refugees-preferences/)]
 <details>
     <summary>Abstract</summary>
 The surge of refugees arriving in Europe has accentuated the malfunctioning of the common European asylum system: the lack of coordination between nation states and failure in the common protection of refugees were the main outcomes of the so-called refugee crisis. This article builds on the literature on public goods and policy compliance in order to explain the failure of European countries to provide humanitarian protection to refugees. A sequential game-theoretical model serves to demonstrate the strategic interaction between states and refugees in European asylum policy. The analysis demonstrates that although both groups of actors benefit from a functioning European asylum system, they also have few incentives to contribute to the public good. States aim to reduce their individual refugee burden and refugees seek protection in their preferred destination country. The findings suggest that an effective provision of refugee protection requires both member states and refugees to contribute mutually to the public good.
