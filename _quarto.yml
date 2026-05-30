@@ -17,6 +17,8 @@ website:
         text: Projects
       - href: data.qmd
         text: Data
+      - href: engagement.qmd
+        text: Engagement
       - href: cv.qmd
         text: CV
     right:
