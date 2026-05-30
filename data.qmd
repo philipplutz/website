@@ -1,13 +1,25 @@
 
 ## Policy datasets
 
-The UN Refugee Agencies Funding (URAF) Dataset (dataset on state donations to the UNHCR and UNRWA 1990-2025)
+### The UN Refugee Agencies Funding (URAF) Dataset (dataset on state donations to the UNHCR and UNRWA 1990-2025)
+Frowin, R, Bachelet, M. & **Lutz, P.** (2026)
 
-Refugee Dispersal Policy (RDP) Data Set (subnational responsibility-sharing in asylum governance, 32 European countries in the year 2020) Dataset article
+The UN Refugee Agencies Funding (URAF) dataset offers systematic, cross-national data on financial contributions from all 193 UN member states and the European Union to the Office of the High Commissioner for Refugees (UNHCR) and the United Nations Relief and Work Agency for Palestine Refugees in the Near East (UNRWA) from 1990 to 2025.
 
-Migration Provisions in Preferential Trade Agreements (MITA) Dataset (migration-related content of trade agreements worldwide, 1960 - 2020) Dataset article
+[DOI](https://zenodo.org/records/17983862) - [codebook](https://zenodo.org/records/17983862/files/URAF_1.0_codebook.pdf?download=1)
 
-RESET-OECD dataset (Resettlement policy indicators for OECD countries, 1980 - 2019) Data / Codebook
+---
 
+### Refugee Dispersal Policy (RDP) Data Set (subnational responsibility-sharing in asylum governance, 32 European countries in the year 2020) Dataset article
+
+---
+
+### Migration Provisions in Preferential Trade Agreements (MITA) Dataset (migration-related content of trade agreements worldwide, 1960 - 2020) Dataset article
+
+---
+
+### RESET-OECD dataset (Resettlement policy indicators for OECD countries, 1980 - 2019) Data / Codebook
+
+---
 
 For replication data of publications, see [here](publications.qmd)
