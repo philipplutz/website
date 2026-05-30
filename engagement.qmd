@@ -1,0 +1,32 @@
+---
+title: "Public engagement"
+---
+
+My research engages with public and policy debates on migration, asylum, and European integration. This page collects my policy papers and outreach publications. For public talks, media work, and think-tank roles, see my [CV](cv.qmd).
+
+## Policy papers
+
+- Trauner, F., **Lutz, P.**, & Stutz, P. (November 2025) [*Towards a fairer EU asylum policy: Lessons from the Dublin system for the EU's Solidarity Mechanism*](https://www.epc.eu/publication/towards-a-fairer-eu-asylum-policy-lessons-from-the-dublin-system-for-the-eus-solidarity-mechanism/). Discussion Paper. Brussels: European Policy Centre.
+
+- Bachelet, M. & **Lutz, P.** (August 2025) [*Europe's divide on immigration: Making responsibility-sharing work*](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-EN-Web.pdf). Policy Brief in a Nutshell 26. Neuchâtel: nccr on the move. Also available in [French](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-FR-Web.pdf) and [German](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-DE-Web.pdf).
+
+- Herrmann, M., Zogg, P., & **Lutz, P.** (February 2025) [*Analyse des Algorithmus und seiner Nutzung zur Verteilung der Asylsuchenden auf die Kantone*](https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx?ID=DOCID-1-12618). Report for the Swiss Parliamentary Administrative Control. Ostermundigen: PrivatePublicConsulting. [In German]
+
+- **Lutz, P.**, Solenthaler, N., & Sutter, N. (October 2020) [*Die Zirkulär-Bewilligung: Das brachliegende Potenzial der Drittstaatenmigration*](https://www.foraus.ch/publications/die-zirkulaer-bewilligung/). foraus policy brief. Zurich. [In German]
+
+- Brantschen, S., **Lutz, P.**, Portmann, L., Faoro, N., & Wäspi, F. (February 2019) [*Swiss Refugee Partnership: Eine neue Zulassungspolitik im Schweizer Asylwesen*](https://www.foraus.ch/wp-content/uploads/2019/02/foraus_Swiss-Refugee-Partnership.pdf). foraus Discussion Paper No. 38. Zurich/Geneva. [Summary in [AsylNews](https://t.co/PZ0jPkqgsT?amp=1), No. 3, September 2019]
+
+- **Lutz, P.**, Kaufmann, D., Stünzi, A., & Egli, S. (2017) [*Prisoners of the Dublin Dilemma: How to reform the Common European Asylum System?*](https://www.researchgate.net/publication/321915814_Prisoners_of_the_Dublin_Dilemma_How_to_reform_the_Common_European_Asylum_System) foraus Discussion Paper No. 32. Zurich/Geneva. [German version: [*Gefangen im Dublin-Dilemma*](https://www.foraus.ch/wp-content/uploads/2016/12/foraus_Diskussionspapier-Dublin.pdf), December 2016]
+
+- Kaufmann, D. & **Lutz, P.** (February 2015) [*Gefangen im Nullsummenspiel: Eine Bewertung der MEI-Umsetzungsvorschläge*](https://www.foraus.ch/wp-content/uploads/2015/02/foraus-Gefangen-Im-Nullsummenspiel.pdf). foraus Discussion Paper No. 23. Zurich/Geneva. [In German]
+
+## Short articles & blog posts
+
+- **Lutz, P.** & Bachelet, M. (2026) Soll sich die Schweiz am EU-Solidaritätsmechanismus in der Asylpolitik beteiligen? *DeFacto*. (Also in French.)
+- **Lutz, P.** & Bachelet, M. (2026) The new pact on migration and asylum: Political developments and implications for European responsibility-sharing. *ASYL*, 01/2026: 8–14.
+- **Lutz, P.** & Bitschnau, M. (2026) Why we need to rethink what we know about public views on immigration. *The Loop* (ECPR), 20 January.
+- Manser-Egli, S. & **Lutz, P.** (2025) Integration dispensation: Why immigrants face stronger social norms. Blog post, *nccr on the move*, 3 November. (Reposts on *DeFacto* and *Sociale Vraagstukken*.)
+- Rausis, F., Bachelet, M., & **Lutz, P.** (2024) UN refugee agencies: Vulnerable funding structures and a looming legitimacy crisis. *Forced Migration Review*, 74.
+- **Lutz, P.** & Lavenex, S. (2024) Switzerland comes to terms with being a country of immigration. *Migration Information Source*, Migration Policy Institute, 18 September.
+- Bachelet, M. & **Lutz, P.** (2024) A new pact on migration and asylum: What changes for responsibility-sharing in the European Union? Blog post, *nccr on the move*, 28 February.
+- **Lutz, P.** (2021) How the 2015 migration crisis shaped the bordering preferences of EU citizens. *LSE EUROPP*, 25 February.
