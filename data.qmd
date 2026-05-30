@@ -23,11 +23,12 @@ This dataset contains coded policy measures of how 32 European countries allocat
 
 ---
 
-### Migration Provisions in Preferential Trade Agreements (MITA) Dataset 
+### Migration Provisions in Preferential Trade Agreements (MITA) Dataset
+Lavenex, S, **Lutz, P.** & Hoffmeyer-Zlotnik, P. (2024)
 
-Migration-related content of trade agreements worldwide, 1960 - 2020)
+The MITA dataset is the broadest and most inclusive databases on preferential trade agreements with regard to migration. We include all international trade agreements that were signed between 1960 and 2020 and whose text is publicly available. This includes bilateral, plurilateral and regional agreements. We exclude framework agreements. We do not list accessions and withdrawals to existing agreements as they only constitute a change in the signing parties but not a change in an agreement’s provisions. Accordingly, we include consolidated PTAs that include additional migration provisions to the initial agreement. Signing parties can be countries but also group of countries such as regional and supranational organizations. Beside the main text of an agreement, we also take into account annexes and side-letters that are part of an agreement. To maximize the coverage of the database, we combined various data sources such as the World Trade Organization, the DESTA database (Dür et al., 2014) and websites of governments and intergovernmental organizations. As source data, we consider all text documents that are an integrated part of an agreement, such as the main text, annexes, side letters and additional protocols that were signed together with the main agreement.
 
-Dataset article
+[DOI](https://data.snf.ch/grants/grant/208858) - [Codebook](https://zenodo.org/records/7837954/files/codebook_mita_v2.pdf?download=1) - [Dataset article](https://link.springer.com/article/10.1007/s11558-023-09493-5) - [Data explorer](philipplutz.shinyapps.io/MITA/)
 
 ---
 
