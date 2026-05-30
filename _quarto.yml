@@ -7,6 +7,7 @@ website:
   description: "Political scientist studying migration and European integration."
   site-url: https://philipplutz.github.io/website
   navbar:
+    pinned: true  
     left:
       - href: index.qmd
         text: About
