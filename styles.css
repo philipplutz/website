@@ -85,3 +85,14 @@ a, .navbar a:hover, .nav-link.active {
 .home-subtitle a:hover {
   border-bottom: 1px solid currentColor;
 }
+
+.navbar.navbar-expand-lg,
+nav.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+body {
+  scroll-padding-top: 60px;
+}
