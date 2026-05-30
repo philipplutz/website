@@ -105,3 +105,33 @@ body {
   text-decoration: none;
   border-bottom: 1px dotted currentColor;
 }
+
+details {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.92rem;
+  color: #444;
+  line-height: 1.55;
+}
+
+details summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #1f5582;
+  user-select: none;
+  list-style: none;
+}
+
+details summary::before {
+  content: "▶ ";
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+details[open] summary::before {
+  content: "▼ ";
+}
+
+details summary:hover {
+  text-decoration: underline;
+}
