@@ -10,7 +10,7 @@ Frowin, R, Bachelet, M. & **Lutz, P.** (2026)
 
 The UN Refugee Agencies Funding (URAF) dataset offers systematic, cross-national data on financial contributions from all 193 UN member states and the European Union to the Office of the High Commissioner for Refugees (UNHCR) and the United Nations Relief and Work Agency for Palestine Refugees in the Near East (UNRWA) from 1990 to 2025.
 
-[DOI](https://zenodo.org/records/17983862) - [codebook](https://zenodo.org/records/17983862/files/URAF_1.0_codebook.pdf?download=1) - [analysis](https://www.fmreview.org/financing-displacement-response/rausis-bachelet-lutz/)
+[DOI](https://zenodo.org/records/17983862) - [Data](https://zenodo.org/records/17983862/files/URAF_1.0_data.csv?download=1) - [Codebook](https://zenodo.org/records/17983862/files/URAF_1.0_codebook.pdf?download=1) - [Analysis](https://www.fmreview.org/financing-displacement-response/rausis-bachelet-lutz/)
 
 ---
 
@@ -33,7 +33,7 @@ The MITA dataset is the broadest and most inclusive databases on preferential tr
 ---
 
 ### RESET-OECD dataset
-**Lutz, P. & Portmann, L. (2021)
+**Lutz, P.** & Portmann, L. (2021)
 
 Refugee resettlement has become an important part of international asylum governance. Resettlement is the transfer of refugees from a country of first asylum to another country that has agreed to admit them for humanitarian reasons and grant them permanent residence (UNHCR). The RESET-OECD dataset provides a series of quantitative indicators of the resettlement policies covering OECD countries between 1980 and 2019.
 
