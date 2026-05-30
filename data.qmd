@@ -1,6 +1,10 @@
 
 ## Policy datasets
 
+A central component of my research is the development of new data resources that facilitate the systematic study of government policies and political outcomes. This page provides access to the datasets, codebooks, and related documentation produced through these projects for scholars, policymakers, and interested members of the public.
+
+---
+
 ### The UN Refugee Agencies Funding (URAF) Dataset (dataset on state donations to the UNHCR and UNRWA 1990-2025)
 Frowin, R, Bachelet, M. & **Lutz, P.** (2026)
 
