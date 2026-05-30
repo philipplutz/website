@@ -1,2 +1,2 @@
 
-For replication data of publications, see [here][]
+For replication data of publications, see [here](publications.qmd)
