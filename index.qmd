@@ -7,6 +7,13 @@ pagetitle: "Philipp Lutz"
 
 ::: {.g-col-12 .g-col-md-4}
 
+# Philipp Lutz
+
+<p class="home-subtitle">
+<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br>
+<a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
+</p>
+
 ![](prof_pic.jpg){.home-portrait}
 
 ### Upcoming
@@ -17,13 +24,6 @@ pagetitle: "Philipp Lutz"
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-
-# Philipp Lutz
-
-<p class="home-subtitle">
-<a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (CH)<br>
-<a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
-</p>
 
 Welcome!
 
@@ -37,9 +37,11 @@ Feel free to get in touch.
 
 ### News
 
-- **18 May 2026** — Blogbeitrag zu Schweizer EU-Solidarität (18.May 2026): Der neue EU-Migrationspakt der nächsten Monat in Kraft tritt enthält einen neuen Solidaritätsmechanismus. Die Teilnahme daran ist für die Schweiz freiwillig. Die Implikationen dieses Entscheids diskutiere ich zusammen mit Maud Bachelet in einem Beitrag für DeFacto. Deutsche Version / Version française 
-- **13 May 2026** — New article published (13.May 2026): In a new article published in 'European Union Politics', I investigated together with Florian Trauner and Philipp Stutz how the Dublin system redistributes asylum responsibilities among member states. We demonstrate that against the common perception, Dublin transfers contribute to more fairness among states as a result of uneven compliance with the Dublin rules. Link to the article Accepted version / Summary blog post
+- **Jan 2026** — New article in *European Union Politics* with F. Trauner and P. Stutz on the fairness of Dublin transfers
+- **Nov 2025** — Workshop on immigration and democracy at Leiden University
+- **Sep 2025** — Started SNSF Ambizione Fellowship at University of Geneva
 
 :::
 
 :::
+
