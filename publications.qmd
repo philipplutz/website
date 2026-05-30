@@ -186,7 +186,7 @@ The effectiveness of immigrant integration policies has gained considerable atte
 
 - **Lutz, P.** (Ed.) (2017) [*Neuland – Schweizer Migrationspolitik im 21. Jahrhundert*](https://www.nzz-libro.ch/9783038102458/neuland). Zurich: NZZ Libro. Editor and author of several chapters. A volume of 20 theses for rethinking Swiss migration policy, written for a general audience with contributions from academics and practitioners.
 
-## Book chapters and edited volumes
+## Book chapters (10)
 
 - Lavenex, S., Alvarado, M., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2025) Chapter in *[edited volume]*, edited by C. Kuptsch & F. Mieres. Geneva: International Labour Organisation, pp. 107–128.
 - Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) Migration governance through trade agreements: A two-level analysis. In W. Sievers, R. Bauböck, M. Czaika, & A. Kraler (Eds.), *Drawing boundaries and crossing borders: Migration in Theorie und Praxis. Jahrbuch Migrationsforschung 7*. Vienna: Verlag der Österreichischen Akademie der Wissenschaften, pp. 169–184.
@@ -195,7 +195,9 @@ The effectiveness of immigrant integration policies has gained considerable atte
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Une source de conflits entre les politiques extérieure et intérieure. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *La politique extérieure suisse au défi du XXIe siècle*. Genève: Slatkine, pp. 185–198.
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Im Konflikt zwischen Aussen- und Innenpolitik. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *Eine Aussenpolitik für die Schweiz im 21. Jahrhundert*. Zurich: NZZ Libro.
 - **Lutz, P.** (2020) Welfare states, demographic transition and immigration policies. In R. Careja, P. Emmenegger, & N. Giger (Eds.), *The European social model under pressure*. Springer, pp. 331–347.
-- **Lutz, P.** (2019
+- **Lutz, P.** (2019) The Radical-Right in Power: A Comparative Analysis Of Their Migration Policy Influence. In: Biard, Benjamin/Bernhard, Laurent/Betz, Hans-Georg (Hrsg.): Do they make a difference? The policy influence of radical right populist parties in Western Europe. ECPR-Press.
+- Sager, F, Künzler, J. & **Lutz, P.** (2017)  Das politische System der Schweiz und seine Kontaktpunkte zur Evaluation. In: Fritz, Sager, Thomas Widmer, Andreas Balthasar, Evaluation im politischen System der Schweiz Entwicklung, Bedeutung und Wechselwirkungen. Zürich: NZZ Libro.
+- Schlegel, S, **Lutz, P.** & Kaufmann, D. (2016)  Mit Einwanderungsgebühr Migration schrittweise liberalisieren. In: Migrationsland Schweiz. Zürich: Hier und Jetzt Verlag.
 
 For outreach publications see [Engagement](engagement.qmd).
 
