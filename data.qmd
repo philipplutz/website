@@ -15,10 +15,11 @@ The UN Refugee Agencies Funding (URAF) dataset offers systematic, cross-national
 ---
 
 ### Refugee Dispersal Policy (RDP) Data Set
+Bartl, W. & **Lutz, P.** (2025)
 
-Subnational responsibility-sharing in asylum governance, 32 European countries in the year 2020) 
+This dataset contains coded policy measures of how 32 European countries allocate asylum-seekers across their territory in the year 2020. 
 
-Dataset article
+[DOI](https://sadar.uni-halle.de//handle/1914118/19) - [Technical report](https://sadar.uni-halle.de/bitstream/1914118/19/2/technical_report.pdf) - [Dataset article](https://onlinelibrary.wiley.com/doi/10.1111/gove.70072)
 
 ---
 
