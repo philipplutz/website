@@ -95,19 +95,19 @@ The European Union (EU) increasingly seeks cooperation with transit and sending 
 ### 2023
 
 - Lavenex, S. & **Lutz, P.** (2023) Third country access to EU agencies: Exploring spaces for influence. *Journal of Common Market Studies*, 61(6): 1563–1586.  
-[DOI](https://doi.org/10.1111/jcms.13455){.pub-btn} 
+[PDF](lavenex_lutz2023.pdf){.pub-btn} · [DOI](https://doi.org/10.1111/jcms.13455){.pub-btn} 
 <details>
     <summary>Abstract</summary>
 EU decentralised agencies dispose of a wide network of external relations giving third countries various degrees of access to their management boards, secondary bodies and/or operational cooperation. These venues constitute hitherto under-explored opportunities for third country influence on EU laws and policies. Based on an original dataset, this article maps the widening scope and depth of third country de jure access to 26 EU agencies over time and provides first explanations for the variation across agencies and countries. We find that agency autonomy and international mandate as well as third country democracy, regulatory capacity, and wealth are positively correlated with access. Whilst the de jure provisions examined in this article capture the formal institutional scope for third country influence, they underline the potential for more detailed case studies on de facto third country influence and its determinants.
   </details>
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2023) Expanding, complementing, or substituting multilateralism? EU preferential trade agreements in the migration regime complex. *Politics and Governance*, 11(2): 49–61.  
-[DOI](https://doi.org/10.17645/pag.v11i2.6341){.pub-btn} 
+[PDF](hoffmeyerzlotnik_et_al2023.pdf){.pub-btn} · [DOI](https://doi.org/10.17645/pag.v11i2.6341){.pub-btn} 
 <details>
     <summary>Abstract</summary>
 Intense pressure for international solutions and weak support for multilateral cooperation have led the EU to increasingly rely on its strongest foreign policy tool in the pursuit of migration policy goals: preferential trade agreements (PTAs). Starting from the fragmentary architecture of the migration regime complex we examine how the relevant content of the EU PTAs relates to multilateral institutions. Depending on the constellation of policy objectives, EU competence, and international interdependence, we propose a set of hypotheses regarding the conditions under which EU bilateral outreach via PTAs expands, complements, or substitutes international norms. Based on an original dataset of migration provisions in all EU PTAs signed between 1960 and 2020, we find that the migration policy content in EU PTAs expands or complements the objectives of multilateral institutions only to a very limited extent. Instead, the predominant constellation is one of substitution in which the EU uses its PTAs to promote migration policy objectives that depart from those of existing multilateral institutions.
   </details>
 - **Lutz, P.** & Bitschnau, M. (2023) Misperceptions about immigration: Reviewing their nature, motivations and determinants. *British Journal of Political Science*, 53(2): 674–689.  
-[DOI](https://doi.org/10.1017/S0007123422000084){.pub-btn} blog post
+[PDF](lutz_bitschnau2023.pdf){.pub-btn} · [DOI](https://doi.org/10.1017/S0007123422000084){.pub-btn} blog post
 <details>
     <summary>Abstract</summary>
 Across Western democracies, immigration has become one of the most polarizing and salient issues, with public discourses and individual attitudes often characterized by misperceptions. This condition undermines people's ability to develop informed opinions on the matter and runs counter to the ideal of deliberative democracy. Yet, our understanding of what makes immigration so prone to misperceptions is still limited – a conundrum that this review seeks to answer in three steps. First, we take stock of the existing evidence on the nature of misperceptions about immigration. Secondly, we borrow from diverse bodies of literature to identify their motivational underpinnings and elaborate on how the protection of group identity, the defence of self-interest and security concerns can lead to distorted perceptions of immigration. Thirdly, we highlight relevant determinants of misperceptions at the level of both contextual influences and individual predispositions. We conclude that misperceptions about immigration are ubiquitous and likely to remain a key element of immigration politics.
