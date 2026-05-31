@@ -30,6 +30,8 @@ Funded through the SNF research programme 'nccr on the move'
 
 [Poster](IP24.pdf)
 
+![Poster: [title]](IP24.pdf){width=100% fig-alt="..."}
+
 <!--
 The iframe below embeds the live Shiny app from shinyapps.io.
 Replace YOUR-ACCOUNT and YOUR-APP-URL with the actual values once known.
