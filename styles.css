@@ -135,3 +135,16 @@ details[open] summary::before {
 details summary:hover {
   text-decoration: underline;
 }
+
+/* Section accent — left border version */
+.info-box {
+  border-left: 3px solid var(--bs-primary);
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
