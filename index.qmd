@@ -16,15 +16,6 @@ pagetitle: "Philipp Lutz"
 <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (NL)
 </p>
 
-::: {.info-box}
-### Upcoming
-
-- **11/12 June 2026** — Research workshop “Governing Migration: Between
-National Sovereignty and Global Interdependence” at Danube University Krems (AT)
-- **1-3 July 2026** — ECPR Standing Group European Union Conference, University of Catania (IT)
-- **7-8 July 2026** — Swiss Conference of Migration and Mobility Studies, University of Neuchatel (CH)
-- **9 July 2026** — Final Event of the nccr – on the move: Twelve Years in Motion: Migration Research, People, and Politics, University of Neuchatel (CH)
-
 :::
 
 :::
@@ -40,6 +31,25 @@ I study the politics of international migration and European integration. My res
 You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd) and [public engagement](engagment.qmd) as well as my [CV](cv.qmd) on this site.
 
 Feel free to get in touch.
+
+:::
+
+::: {.g-col-12 .g-col-md-5}
+
+::: {.info-box}
+### Upcoming
+
+- **11/12 June 2026** — Research workshop “Governing Migration: Between
+National Sovereignty and Global Interdependence” at Danube University Krems (AT)
+- **1-3 July 2026** — ECPR Standing Group European Union Conference, University of Catania (IT)
+- **7-8 July 2026** — Swiss Conference of Migration and Mobility Studies, University of Neuchatel (CH)
+- **9 July 2026** — Final Event of the nccr – on the move: Twelve Years in Motion: Migration Research, People, and Politics, University of Neuchatel (CH)
+
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-7}
 
 ::: {.info-box}
 ### News
