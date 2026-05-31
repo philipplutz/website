@@ -136,12 +136,11 @@ details summary:hover {
   text-decoration: underline;
 }
 
-/* Section accent — left border version */
 .info-box {
-  border-left: 3px solid var(--bs-primary);
-  padding-left: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  background-color: var(--bs-tertiary-bg);
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .info-box h3 {
