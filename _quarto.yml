@@ -8,7 +8,7 @@ website:
   image: prof_pic.jpg
   open-graph: true
   twitter-card: true
-   external-links:
+  external-links:
     target: "_blank"
     rel: "noopener noreferrer"
   site-url: https://philipplutz.github.io/website
