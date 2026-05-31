@@ -22,6 +22,10 @@ Project outline and publications can be found [here](https://data.snf.ch/grants/
 
 An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
 
+## Migration Governance through Trade Mobilities (2019-2022)
+
+Funded through the SNF research programme 'nccr on the move'
+
 <!--
 The iframe below embeds the live Shiny app from shinyapps.io.
 Replace YOUR-ACCOUNT and YOUR-APP-URL with the actual values once known.
