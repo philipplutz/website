@@ -23,7 +23,8 @@ Immigration poses a fundamental challenge for the European Union, with deep poli
 
 ### 2025
 
-- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.  [[DOI](https://doi.org/10.1017/psrm.2025.10055)] · [[Replication files](https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/EPX9VY)] · [[Blog post](https://theloop.ecpr.eu/why-we-need-to-rethink-what-we-know-about-public-views-on-immigration/)]
+- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.  
+[[PDF](lutz_bitschnau2025.pdf)] · [[DOI](https://doi.org/10.1017/psrm.2025.10055)] · [[Replication files](https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/EPX9VY)] · [[Blog post](https://theloop.ecpr.eu/why-we-need-to-rethink-what-we-know-about-public-views-on-immigration/)]
 <details>
     <summary>Abstract</summary>
 Public perceptions of immigration are often inaccurate, yet research lacks conceptual clarity and valid measurement of these misperceptions. Prior work focuses mainly on population innumeracy (misestimating immigrant shares) and cannot distinguish genuine misperceptions from mere guessing. We introduce a survey module that captures multiple dimensions of immigration-related perceptions alongside respondents’ confidence in their estimates. Using population survey data from Switzerland, we develop confidence-weighted indicators that separate misperception from guessing. Although inaccurate perceptions are widespread across several immigration domains, they are less prevalent than often assumed; guessing accounts for a substantial share of observed inaccuracy. This measurement strategy enables more precise empirical tests of theories linking perceptions to political attitudes and behavior.
