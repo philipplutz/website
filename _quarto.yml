@@ -7,7 +7,6 @@ website:
   description: "Political scientist studying migration and European integration."
   image: prof_pic.jpg
   open-graph: true
-  twitter-card: true
   site-url: https://philipplutz.github.io/website
   page-footer:
     left: "© 2026 Philipp Lutz. Built with [Quarto](https://quarto.org)."
