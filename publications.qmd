@@ -217,7 +217,7 @@ Advisors: Prof. Klaus Armingeon (Bern) and Prof. Marc Helbling (Bamberg).
 ![Also as e-book](neuland.jpg){width=100%}
 :::
 
-::: {.g-col-md-10}
+::: {.g-col-md-9}
 - **Lutz, P.** (Ed.) (2017) Neuland – Schweizer Migrationspolitik im 21. Jahrhundert. Zurich: NZZ Libro.    
 [Website publisher](https://www.nzz-libro.ch/9783038102458/neuland){.pub-btn}  
   
