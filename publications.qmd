@@ -241,6 +241,26 @@ Die Schweiz ist ein Migrationsland, global vernetzt und mit einer erstaunlichen 
 
 - **Lutz, P.** (2020) Welfare states, demographic transition and immigration policies. In R. Careja, P. Emmenegger, & N. Giger (Eds.), *The European social model under pressure*. Springer, pp. 331–347.  
 [PDF](welfare2020.pdf){.pub-btn} · [Entire book](https://link.springer.com/content/pdf/10.1007/978-3-658-27043-8.pdf){.pub-btn} · [Website publisher](https://link.springer.com/book/10.1007/978-3-658-27043-8){.pub-btn}
+<details>
+    <summary>Abstract</summary>
+How does demographic change influence immigration policies in Western welfare
+states? In this chapter, I discuss two perspectives on the relationship between demographic
+ageing and labour immigration policies. Welfare states are under financial strain and face a
+trade-off between too little immigration that could undermine their economic foundation and
+too much immigration that could undermine their social foundation. Do welfare states admit
+more foreign workers to sustain their welfare state model in the context of demographic ageing?
+This contribution analyses the effects of population ageing on policy openness to immigration
+and how welfare state regimes moderate this relationship. I examine these questions by
+conducting a quantitative-comparative analysis of labour immigration policies in 21 Western
+democracies between 1980 and 2010. The results reveal that the liberalisation of immigration
+is a common response to demographic ageing but varies by welfare state regime. Social-
+democratic welfare states face larger welfare risks from immigration and more difficulties to
+integrate foreign labour. Instead of liberalising immigration, they opt for the facilitated
+expansion of female employment. Only in the case of liberal and conservative welfare states is
+there evidence for a demography-induced liberalisation of immigration. The findings suggest
+that welfare state arrangements condition how countries respond to the demographic challenge
+of an ageing population.
+  </details>
 
 - **Lutz, P.** (2019) The Radical-Right in Power: A Comparative Analysis Of Their Migration Policy Influence. In: Biard, Benjamin/Bernhard, Laurent/Betz, Hans-Georg (Hrsg.): Do they make a difference? The policy influence of radical right populist parties in Western Europe. ECPR-Press.  
 [PDF](RRPP2019.pdf){.pub-btn} · [Website publisher](https://ecpr.eu/Shop/ShopProductInfo?productID=142){.pub-btn}
