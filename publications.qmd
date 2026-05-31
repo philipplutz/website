@@ -284,6 +284,8 @@ of an ageing population.
 - Schlegel, S, **Lutz, P.** & Kaufmann, D. (2016) Mit Einwanderungsgebühr Migration schrittweise liberalisieren. In: Migrationsland Schweiz. Zürich: Hier und Jetzt Verlag.  
 [PDF](Migrationsland2016.pdf){.pub-btn} · [Website publisher](https://www.hierundjetzt.ch/de/catalogue/migrationsland-schweiz_16000004/){.pub-btn}
 
+---
+
 For outreach publications see [Engagement](engagement.qmd).
 
 <!--
