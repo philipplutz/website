@@ -214,7 +214,7 @@ Advisors: Prof. Klaus Armingeon (Bern) and Prof. Marc Helbling (Bamberg).
 ::: {.grid}
 
 ::: {.g-col-md-3}
-![](neuland.jpg){width=100%}
+![Also as e-book](neuland.jpg){width=100%}
 :::
 
 ::: {.g-col-md-10}
