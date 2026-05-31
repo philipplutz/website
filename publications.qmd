@@ -95,7 +95,7 @@ The European Union (EU) increasingly seeks cooperation with transit and sending 
 ### 2023
 
 - Lavenex, S. & **Lutz, P.** (2023) Third country access to EU agencies: Exploring spaces for influence. *Journal of Common Market Studies*, 61(6): 1563–1586.  
-[PDF](lavenex_lutz2023.pdf){.pub-btn} · [DOI](https://doi.org/10.1111/jcms.13455){.pub-btn} 
+[PDF](lavenex_lutz2023.pdf){.pub-btn} · [DOI](https://doi.org/10.1111/jcms.13455){.pub-btn} · [Supplementary material](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjcms.13455&file=jcms13455-sup-0001-Online+Appendix_submission.docx){.pub-btn}
 <details>
     <summary>Abstract</summary>
 EU decentralised agencies dispose of a wide network of external relations giving third countries various degrees of access to their management boards, secondary bodies and/or operational cooperation. These venues constitute hitherto under-explored opportunities for third country influence on EU laws and policies. Based on an original dataset, this article maps the widening scope and depth of third country de jure access to 26 EU agencies over time and provides first explanations for the variation across agencies and countries. We find that agency autonomy and international mandate as well as third country democracy, regulatory capacity, and wealth are positively correlated with access. Whilst the de jure provisions examined in this article capture the formal institutional scope for third country influence, they underline the potential for more detailed case studies on de facto third country influence and its determinants.
