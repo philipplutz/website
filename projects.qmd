@@ -6,9 +6,13 @@ title: "Projects"
 
 Beyond formal immigration policies, societies hold unwritten expectations about how immigrants should behave—but we lack systematic evidence on these rules. Do people expect more from immigrants than from others? Do they think society is stricter than it actually is? This research surveys 2,500 Dutch residents to map these expectations across everyday behaviours like civic participation, cultural practices, and social interactions. By comparing what people personally believe with what they think others expect, and examining whether identical behaviours are judged differently depending on who performs them, the study reveals how informal expectations shape integration debates and policy preferences in diverse societies.
 
+Pilot study on the migration bias in integration norms in Switzerland [DOI](https://doi.org/10.1162/euso.a.30)
+
 Funded by the Dutch Research Council (NWO Open competition grant)
 
 Expected start: September 2026
+
+---
 
 ## Connecting countries and dividing people: The politics of burden-sharing in European migration governance (2023-2027)
 
@@ -29,6 +33,8 @@ An interactive dashboard accompanying my work on the fairness of asylum responsi
 </iframe>
 
 If the dashboard does not load above, you can [open it directly](https://philipplutz.shinyapps.io/dublin_app/).
+
+---
 
 ## Migration Governance through Trade Mobilities (2019-2022)
 
