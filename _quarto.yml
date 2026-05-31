@@ -5,6 +5,9 @@ project:
 website:
   title: "Philipp Lutz"
   description: "Political scientist studying migration and European integration."
+  image: prof_pic.jpg
+  open-graph: true
+  twitter-card: true
   site-url: https://philipplutz.github.io/website
   navbar:
     pinned: true  
