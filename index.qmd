@@ -18,8 +18,6 @@ pagetitle: "Philipp Lutz"
 
 :::
 
-:::
-
 ::: {.g-col-12 .g-col-md-7}
 
 Welcome!
