@@ -18,7 +18,7 @@ Funded by the Swiss National Science Foundation (Ambizione grant)
 
 Project outline and publications can be found [here](https://data.snf.ch/grants/grant/208858).
 
-## The Dublin Explorer
+### The Dublin Explorer
 
 An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
 
