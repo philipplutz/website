@@ -47,7 +47,7 @@ format:
   html:
     theme:
       light: cosmo
-      dark: superhero
+      dark: darkly
     css: styles.css
     toc: false
     page-layout: article
