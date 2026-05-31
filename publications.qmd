@@ -216,36 +216,37 @@ Editor and author of several chapters. A volume of 20 theses for rethinking Swis
 ## Book chapters (11)
 
 - **Lutz, P.** (2026) Warum das Migrationsland Schweiz eine (neue) Erzählung braucht. In: Migrationsland Schweiz – Mythen, Realitäten und Perspektiven, herausgegeben durch Sanija Ameti, Lisa Mazzone, Nadja Mosimann, Cédric Wermuth, und Pascal Zwicky, Zürich, Verlag: edition 8, pp. 39-50.  
-[PDF](narrative.pdf){.pub-btn}  · [Website publisher](https://www.denknetz.ch/migrationsland_schweiz/){.pub-btn} 
+[PDF](narrative.pdf){.pub-btn} · [Entire book](https://www.denknetz.ch/migration/){.pub-btn} · [Website publisher](https://www.denknetz.ch/migrationsland_schweiz/){.pub-btn} 
 
 - Lavenex, S., Alvarado, M., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2025) Business mobility as a privileged form of temporary labour migration: Insights from the MITA database and Switzerland. In: Temporary labour migration: Towards social justice?, edited by Christiane Kuptsch and Fabiola Mieres. Geneva: International Labour Organisation, pp.107-128.  
-[PDF](ilo_chapter.pdf){.pub-btn} 
+[PDF](ilo_chapter.pdf){.pub-btn} · [Entire book](https://www.ilo.org/sites/default/files/2025-02/Temporary%20labour%20migration%20-%20towards%20social%20justice.pdf){.pub-btn}
 
 - Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) Migration governance through trade agreements: A two-level analysis. In W. Sievers, R. Bauböck, M. Czaika, & A. Kraler (Eds.), *Drawing boundaries and crossing borders: Migration in Theorie und Praxis. Jahrbuch Migrationsforschung 7*. Vienna: Verlag der Österreichischen Akademie der Wissenschaften, pp. 169–184.  
-[PDF](mita_twolevel.pdf){.pub-btn}
+[PDF](mita_twolevel.pdf){.pub-btn} · [Entire book](https://www.researchgate.net/profile/Wiebke-Sievers/publication/388553825_Drawing_Boundaries_and_Crossing_Borders_Migration_in_Theorie_und_Praxis/links/679c9d6d52b58d39f25f37fa/Drawing-Boundaries-and-Crossing-Borders-Migration-in-Theorie-und-Praxis.pdf?origin=publicationDetail&_sg%5B0%5D=0QZkTzOhS3QmV0Grudh5FKyj2Vh3IUDP_tbVtb-Rm7A_qDu8x6FW49fV-rx3qSWTb2WOlz2HRsgAigGnsZNL2Q.5BetVE0vPIp73N7eh_mKM-9kaHd-nNSQUyQDfw-j3XStQb22tXwCDAuqtx0vPjr8ogaaUkd20DNjaY7JLR0AKw&_sg%5B1%5D=BBqhY54KPzCnjqinARQ9y5Q7tN02ufN3B_MksTLT8zQQVqFxHa33Zytr6V14f5TGwaETlqNCCiRrvBylbh0EPJ_OMydTL7C17s35c528yF8_.5BetVE0vPIp73N7eh_mKM-9kaHd-nNSQUyQDfw-j3XStQb22tXwCDAuqtx0vPjr8ogaaUkd20DNjaY7JLR0AKw&_iepl=&_rtd=eyJjb250ZW50SW50ZW50IjoibWFpbkl0ZW0ifQ%3D%3D&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHVibGljYXRpb24iLCJwb3NpdGlvbiI6InBhZ2VIZWFkZXIifX0){.pub-btn}
 
 - **Lutz, P.** & Knotz, C. (2022) The legitimacy of the welfare state in the age of migration. In B. Greve (Ed.), *De Gruyter Handbook of Contemporary Welfare States*. Berlin/Boston: De Gruyter, pp. 271–284.  
-[PDF](migration_welfare.pdf){.pub-btn}
+[PDF](migration_welfare.pdf){.pub-btn} · [Website publisher](https://www.degruyterbrill.com/document/doi/10.1515/9783110721768/html?srsltid=AfmBOorAwqiNJxXDqUcqgCdN-GAFkRiaVzmfCRiFsp9PLUKA79SaXYlj){.pub-btn}
 
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2022) Migration: Conflicts between foreign and domestic policy. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *A Swiss foreign policy for the 21st century*. Zurich: NZZ Libro, pp. 205–219.  
-[PDF](ch_foreign2021.pdf){.pub-btn}
+[PDF](ch_foreign2021.pdf){.pub-btn} · [Website publisher](https://www.nzz-libro.ch/produkt/a-swiss-foreign-policy-for-the-21st-century-9783907291849-t-14074){.pub-btn}
 
-- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Une source de conflits entre les politiques extérieure et intérieure. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *La politique extérieure suisse au défi du XXIe siècle*. Genève: Slatkine, pp. 185–198.
+- Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Une source de conflits entre les politiques extérieure et intérieure. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *La politique extérieure suisse au défi du XXIe siècle*. Genève: Slatkine, pp. 185–198.  
+[Website publisher](https://www.slatkine.com/fr/editions-slatkine/75232-book-07211088-9782832110881.html){.pub-btn}
 
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2021) Migration: Im Konflikt zwischen Aussen- und Innenpolitik. In T. Bernauer, K. Gentinetta, & J. Kuntz (Eds.), *Eine Aussenpolitik für die Schweiz im 21. Jahrhundert*. Zurich: NZZ Libro.  
-[PDF](ch_migration2021.pdf){.pub-btn}
+[PDF](ch_migration2021.pdf){.pub-btn} · [Website publisher](https://www.nzz-libro.ch/produkt/eine-aussenpolitik-fuer-die-schweiz-im-21-jahrhundert-9783907291580-t-14023){.pub-btn}
 
 - **Lutz, P.** (2020) Welfare states, demographic transition and immigration policies. In R. Careja, P. Emmenegger, & N. Giger (Eds.), *The European social model under pressure*. Springer, pp. 331–347.  
-[PDF](welfare2020.pdf){.pub-btn}
+[PDF](welfare2020.pdf){.pub-btn} · [Entire book](https://link.springer.com/content/pdf/10.1007/978-3-658-27043-8.pdf){.pub-btn} · [Website publisher](https://link.springer.com/book/10.1007/978-3-658-27043-8){.pub-btn}
 
 - **Lutz, P.** (2019) The Radical-Right in Power: A Comparative Analysis Of Their Migration Policy Influence. In: Biard, Benjamin/Bernhard, Laurent/Betz, Hans-Georg (Hrsg.): Do they make a difference? The policy influence of radical right populist parties in Western Europe. ECPR-Press.  
-[PDF](RRPP2019.pdf){.pub-btn}
+[PDF](RRPP2019.pdf){.pub-btn} · [Website publisher](https://ecpr.eu/Shop/ShopProductInfo?productID=142){.pub-btn}
 
 - Sager, F, Künzler, J. & **Lutz, P.** (2017) Das politische System der Schweiz und seine Kontaktpunkte zur Evaluation. In: Fritz, Sager, Thomas Widmer, Andreas Balthasar, Evaluation im politischen System der Schweiz Entwicklung, Bedeutung und Wechselwirkungen. Zürich: NZZ Libro.  
-[PDF](https://www.researchgate.net/publication/318883383_Das_politische_System_der_Schweiz_und_seine_Kontaktpunkte_zur_Evaluation){.pub-btn}
+[PDF](https://www.researchgate.net/publication/318883383_Das_politische_System_der_Schweiz_und_seine_Kontaktpunkte_zur_Evaluation){.pub-btn} · [Website publisher](https://www.nzz-libro.ch/produkt/evaluation-im-politischen-system-der-schweiz-9783038103059-t-13624){.pub-btn}
 
 - Schlegel, S, **Lutz, P.** & Kaufmann, D. (2016) Mit Einwanderungsgebühr Migration schrittweise liberalisieren. In: Migrationsland Schweiz. Zürich: Hier und Jetzt Verlag.  
-[PDF](Migrationsland2016.pdf){.pub-btn}
+[PDF](Migrationsland2016.pdf){.pub-btn} · [Website publisher](https://www.hierundjetzt.ch/de/catalogue/migrationsland-schweiz_16000004/){.pub-btn}
 
 For outreach publications see [Engagement](engagement.qmd).
 
