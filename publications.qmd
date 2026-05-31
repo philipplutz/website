@@ -211,11 +211,11 @@ The effectiveness of immigrant integration policies has gained considerable atte
 
 ::: {.grid}
 
-::: {.g-col-md-2}
-![Neuland book cover](neuland.jpg){width=100%}
+::: {.g-col-md-2.5}
+![](neuland.jpg){width=100%}
 :::
 
-::: {.g-col-md-10}
+::: {.g-col-md-9.5}
 - **Lutz, P.** (Ed.) (2017) Neuland – Schweizer Migrationspolitik im 21. Jahrhundert. Zurich: NZZ Libro.    
 [Website publisher](https://www.nzz-libro.ch/9783038102458/neuland){.pub-btn}  
 
