@@ -36,8 +36,9 @@ website:
         href: "https://www.researchgate.net/profile/Philipp-Lutz-2"
       - text: "<i class='ai ai-orcid'></i>"
         href: "https://orcid.org/0000-0003-2373-0180"
-      - text: "<i class='ai ai-bluesky'></i>"
+      - icon: bluesky
         href: "https://bsky.app/profile/lutzphilipp.bsky.social"
+        aria-label: Bluesky
       - icon: linkedin
         href: "https://www.linkedin.com/in/philipp-lutz-78254489"
         aria-label: LinkedIn
