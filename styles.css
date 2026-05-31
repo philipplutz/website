@@ -152,9 +152,21 @@ details[open] summary {
 
 .info-box {
   background-color: var(--bs-tertiary-bg);
+  color: var(--bs-body-color);
   border-radius: 0.5rem;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
+}
+
+.info-box h3,
+.info-box p,
+.info-box li,
+.info-box a {
+  color: inherit;
+}
+
+.info-box a {
+  text-decoration: underline;
 }
 
 .info-box h3 {
