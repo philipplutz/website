@@ -164,7 +164,7 @@ Much of the literature on migration policy has proclaimed a gap between what par
 ### 2020
 
 - **Lutz, P.**, Kaufmann, D., & Stünzi, A. (2020) Humanitarian protection as a European public good: The strategic role of states and refugees. *Journal of Common Market Studies*, 58(3): 757–775.  
-[](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://access.archive-ouverte.unige.ch/access/metadata/b700e179-1ce7-47ed-884b-f527f83aa2ba/download%3Futm_source%3Dconsensus&ved=2ahUKEwi9wKTR6-OUAxUAgv0HHQvqD4cQFnoECCIQAQ&usg=AOvVaw1kFDYu9SCEEpP5INDjETKf){.pub-btn} · [DOI](https://doi.org/10.1111/jcms.12974){.pub-btn} · [Blog post](https://jcms.ideasoneurope.eu/2020/02/27/why-european-asylum-policies-should-account-for-refugees-preferences/){.pub-btn}
+[PDF](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://access.archive-ouverte.unige.ch/access/metadata/b700e179-1ce7-47ed-884b-f527f83aa2ba/download%3Futm_source%3Dconsensus&ved=2ahUKEwi9wKTR6-OUAxUAgv0HHQvqD4cQFnoECCIQAQ&usg=AOvVaw1kFDYu9SCEEpP5INDjETKf){.pub-btn} · [DOI](https://doi.org/10.1111/jcms.12974){.pub-btn} · [Blog post](https://jcms.ideasoneurope.eu/2020/02/27/why-european-asylum-policies-should-account-for-refugees-preferences/){.pub-btn}
 <details>
     <summary>Abstract</summary>
 The surge of refugees arriving in Europe has accentuated the malfunctioning of the common European asylum system: the lack of coordination between nation states and failure in the common protection of refugees were the main outcomes of the so-called refugee crisis. This article builds on the literature on public goods and policy compliance in order to explain the failure of European countries to provide humanitarian protection to refugees. A sequential game-theoretical model serves to demonstrate the strategic interaction between states and refugees in European asylum policy. The analysis demonstrates that although both groups of actors benefit from a functioning European asylum system, they also have few incentives to contribute to the public good. States aim to reduce their individual refugee burden and refugees seek protection in their preferred destination country. The findings suggest that an effective provision of refugee protection requires both member states and refugees to contribute mutually to the public good.
@@ -179,7 +179,7 @@ The tensions between responsible and responsive government have increased in the
 ### 2019
 
 - **Lutz, P.** (2019) Variation in policy success: Radical right populism and migration policy. *West European Politics*, 42(3): 517–544.  
-[DOI](https://doi.org/10.1080/01402382.2018.1504509){.pub-btn} · [Supplementary material](https://ndownloader.figstatic.com/files/13638401)
+[DOI](https://doi.org/10.1080/01402382.2018.1504509){.pub-btn} · [Supplementary material](https://ndownloader.figstatic.com/files/13638401){.pub-btn}
 <details>
     <summary>Abstract</summary>
 How do radical right populist parties influence government policies in their core issue of immigration? This article provides a systematic analysis of the direct and indirect effects of radical right anti-immigration parties on migration policy reforms in 17 West European countries from 1990 to 2014. Insights from migration policy theory serve to explain variations in the migration policy success of the radical right. While previous studies mostly treat migration policy as uniform, it is argued that this approach neglects the distinct political logics of immigration and integration policy. This article reveals significant variations in policy success by policy area. While immigration policies have become more liberal despite the electoral success of the radical right, when the radical right is in government office it enacts more restrictions in integration policies. Accordingly, anti-immigrant mobilisation is more likely to influence immigrants’ rights than their actual numbers.
@@ -210,8 +210,8 @@ The effectiveness of immigrant integration policies has gained considerable atte
 ## Books
 
 - **Lutz, P.** (Ed.) (2017) Neuland – Schweizer Migrationspolitik im 21. Jahrhundert. Zurich: NZZ Libro.  
+[Website publisher](https://www.nzz-libro.ch/9783038102458/neuland){.pub-btn}
 Editor and author of several chapters. A volume of 20 theses for rethinking Swiss migration policy, written for a general audience with contributions from academics and practitioners. 
-[Website publisher](https://www.nzz-libro.ch/9783038102458/neuland){.pub-btn} 
 
 ## Book chapters (11)
 
