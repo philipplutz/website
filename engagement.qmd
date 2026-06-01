@@ -70,13 +70,13 @@ For media requests, public talks, or advisory work, please [email me](mailto:p.l
 
 ## Public events
 
-- Medien-Dialog Migration (20. August 2025): Der EU-Migrations- und Asylpakt: Was die Reform bezweckt, wie sie umgesetzt wird und was sich konkret verändert
+### Medien-Dialog Migration (20. August 2025): Der EU-Migrations- und Asylpakt: Was die Reform bezweckt, wie sie umgesetzt wird und was sich konkret verändert
 
 Mit **Philipp Lutz**, Adriana Romer und Maud Bachelet, moderiert von Natalie Avanzino.
 
 {{< video https://www.youtube.com/watch?v=2OLIoficTyU&t=1674s >}}
 
--  Abstimmungsdebatte (27.08.2020): Zahlen und Analysen über aktuelle Migrationsbewegungen in und aus der Schweiz 
+### Abstimmungsdebatte (27.08.2020): Zahlen und Analysen über aktuelle Migrationsbewegungen in und aus der Schweiz 
 
 Podiumsdiskussion mit Jonathan Zufferey, Sarah Progin-Theuerkauf, Ensar Can, **Philipp Lutz**, moderiert von Simone Prodolliet.
 
