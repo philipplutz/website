@@ -188,7 +188,7 @@ How do radical right populist parties influence government policies in their cor
 ### 2018
 
 - Pleger, L., **Lutz, P.**, & Sager, F. (2018) Public acceptance of incentive-based spatial planning policies: A framing experiment. *Land Use Policy*, 73: 225–238.  
-[DOI](https://doi.org/10.1016/j.landusepol.2018.01.022){.pub-btn} 
+[PDF](pleger_et_al2018.pdf){.pub-btn} · [DOI](https://doi.org/10.1016/j.landusepol.2018.01.022){.pub-btn} · [Blog post (DE)](https://www.defacto.expert/2018/07/13/wie-ueber-raumplanungsinstrumente-kommuniziert-wird-kann-deren-akzeptanz-beeinflussen/){.pub-btn}
 <details>
     <summary>Abstract</summary>
 Sustainable spatial planning strongly depends on efficient policy measures. A successful implementation of efficient policies, in turn, crucially depends on their public acceptance. This paper examines whether the way the public is provided with information on spatial planning policies influences public acceptance. Policy makers employ policy frames to influence voters. In a survey experiment among 644 Swiss participants we test goal framing and attribute framing effects by combining framing theory with a causal model for public policies. We show that policy frames can increase public acceptance of market-based spatial planning policies. Moreover, we find evidence that the framing effect differs for the target group of landowners and argue that their personal involvement makes them respond to specific frames. We conclude that the effects of policy frames on public acceptance crucially depend on personal involvement and that target group populations react to frames differently compared to a less directly affected population.
