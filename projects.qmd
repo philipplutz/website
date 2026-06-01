@@ -54,7 +54,23 @@ Project collaborators: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado
 
 Download the project poster [here](IP24.pdf)
 
-<iframe src="IP24.pdf" width="100%" height="1100" style="border:1px solid #ddd;"></iframe>
+<iframe src="IP24.pdf" width="100%" height="1150" style="border:1px solid #ddd;"></iframe>
+
+---
+
+## Perceptions and Misperceptions about Immigration
+
+Issues of immigration are central political challenges for European democracies, with public views often shaped by perceptions rather than reality. Consequently, they tend to fall victim to erroneous beliefs, ranging from innumeracy (i.e., the overestimation of the immigrant share in one’s country) to highly complex conspiracy theories. Both perceptions and misperceptions have been identified as crucial puzzle pieces in explaining policy preferences and political behavior. In particular, they may foster polarization and undermine the public’s ability to engage in deliberative decision-making. Still, only in recent years have scholars begun to pay attention to these phenomena, and many major questions regarding their nature and drivers remain insufficiently answered so far. This research agenda seeks to advance our understanding of (mis-)perceptions on a conceptual, theoretical and empirical level. How accurate are public perceptions about immigration? How can we measure them and what methodological pitfalls should be avoided? Are those who hold misperceptions really misinformed or only uninformed? What are the motivations and drivers of particular issue-specific perceptions? What consequences do perceptions have for political preferences and behavior? To what extent can misperceptions be corrected?
+
+Review article on the state of the art [PDF]()
+
+---
+
+## Inside the Migration State: The Quest for Democratic Legitimacy (2015-2019)
+
+Migration is an evident consequence of globalization and at the same time the main concern of European constituencies against a more globalized world. Liberal democracies in Western Europe face a fundamental tension between economic needs to remain open to migration and political demands for closure. This research agenda tackles the dilemma for national governments striving for democratic legitimacy between competing policy imperatives of openness and closure. Thereby, I combine theoretical approaches of democratic representation, political economy and party politics to study policy trade-offs on immigration and to contribute to a better understanding of migration policy-making in the context of contested globalization.
+
+Read my [PhD thesis]() investigating how national governments navigate the tension in immigration policy-making between economic pressure for openness and political pressure for closure. 
 
 <!--
 The iframe below embeds the live Shiny app from shinyapps.io.
