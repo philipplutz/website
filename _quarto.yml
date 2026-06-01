@@ -11,8 +11,7 @@ website:
   page-footer:
     left: "© 2026 Philipp Lutz. Built with [Quarto](https://quarto.org)."
     right: "[Get in touch](mailto:p.lutz@vu.nl)"
-  analytics:
-    plausible: "philipplutz.org"
+  google-analytics: "G-XXXXXXXXXX"
   navbar:
     pinned: true  
     left:
