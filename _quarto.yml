@@ -11,7 +11,7 @@ website:
   site-url: https://philipplutz.github.io/website
   page-footer:
     left: "© 2026 Philipp Lutz. Built with [Quarto](https://quarto.org)."
-    right: "[Get in touch](mailto:p.lutz@vu.nl)"
+    right: "[Get in touch.](mailto:p.lutz@vu.nl)"
   google-analytics: "G-SWWYN9EBW3"
   navbar:
     pinned: true  
