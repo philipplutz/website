@@ -33,7 +33,7 @@ Project outline and publications can be found [here](https://data.snf.ch/grants/
 An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
 
 <iframe src="https://philipplutz.shinyapps.io/dublin_app/"
-        width="120%" height="1400"
+        width="120%" height="1500"
         style="border: 1px solid #ddd;"
         loading="lazy">
 </iframe>
