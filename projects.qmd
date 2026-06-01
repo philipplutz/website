@@ -70,7 +70,7 @@ Review article on the state of the art [PDF]()
 
 Migration is an evident consequence of globalization and at the same time the main concern of European constituencies against a more globalized world. Liberal democracies in Western Europe face a fundamental tension between economic needs to remain open to migration and political demands for closure. This research agenda tackles the dilemma for national governments striving for democratic legitimacy between competing policy imperatives of openness and closure. Thereby, I combine theoretical approaches of democratic representation, political economy and party politics to study policy trade-offs on immigration and to contribute to a better understanding of migration policy-making in the context of contested globalization.
 
-Read my [PhD thesis]() investigating how national governments navigate the tension in immigration policy-making between economic pressure for openness and political pressure for closure. 
+Read my [PhD thesis](https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e){.pub-btn} investigating how national governments navigate the tension in immigration policy-making between economic pressure for openness and political pressure for closure. 
 
 <!--
 The iframe below embeds the live Shiny app from shinyapps.io.
