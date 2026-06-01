@@ -151,7 +151,7 @@ details[open] summary {
 }
 
 .info-box {
-  background-color: var(--bs-tertiary-bg);
+  background-color: rgba(128, 128, 128, 0.15);
   color: var(--bs-body-color);
   border-radius: 0.5rem;
   padding: 1.25rem 1.5rem;
