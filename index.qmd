@@ -24,7 +24,7 @@ Welcome!
 
 I'm a political scientist at the University of Geneva (SNF Ambizione Fellow) and the Vrije Universiteit Amsterdam (Assistant Professor).
 
-I study the politics of immigration in liberal democracies, focusing on how governments navigate the tension between economic pressures for openness and political demands for closure. Specifically, my research examines how citizens form attitudes toward immigration, how states cooperate at the European and international levels to regulate migration, and what drives migration policy-making from a comparative perspective. I received my PhD from the University of Bern in 2019.
+I study the politics of immigration in liberal democracies, focusing on how governments navigate the tension between economic pressures for openness and political demands for closure. Specifically, my research examines how citizens form perceptions and attitudes on the issue of immigration, how states cooperate at the European and international levels to regulate migration, and what drives migration policy-making from a comparative perspective.
 
 You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd) and [public engagement](engagement.qmd) as well as my [CV](cv.qmd) on this site.
 
