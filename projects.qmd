@@ -66,9 +66,9 @@ Issues of immigration are central political challenges for European democracies,
 
 Project collaborators: Marco Bitschnau
 
-Review article on the state of the art [PDF](lutz_bitschnau2023.pdf){.pub-btn}
+Review article on the state of the art [PDF](publications/lutz_bitschnau2023.pdf){.pub-btn}
 
-Article on measuring immigration misperceptions [PDF](lutz_bitschnau2025.pdf){.pub-btn}
+Article on measuring immigration misperceptions [PDF](publications/lutz_bitschnau2025.pdf){.pub-btn}
 
 ---
 
