@@ -54,7 +54,7 @@ Project collaborators: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado
 
 [Project website](https://nccr-onthemove.ch/projects/migration-governance-through-trade-mobilities/){.pub-btn}
 
-Download the project poster [here](IP24.pdf)
+Download the project poster [here](publications/IP24.pdf)
 
 <iframe src="IP24.pdf" width="100%" height="1150" style="border:1px solid #ddd;"></iframe>
 
