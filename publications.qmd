@@ -4,9 +4,18 @@ title: "Publications"
 
 For the most up-to-date list and citation counts, see my [Google Scholar profile](https://scholar.google.com/citations?user=Ml32muAAAAAJ).
 
-## Peer-reviewed journal articles (28)
+## Peer-reviewed journal articles (29)
 
 ### 2026
+
+\item \cvitem{}{\textbf{Lutz, Philipp}, and Serena Does (2026) \href{https://link.springer.com/article/10.1007/s11109-026-10181-4}{Seeing Divides: Citizens’ Biased Perceptions of Political Cleavages}. \textit{Political Behavior}, OnlineFirst}
+- **Lutz, P.**, & Does, S. (2026) Seeing Divides: Citizens’ Biased Perceptions of Political Cleavages. *Political Behavior*, OnlineFirst.  
+[PDF](publications/lutz_does2026.pdf){.pub-btn} · [DOI](https://doi.org/10.1007/s11109-026-10181-4){.pub-btn} · [Supplementary material](https://static-content.springer.com/esm/art%3A10.1007%2Fs11109-026-10181-4/MediaObjects/11109_2026_10181_MOESM1_ESM.docx){.pub-btn} · [Replication files](https://doi.org/10.7910/DVN/WIMUVL){.pub-btn}
+<details> 
+    <summary>Abstract</summary>
+Citizens’ perceptions of political divides shape democratic processes, yet we know little about how these divides are mentally represented. This article develops a conceptual framework that integrates cleavage theory with the study of meta-perceptions—individuals’ beliefs about the attitudes of social groups—to examine how people cognitively map political cleavages. We argue that these perceptions are systematically distorted by cognitive biases, which operate in three distinct ways: egocentrism (projecting one’s own views onto others), conservatism (assuming others hold more conservative attitudes than they actually do), and false polarization (overestimating attitudinal differences between groups). Using original survey data from Germany and focusing on immigration as a prominent contemporary cleavage issue, we measure cleavage perceptions and introduce a novel method to decompose perceptual errors into three distinct biases. The results provide robust evidence for the presence of all three biases and show that they interact asymmetrically across the cleavage spectrum, producing structured misperceptions that mirror underlying political divides. These findings illuminate the cognitive foundations of political cleavages and suggest that psychological mechanisms embedded in social structures can systematically distort citizens’ understanding of societal divisions, with implications for democratic deliberation and political behavior.
+    </details>
+
 
 - **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView.  
 [PDF](publications/lutz_et_al2026_EUP.pdf){.pub-btn} · [DOI](https://doi.org/10.1177/14651165261446534){.pub-btn} · [Supplementary material](publications/lutz_et_al2026_supplementary.pdf){.pub-btn} · [Replication files](EUP_replication_files.zip){.pub-btn} · [Data explorer](https://philipplutz.shinyapps.io/dublin_app/){.pub-btn} · [Blog post](https://blogs.lse.ac.uk/europpblog/2026/05/15/eu-dublin-system-asylum-fairness-statistics/){.pub-btn} · [Policy brief](https://www.epc.eu/publication/towards-a-fairer-eu-asylum-policy-lessons-from-the-dublin-system-for-the-eus-solidarity-mechanism/){.pub-btn} · [Press release](https://vu.nl/en/news/2026/dublin-asylum-system-fairer-than-assumed-but-not-by-design){.pub-btn} · [Op-ed EUobserver](https://euobserver.com/219709/new-data-shows-eus-dublin-asylum-relocation-was-better-than-its-unfair-reputation/){.pub-btn}
