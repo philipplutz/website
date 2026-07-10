@@ -6,11 +6,11 @@ title: "Projects"
 
 Beyond formal immigration policies, societies hold unwritten expectations about how immigrants should behave—but we lack systematic evidence on these rules. Do people expect more from immigrants than from others? Do they think society is stricter than it actually is? This research surveys 2,500 Dutch residents to map these expectations across everyday behaviours like civic participation, cultural practices, and social interactions. By comparing what people personally believe with what they think others expect, and examining whether identical behaviours are judged differently depending on who performs them, the study reveals how informal expectations shape integration debates and policy preferences in diverse societies.
 
+*Funded by the Dutch Research Council (NWO Open competition grant). <img src="nwo.jpg" alt="NWO" style="height: 30px; vertical-align: middle; margin-left: 0.3rem;">*
+
 Project collaborators: Stefan Manser-Egli
 
 Pilot study on the migration bias in integration norms in Switzerland [DOI](https://doi.org/10.1162/euso.a.30){.pub-btn}
-
-*Funded by the Dutch Research Council (NWO Open competition grant). <img src="nwo.jpg" alt="NWO" style="height: 20px; vertical-align: middle; margin-left: 0.3rem;">*
 
 Starting date: September 2026
 
@@ -24,7 +24,7 @@ To address these questions, I develop an innovative conceptual and theoretical f
 
 The research design combines a quantitative-comparative analysis of policy outcomes (Work Package 1) with comparative case studies to examine domestic policy processes (Work Package 2). WP 1 builds a comprehensive burden-sharing index that covers 31 European countries between 1990 and 2020 to identify the explanatory factors behind states’ contributions to European burden-sharing. WP2 investigates domestic preference formation and the political conflict surrounding burden-sharing in three countries with different migration contexts (Germany, Italy, Hungary). I do so by conducting survey experiments among citizens and analysing national parliamentary debates. The combination of macro- and micro-level evidence allows me to draw conclusions about the nature and determinants of burden-sharing politics, as well as the prospects and the limitations of European migration governance. In sum, the project develops an ambitious research agenda meant to break new conceptual and empirical ground in the study of European migration governance. Its integrative theoretical framework and innovative empirical mea- surements shed light on the fundamental challenge of migration policy-making in our time of contested globalisation. The findings will reveal the underlying drivers and resulting outcomes of burden-sharing politics and thereby help scholars and policy-makers to better understand and address the contemporary crisis in migration governance.
 
-Funded by the Swiss National Science Foundation (Ambizione grant)
+*Funded by the Swiss National Science Foundation (Ambizione grant)* <img src="snsf.jpg" alt="NWO" style="height: 30px; vertical-align: middle; margin-left: 0.3rem;">*
 
 Project collaborators: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Velez, Florian Trauner, Philipp Stutz
 
