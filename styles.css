@@ -196,6 +196,7 @@ details[open] summary {
   grid-column: screen-start / body-content-start !important;
   margin-right: 1.5rem !important;
   margin-left: 0 !important;
+  max-width: 180px !important;
   width: 100%;
   border-radius: 0.5rem;
 }
