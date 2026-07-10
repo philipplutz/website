@@ -195,14 +195,8 @@ details[open] summary {
 .column-margin.engagement-photo {
   grid-column: screen-start / body-content-start !important;
   margin-right: 1.5rem !important;
-  margin-left: 0 !important;
+  margin-left: auto !important;
   max-width: 180px !important;
   width: 100%;
   border-radius: 0.5rem;
-}
-
-/* Also target any figure wrapper Quarto might have added */
-.column-margin:has(> .engagement-photo),
-figure.column-margin.engagement-photo {
-  grid-column: screen-start / body-content-start !important;
 }
