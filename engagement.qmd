@@ -5,7 +5,7 @@ title: "Public engagement"
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](engagement-panel.jpg){.engagement-photo}
+![](nccr4.jpg){.engagement-photo}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
