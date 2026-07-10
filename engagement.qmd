@@ -2,13 +2,7 @@
 title: "Public engagement"
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-![](nccr4.jpg){.engagement-photo}
-:::
-
-::: {.g-col-12 .g-col-md-8}
+![](nccr4.jpg){.column-margin .engagement-photo fig-alt="Public panel at University of Neuchatel"}
 
 My research engages with public and policy debates on migration, asylum, and European integration through public talks, think-tank work, policy advocacy, and media commentary. It has been featured in outlets including SRF, Tagesanzeiger, Le Temps, NZZ, Die Zeit, SwissInfo, EurActiv, EUobserver and The Telegraph.
 
