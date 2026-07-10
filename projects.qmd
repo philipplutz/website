@@ -4,19 +4,15 @@ title: "Projects"
 
 ## The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies (2026-2027)
 
-<span class="funder-badge">
-![](nwo.jpg){.funder-logo} Funded by the Dutch Research Council (NWO Open Competition, 2026)
-</span>
-
 Beyond formal immigration policies, societies hold unwritten expectations about how immigrants should behave—but we lack systematic evidence on these rules. Do people expect more from immigrants than from others? Do they think society is stricter than it actually is? This research surveys 2,500 Dutch residents to map these expectations across everyday behaviours like civic participation, cultural practices, and social interactions. By comparing what people personally believe with what they think others expect, and examining whether identical behaviours are judged differently depending on who performs them, the study reveals how informal expectations shape integration debates and policy preferences in diverse societies.
 
 Project collaborators: Stefan Manser-Egli
 
 Pilot study on the migration bias in integration norms in Switzerland [DOI](https://doi.org/10.1162/euso.a.30){.pub-btn}
 
-Funded by the Dutch Research Council (NWO Open competition grant)
+*Funded by the Dutch Research Council (NWO Open competition grant). <img src="nwo.jpg" alt="NWO" style="height: 20px; vertical-align: middle; margin-left: 0.3rem;">*
 
-Expected start: September 2026
+Starting date: September 2026
 
 ---
 
