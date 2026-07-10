@@ -192,16 +192,16 @@ details[open] summary {
   text-decoration: none;
 }
 
-.engagement-photo {
+.column-margin.engagement-photo {
+  grid-column: screen-start / body-content-start !important;
+  margin-right: 1.5rem !important;
+  margin-left: 0 !important;
   width: 100%;
   border-radius: 0.5rem;
-  margin-top: 0;
 }
 
-/* Move margin content from right (default) to left */
-.column-margin.engagement-photo,
-figure.column-margin:has(.engagement-photo) {
+/* Also target any figure wrapper Quarto might have added */
+.column-margin:has(> .engagement-photo),
+figure.column-margin.engagement-photo {
   grid-column: screen-start / body-content-start !important;
-  margin-right: 1.5rem;
-  margin-left: 0;
 }
