@@ -191,3 +191,17 @@ details[open] summary {
   color: white;
   text-decoration: none;
 }
+
+.engagement-photo {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 0;
+}
+
+/* Move margin content from right (default) to left */
+.column-margin.engagement-photo,
+figure.column-margin:has(.engagement-photo) {
+  grid-column: screen-start / body-content-start !important;
+  margin-right: 1.5rem;
+  margin-left: 0;
+}
