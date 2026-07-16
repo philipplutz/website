@@ -37,7 +37,6 @@ Feel free to get in touch.
 ::: {.info-box}
 ### Upcoming
 
-- **15 July 2026** — Deadline Post-Doc application: Interested in a research position conducting survey analysis into social norms on immigrant integration in the Netherlands? I'm happy to receive your application till mid July. [Vacancy & Application](https://workingat.vu.nl/vacancies/postdoctoral-position-0-8-fte-social-norms-of-immigrant-integration-amsterdam-1309467){.pub-btn}
 - **1 September 2026** — Start NWO project 'The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies' at VU Amsterdam [Project description](projects.qmd)
 
 
