@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://philipplutz.github.io/website/publications.html</loc>
-    <lastmod>2026-09-01T11:19:24.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.github.io/website/engagement.html</loc>
-    <lastmod>2026-09-01T11:19:24.230Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.github.io/website/index.html</loc>
-    <lastmod>2026-09-01T11:19:24.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.github.io/website/news/2026-06-11-workshop-krems.html</loc>
-    <lastmod>2026-09-01T11:19:24.263Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.github.io/website/projects.html</loc>
-    <lastmod>2026-09-01T11:19:24.263Z</lastmod>
-  </url>
-  <url>
     <loc>https://philipplutz.github.io/website/news/2026-01-15-dublin-paper.html</loc>
-    <lastmod>2026-09-01T11:19:24.262Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.github.io/website/cv.html</loc>
-    <lastmod>2026-09-01T11:19:24.229Z</lastmod>
+    <lastmod>2026-10-14T07:15:11.745Z</lastmod>
   </url>
   <url>
     <loc>https://philipplutz.github.io/website/data.html</loc>
-    <lastmod>2026-09-01T11:19:24.229Z</lastmod>
+    <lastmod>2026-10-14T07:15:11.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/engagement.html</loc>
+    <lastmod>2026-10-14T07:15:11.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/projects.html</loc>
+    <lastmod>2026-10-14T07:15:11.747Z</lastmod>
   </url>
   <url>
     <loc>https://philipplutz.github.io/website/SETUP.html</loc>
-    <lastmod>2026-09-01T11:19:24.228Z</lastmod>
+    <lastmod>2026-10-14T07:15:11.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/cv.html</loc>
+    <lastmod>2026-10-14T07:15:11.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/index.html</loc>
+    <lastmod>2026-10-14T07:15:11.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/publications.html</loc>
+    <lastmod>2026-10-14T07:15:11.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.github.io/website/news/2026-06-11-workshop-krems.html</loc>
+    <lastmod>2026-10-14T07:15:11.746Z</lastmod>
   </url>
 </urlset>
