@@ -45,15 +45,15 @@ Integration has become a dominant framework in the governance of immigration, in
     <summary>Abstract</summary>
 While a growing number of refugees is in need of humanitarian protection, most states are reluctant to admit them. For more than two decades, scholars have thought to understand this intricate challenge of international governance through the prism of collective action theory and the concept of refugee protection as an international public good. However, the specific benefits that states gain from refugee protection and that are assumed to constitute the public good remain surprisingly vague and under-specified. In this Reflection, we make three contributions to address this issue. First, we take stock of the literature and assess the evolution of the collective action theory in asylum governance. Second, we identify and conceptualize legitimacy, security, reputation, and development as four types of benefits that states derive from refugee protection. Third, we discuss the limitations of the dominant rational-choice approach and contend that the nature of refugee protection in the international realm is the product of international and domestic politics based on the contestation of interests and norms. These insights result in a series of recommendations for future research of refugee protection as a collective action problem.
   </details>
-
-### 2025
-
-- **Lutz, P.** & Bitschnau, M. (2025) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, FirstView.  
+- **Lutz, P.** & Bitschnau, M. (2026) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, 14(4), 1326-1343.  
 [PDF](publications/lutz_bitschnau2025.pdf){.pub-btn} · [DOI](https://doi.org/10.1017/psrm.2025.10055){.pub-btn} · [Supplementary material](publications/lutz_bitschnau2025_supplementary.pdf){.pub-btn} · [Replication files](https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/EPX9VY){.pub-btn} · [Blog post (EN)](https://theloop.ecpr.eu/why-we-need-to-rethink-what-we-know-about-public-views-on-immigration/){.pub-btn} · [Blog post (DE)](https://nccr-onthemove.ch/blog/fehlannahmen-oder-blosses-raten-einblicke-in-die-offentliche-sicht-auf-migration/){.pub-btn} · [Blog post (FR)](https://nccr-onthemove.ch/blog/croyances-erronees-ou-simples-approximations-comprendre-les-perceptions-du-public-sur-limmigration/){.pub-btn}
 <details>
     <summary>Abstract</summary>
 Public perceptions of immigration are often inaccurate, yet research lacks conceptual clarity and valid measurement of these misperceptions. Prior work focuses mainly on population innumeracy (misestimating immigrant shares) and cannot distinguish genuine misperceptions from mere guessing. We introduce a survey module that captures multiple dimensions of immigration-related perceptions alongside respondents’ confidence in their estimates. Using population survey data from Switzerland, we develop confidence-weighted indicators that separate misperception from guessing. Although inaccurate perceptions are widespread across several immigration domains, they are less prevalent than often assumed; guessing accounts for a substantial share of observed inaccuracy. This measurement strategy enables more precise empirical tests of theories linking perceptions to political attitudes and behavior.
   </details>
+
+### 2025
+
 - Bartl, W. & **Lutz, P.** (2025) Comparing refugee dispersal policies: Varieties of responsibility-sharing in Europe. *Governance*, 38(4): e70072.  
 [PDF](publications/bartl_lutz2025.pdf){.pub-btn} · [DOI](https://doi.org/10.1111/gove.70072){.pub-btn} · [Supplementary material](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fgove.70072&file=gove70072-sup-0001-suppl-data.docx){.pub-btn} · [Dataset & Replication](http://dx.doi.org/10.25673/1914118-10.2){.pub-btn}
 <details>
