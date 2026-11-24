@@ -6,7 +6,7 @@ A central component of my research is the development of new data resources that
 ---
 
 ### The UN Refugee Agencies Funding (URAF) Dataset
-Frowin, R, Bachelet, M. & **Lutz, P.** (2026)
+Rausis, F, Bachelet, M. & **Lutz, P.** (2026)
 
 The UN Refugee Agencies Funding (URAF) dataset offers systematic, cross-national data on financial contributions from all 193 UN member states and the European Union to the Office of the High Commissioner for Refugees (UNHCR) and the United Nations Relief and Work Agency for Palestine Refugees in the Near East (UNRWA) from 1990 to 2025.
 
