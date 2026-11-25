@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-## The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies (2026-2027)
+## The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies (2026-2027) {#nwo}
 
 Beyond formal immigration policies, societies hold unwritten expectations about how immigrants should behave—but we lack systematic evidence on these rules. Do people expect more from immigrants than from others? Do they think society is stricter than it actually is? This research surveys 2,500 Dutch residents to map these expectations across everyday behaviours like civic participation, cultural practices, and social interactions. By comparing what people personally believe with what they think others expect, and examining whether identical behaviours are judged differently depending on who performs them, the study reveals how informal expectations shape integration debates and policy preferences in diverse societies.
 
@@ -16,7 +16,7 @@ Starting date: September 2026
 
 ---
 
-## Connecting countries and dividing people: The politics of burden-sharing in European migration governance (2023-2027)
+## Connecting countries and dividing people: The politics of burden-sharing in European migration governance (2023-2027) {#ambizione}
 
 Migration is both the most visible consequence of globalisation and the the main factor behind the political backlash against a more interconnected world. European countries experience a growing number of immigrants, which is leading to a mounting political crisis in the absence of adequate governance responses. The conjuncture of open borders within Europe and exposure to external immigration requires collective efforts to effectively govern migration through burden-sharing. This project seeks to understand how the contrasting pressures stemming from this functional interdependence and domestic political contestation shape the politics of burden-sharing in refugee protection and in migration control: When and how do European countries contribute to European burden-sharing in migration governance? What interests and ideas drive burden-sharing politics in European democracies? 
 
@@ -30,7 +30,7 @@ Project collaborators: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Die
 
 Project outline and publications can be found [here](https://data.snf.ch/grants/grant/208858).
 
-### The Dublin Explorer
+### The Dublin Explorer {#dublin-explorer}
 
 An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
 
@@ -44,7 +44,7 @@ If the dashboard does not load above, you can [open it directly](https://philipp
 
 ---
 
-## Migration Governance through Trade Mobilities (2019-2022)
+## Migration Governance through Trade Mobilities (2019-2022) {#trade-mobilities}
 
 International trade and migration are two important facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States have progressively used trade agreements to govern different aspects of international migration, such as facilitating international mobility, strengthening migration control, or protecting migrant rights. Firstly, we study the drivers and configuration of migration provisions in trade agreements worldwide. For this purpose, we compile a comprehensive database of migration-related content in preferential trade agreements since 1960. Secondly, our project assesses how migration provisions in trade agreements are implemented in national immigration regimes and how they create privileges or disadvantages for different migrants and people on the move through case studies. We focus on four developed economies, two of which belong to a regional economic community and two in the same region which do not: Germany (EU), Switzerland, Singapore (ASEAN), and Japan.
 
@@ -60,7 +60,7 @@ Download the project poster [here](publications/IP24.pdf)
 
 ---
 
-## Perceptions and Misperceptions about Immigration
+## Perceptions and Misperceptions about Immigration {#misperceptions}
 
 Issues of immigration are central political challenges for European democracies, with public views often shaped by perceptions rather than reality. Consequently, they tend to fall victim to erroneous beliefs, ranging from innumeracy (i.e., the overestimation of the immigrant share in one’s country) to highly complex conspiracy theories. Both perceptions and misperceptions have been identified as crucial puzzle pieces in explaining policy preferences and political behavior. In particular, they may foster polarization and undermine the public’s ability to engage in deliberative decision-making. Still, only in recent years have scholars begun to pay attention to these phenomena, and many major questions regarding their nature and drivers remain insufficiently answered so far. This research agenda seeks to advance our understanding of (mis-)perceptions on a conceptual, theoretical and empirical level. How accurate are public perceptions about immigration? How can we measure them and what methodological pitfalls should be avoided? Are those who hold misperceptions really misinformed or only uninformed? What are the motivations and drivers of particular issue-specific perceptions? What consequences do perceptions have for political preferences and behavior? To what extent can misperceptions be corrected?
 
@@ -72,7 +72,7 @@ Article on measuring immigration misperceptions [PDF](publications/lutz_bitschna
 
 ---
 
-## Inside the Migration State: The Quest for Democratic Legitimacy (2015-2019)
+## Inside the Migration State: The Quest for Democratic Legitimacy (2015-2019) {#phd}
 
 Migration is an evident consequence of globalization and at the same time the main concern of European constituencies against a more globalized world. Liberal democracies in Western Europe face a fundamental tension between economic needs to remain open to migration and political demands for closure. This research agenda tackles the dilemma for national governments striving for democratic legitimacy between competing policy imperatives of openness and closure. Thereby, I combine theoretical approaches of democratic representation, political economy and party politics to study policy trade-offs on immigration and to contribute to a better understanding of migration policy-making in the context of contested globalization.
 

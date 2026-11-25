@@ -23,19 +23,35 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
 ### <i class="bi bi-bank"></i> Comparative analysis of migration policies
 
+<p class="agenda-q">How do liberal democracies balance openness and closure in their migration policies?</p>
+
 Immigration policies decide who may enter a country and on what terms immigrants may stay. From a comparative perspective, I study what drives migration policy-making, how governments combine rules on entry and stay, and when radical right parties succeed in shaping migration policy.
+
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#reset">RESET-OECD data</a></p>
 
 ### <i class="bi bi-eye"></i> Public opinion and perceptions
 
-Public views on immigration are often shaped by perceptions rather than reality. I study how accurate these perceptions are, how to measure them, whether people who hold misperceptions are misinformed or merely uninformed, and what consequences perceptions have for political preferences and behaviour. I also examine how citizens perceive each other's views and, in a newer line of research, the unwritten expectations societies hold towards immigrants compared with native citizens.
+<p class="agenda-q">What do citizens believe about immigration, and why does it matter for democracy?</p>
+
+Public views on immigration are often shaped by perceptions rather than reality. I study how citizens form attitudes towards immigration and free movement, how accurate their perceptions are and how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views and the unwritten expectations societies hold towards immigrants.
+
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#misperceptions">Misperceptions project</a></p>
 
 ### <i class="bi bi-arrows-angle-contract"></i> European migration governance and responsibility-sharing
 
-Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection. This includes how states contribute through their domestic legislation, the common European policy and cooperation with third countries, and which distribution of responsibility citizens consider fair.
+<p class="agenda-q">Why and how do European states share responsibility for refugees, and what do citizens consider fair?</p>
+
+Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection, and how states contribute through their domestic legislation, the common European policy and cooperation with third countries.
+
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a></p>
 
 ### <i class="bi bi-globe2"></i> Migration governance through trade agreements
 
-Trade and migration are two facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States increasingly use trade agreements to govern migration by facilitating mobility, strengthening migration control or protecting migrant rights. Drawing on the [MITA dataset](data.qmd), which covers migration provisions in preferential trade agreements worldwide since 1960, I study why states include such provisions and how they combine them.
+<p class="agenda-q">Why do states govern migration through trade agreements?</p>
+
+Trade and migration are two facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States increasingly use trade agreements to facilitate mobility, strengthen migration control or protect migrant rights. With the MITA dataset, which covers migration provisions in preferential trade agreements worldwide since 1960, I study why states include such provisions, how they combine them and how they shape national immigration regimes.
+
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mita">MITA data</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
 
 :::
 
