@@ -2,6 +2,6 @@
 title: "CV"
 ---
 
-[Download CV (PDF)](2026-11-23_cv-public.pdf){.pub-btn} *Last updated: November 2016*
+[Download CV (PDF)](cv.pdf){.pub-btn} *Last updated: November 2016*
 
 <iframe src="cv.pdf" width="100%" height="1100" style="border: 1px solid #ddd;" title="Curriculum vitae of Philipp Lutz"></iframe>
