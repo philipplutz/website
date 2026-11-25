@@ -1,0 +1,35 @@
+<script>
+/* Adds a small icon to every .pub-btn link, chosen by its label.
+   New buttons get an icon automatically; unknown labels get a generic one. */
+document.addEventListener("DOMContentLoaded", function () {
+  var rules = [
+    [/^pdf$|accepted version/i,            "bi-file-earmark-pdf"],
+    [/^doi$/i,                             "bi-link-45deg"],
+    [/supplement|appendix/i,               "bi-paperclip"],
+    [/replication|materials/i,             "bi-box-seam"],
+    [/pre-?registration/i,                 "bi-clipboard-check"],
+    [/blog/i,                              "bi-pencil-square"],
+    [/policy brief|dataset article|technical report/i, "bi-file-earmark-text"],
+    [/press release/i,                     "bi-megaphone"],
+    [/op-?ed|nzz/i,                        "bi-newspaper"],
+    [/explorer|dashboard/i,                "bi-bar-chart-line"],
+    [/codebook/i,                          "bi-journal-text"],
+    [/^data|dataset/i,                     "bi-table"],
+    [/analysis/i,                          "bi-graph-up"],
+    [/download/i,                          "bi-download"],
+    [/video|talk/i,                        "bi-play-circle"],
+    [/german version|version/i,            "bi-translate"]
+  ];
+  document.querySelectorAll("a.pub-btn").forEach(function (a) {
+    if (a.querySelector("i.bi")) return;
+    var label = a.textContent.trim(), icon = "bi-box-arrow-up-right";
+    for (var i = 0; i < rules.length; i++) {
+      if (rules[i][0].test(label)) { icon = rules[i][1]; break; }
+    }
+    var el = document.createElement("i");
+    el.className = "bi " + icon;
+    el.setAttribute("aria-hidden", "true");
+    a.insertBefore(el, a.firstChild);
+  });
+});
+</script>
