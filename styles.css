@@ -423,3 +423,9 @@ body.pub-timeline section.level3 > ul > li::before {
   border-color: #264d8c;
   color: #fff;
 }
+
+/* Policy and media uptake under a publication (filled from mentions.yml) */
+details.uptake { margin-top: 0.2rem; }
+details.uptake summary { color: var(--bs-link-color, #2761e3); cursor: pointer; }
+details.uptake ul { margin: 0.4rem 0 0.6rem 0; font-size: 0.95rem; }
+.mentions li { margin-bottom: 0.55rem; }
