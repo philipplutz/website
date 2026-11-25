@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - fonts/
 
 website:
   title: "Philipp Lutz"
@@ -8,7 +10,7 @@ website:
   image: prof_pic.jpg
   open-graph: true
   favicon: icon3.png
-  site-url: https://philipplutz.github.io/website
+  site-url: https://philipplutz.org
   page-footer:
     left: "© 2026 Philipp Lutz. Built with [Quarto](https://quarto.org)."
     right: "[Get in touch.](mailto:p.lutz@vu.nl)"
@@ -58,6 +60,7 @@ format:
       sidebar-width: 200px
       body-width: 800px
       margin-width: 200px
+    include-after-body: assets/pub-icons.html
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
