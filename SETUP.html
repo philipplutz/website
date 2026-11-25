@@ -554,7 +554,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 /* Media and policy mentions, read from mentions.yml (one source for two places):
-   - engagement page: fills the lists #mentions-policy and #mentions-media;
+   - engagement page: fills the lists #mentions-policy (without descriptions) and #mentions-media;
    - publications page: adds a collapsed "Policy and media uptake" section to every entry
      whose DOI appears in mentions.yml. */
 (function () {
@@ -593,11 +593,13 @@ document.addEventListener("DOMContentLoaded", function () {
     var text = r.label ? esc(r.label) : "<em>" + esc(r.title || r.url) + "</em>";
     return '<a href="' + esc(r.url) + '">' + text + "</a>";
   }
+  function stop(r) { return /[?!.]$/.test(r.label || r.title || "") ? "" : "."; }
   function lang(r) { return LANG[r.lang] ? " [In " + LANG[r.lang] + "]" : ""; }
   function full(r) {
-    return md(r.source) + " (" + when(r) + ") " + link(r) + "." +
+    return md(r.source) + " (" + when(r) + ") " + link(r) + stop(r) +
            (r.description ? " " + md(r.description) : "") + lang(r);
   }
+  function plain(r) { return md(r.source) + " (" + when(r) + ") " + link(r) + stop(r) + lang(r); }
   function short(r) { return md(r.source) + " (" + when(r) + "): " + link(r) + lang(r); }
   function byDate(a, b) { return (b.date || "").localeCompare(a.date || ""); }
   function list(rows, fmt) {
@@ -617,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("mentions.yml").then(function (r) { return r.ok ? r.text() : ""; }).then(function (text) {
       var rows = parse(text);
       if (pol) pol.appendChild(list(rows.filter(function (r) {
-        return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); }), full));
+        return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); }), plain));
       if (med) med.appendChild(list(rows.filter(function (r) { return r.section === "media"; }), full));
       if (pubs) {
         var content = document.getElementById("quarto-document-content") || document.body;

@@ -36,7 +36,6 @@
   title: "The role of misperceptions in attitudes to immigration"
   url: "https://www.esri.ie/publications/the-role-of-misperceptions-in-attitudes-to-immigration"
   lang: "en"
-  description: "ESRI Research Series 225, part of a research programme funded by Ireland's Department of Justice, Home Affairs and Migration, drawing on Lutz & Bitschnau (2023)."
   doi: "10.1017/S0007123422000084"
   work: "Lutz & Bitschnau (2023)"
 
@@ -48,7 +47,6 @@
   title: "Wat is goede asielopvang?"
   url: "https://www.adviesraadmigratie.nl/site/binaries/site-content/collections/documents/2025/12/save-the-date/in-gesprek-over-goede-asielopvang/verkenning-goede-asielopvang-universiteit-utrecht-060326.pdf"
   lang: "nl"
-  description: "Exploratory study by Utrecht University for the council, drawing on Bartl & Lutz (2025) on refugee dispersal policies."
   doi: "10.1111/gove.70072"
   work: "Bartl & Lutz (2025)"
 
@@ -60,7 +58,6 @@
   title: "Migratie als spiegel van maatschappijbeelden"
   url: "https://www.scp.nl/site/binaries/site-content/collections/documents/2025/04/01/migratie-als-spiegel-van-maatschappijbeelden/Rapport+Migratie+als+spiegel+van+maatschappijbeelden.pdf"
   lang: "nl"
-  description: "Draws on Lutz & Bitschnau (2023) for the finding that Europeans overestimate the number of migrants."
   doi: "10.1017/S0007123422000084"
   work: "Lutz & Bitschnau (2023)"
 
@@ -71,7 +68,6 @@
   title: "Verteilung der Asylsuchenden auf die Kantone"
   url: "https://www.parlament.ch/centers/documents/de/Bericht%20GPK-S%20zur%20Verteilung%20der%20Asylsuchenden%20auf%20die%20Kantone_D20250224.pdf"
   lang: "de"
-  description: "The committee's report builds on the evaluation by the Parliamentary Control of the Administration; our [expert report](https://www.parlament.ch/centers/documents/de/Expertenbericht_PPC_Statistische_Analyse_Asylverteilung_20250224.pdf) on the allocation of asylum seekers is published as its annex."
   work: "Herrmann, Zogg & Lutz (2024)"
 
 - date: "2025-02-18"
@@ -81,7 +77,6 @@
   title: "Steigert Migration die Kriminalität? Ein datenbasierter Blick"
   url: "https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf"
   lang: "de"
-  description: "ifo Schnelldienst digital 3/2025, drawing on Lutz & Bitschnau (2023) on misperceptions about immigration."
   doi: "10.1017/S0007123422000084"
   work: "Lutz & Bitschnau (2023)"
 
@@ -93,7 +88,6 @@
   title: "Migration, Forced Displacement and Climate Change"
   url: "https://www.sida.se/om-sida/publikationer/migration-forced-displacement-and-climate-change"
   lang: "en"
-  description: "Evidence brief, drawing on Lutz & Bitschnau (2023) on distorted perceptions of migration."
   doi: "10.1017/S0007123422000084"
   work: "Lutz & Bitschnau (2023)"
 
@@ -104,9 +98,28 @@
   title: "Trustworthy public communication"
   url: "https://op.europa.eu/en/publication-detail/-/publication/ad053f72-2c51-11ef-a61b-01aa75ed71a1/language-en"
   lang: "en"
-  description: "Report on how public communicators can strengthen democracies, drawing on Lutz & Bitschnau (2023)."
   doi: "10.1017/S0007123422000084"
   work: "Lutz & Bitschnau (2023)"
+
+- date: "2023-12-08"
+  section: "policy"
+  kind: "cited"
+  source: "Brookings Institution"
+  title: "The Global Refugee Forum can markedly improve refugee economic inclusion"
+  url: "https://www.brookings.edu/articles/the-global-refugee-forum-can-markedly-improve-refugee-economic-inclusion"
+  lang: "en"
+  doi: "10.1007/s11558-023-09493-5"
+  work: "Lavenex, Lutz & Hoffmeyer-Zlotnik (2024)"
+
+- date: "2023-12-05"
+  section: "policy"
+  kind: "cited"
+  source: "Carnegie Endowment for International Peace"
+  title: "Can Syrian Refugees Help Improve Türkiye-U.S. Relations? Giving UNDP's Türkiye Compact a Chance"
+  url: "https://carnegieendowment.org/publications/91175"
+  lang: "en"
+  doi: "10.1007/s11558-023-09493-5"
+  work: "Lavenex, Lutz & Hoffmeyer-Zlotnik (2024)"
 
 - date: "2020-05-01"
   date_precision: "month"
@@ -116,6 +129,5 @@
   title: "Integration in Liechtenstein: Sozioökonomische Potenziale und Spannungsfelder"
   url: "https://www.regierung.li/files/attachments/Migrationsstudie-Liechtenstein-Mai-2020.pdf?t=637927086816628897"
   lang: "de"
-  description: "Study by the Swiss Centre of Expertise in Human Rights (SKMR), commissioned by the ministry and the Liechtenstein Association for Human Rights, drawing on Lutz (2017) for its definition of integration and the capability approach."
   doi: "10.1186/s40878-017-0064-0"
   work: "Lutz (2017)"
