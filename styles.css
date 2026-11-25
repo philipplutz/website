@@ -386,3 +386,40 @@ body.pub-timeline section.level3 > ul > li::before {
 @media (max-width: 991.98px) {
   .home-grid { column-gap: 0; }
 }
+
+/* Research agendas: guiding question and links under each agenda on the homepage */
+.agenda-q {
+  font-style: italic;
+  color: #555;
+  margin: -0.15rem 0 0.45rem 0;
+}
+.agenda-links {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin: -0.2rem 0 1.6rem 0;
+}
+.agenda-links .bi { margin-right: 0.3rem; }
+.agenda-links .sep { margin: 0 0.35rem; }
+
+/* Publications page: filter by research agenda */
+.agenda-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 1.75rem 0;
+}
+.agenda-filter button {
+  border: 1px solid #c8d3e6;
+  background: transparent;
+  color: inherit;
+  border-radius: 999px;
+  padding: 0.2rem 0.85rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.agenda-filter button:hover { border-color: #264d8c; }
+.agenda-filter button.active {
+  background: #264d8c;
+  border-color: #264d8c;
+  color: #fff;
+}

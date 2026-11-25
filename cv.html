@@ -417,6 +417,81 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+
+<script>
+/* Research agendas. Publications carry tags such as []{.ag data-ag="trade policy"}.
+   On the publications page this adds filter buttons (and reads #agenda=... from the address);
+   on the homepage it adds the number of publications to each agenda's "Publications" link. */
+(function () {
+  var NAMES = { policy: "Migration policies", opinion: "Public opinion and perceptions",
+                sharing: "Responsibility-sharing", trade: "Trade agreements" };
+  function tagged(root) {
+    var out = [];
+    root.querySelectorAll("span.ag[data-ag]").forEach(function (s) {
+      var el = s.closest("li") || s.closest(".grid");
+      if (el) out.push({ el: el, tags: s.getAttribute("data-ag").split(/\s+/), tr: s.hasAttribute("data-tr") });
+    });
+    return out;
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var bar = document.getElementById("agenda-filter");
+    if (bar) {
+      var content = document.getElementById("quarto-document-content") || document.body;
+      var items = tagged(content);
+      var taggedEls = items.map(function (i) { return i.el; });
+      var heads = [];
+      content.querySelectorAll("section.level2 > h2").forEach(function (h) { heads.push({ h: h, text: h.textContent }); });
+      function apply(k) {
+        if (k !== "all" && !NAMES[k]) k = "all";
+        bar.querySelectorAll("button").forEach(function (b) { b.classList.toggle("active", b.dataset.ag === k); });
+        var all = k === "all";
+        items.forEach(function (i) { i.el.style.display = (all || i.tags.indexOf(k) >= 0) ? "" : "none"; });
+        content.querySelectorAll("section li").forEach(function (li) {
+          if (taggedEls.indexOf(li) < 0 && !li.closest("details")) li.style.display = all ? "" : "none";
+        });
+        content.querySelectorAll("section.level3, section.level2").forEach(function (sec) {
+          var visible = items.some(function (i) { return sec.contains(i.el) && i.el.style.display !== "none"; });
+          sec.style.display = (all || visible) ? "" : "none";
+        });
+        heads.forEach(function (o) {
+          var n = items.filter(function (i) { return o.h.parentNode.contains(i.el) && i.el.style.display !== "none"; }).length;
+          var anchor = o.h.querySelector(".anchorjs-link");
+          var base = o.text.replace(/\s*\(\d+\)\s*$/, "");
+          var hadCount = /\(\d+\)\s*$/.test(o.text);
+          var txt = hadCount ? (all ? o.text : base + " (" + n + ")") : o.text;
+          o.h.firstChild && o.h.firstChild.nodeType === 3 ? (o.h.firstChild.nodeValue = txt) : null;
+          if (anchor) o.h.appendChild(anchor);
+        });
+      }
+      ["all", "policy", "opinion", "sharing", "trade"].forEach(function (k) {
+        var b = document.createElement("button");
+        b.type = "button"; b.dataset.ag = k; b.textContent = k === "all" ? "All" : NAMES[k];
+        b.addEventListener("click", function () {
+          history.replaceState(null, "", k === "all" ? location.pathname : "#agenda=" + k);
+          apply(k);
+        });
+        bar.appendChild(b);
+      });
+      function fromHash() { var m = location.hash.match(/agenda=(\w+)/); apply(m ? m[1] : "all"); }
+      window.addEventListener("hashchange", fromHash);
+      fromHash();
+    }
+    var links = document.querySelectorAll("a.agenda-pubs[data-ag]");
+    if (links.length) {
+      fetch("publications.html").then(function (r) { return r.ok ? r.text() : ""; }).then(function (html) {
+        if (!html) return;
+        var doc = new DOMParser().parseFromString(html, "text/html");
+        var items = tagged(doc);
+        links.forEach(function (a) {
+          var k = a.dataset.ag;
+          var n = items.filter(function (i) { return i.tags.indexOf(k) >= 0 && !i.tr; }).length;
+          if (n) a.textContent = "Publications (" + n + ")";
+        });
+      }).catch(function () {});
+    }
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
