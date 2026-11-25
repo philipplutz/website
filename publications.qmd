@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+body-classes: pub-timeline
 ---
 
 For the most up-to-date list and citation counts, see my [Google Scholar profile](https://scholar.google.com/citations?user=Ml32muAAAAAJ).
