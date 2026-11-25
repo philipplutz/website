@@ -1,0 +1,284 @@
+# mentions.yml — media and policy mentions of Philipp Lutz's work
+# First draft, 25 Nov 2026. One row per mention; the website lists only rows with show: true.
+#
+# Rendered fields
+#   date            YYYY-MM-DD (use the 1st when only month or year is known)
+#   date_precision  day (default) | month | year
+#   section         media | policy
+#   kind            media:  interview | quoted | coverage | cited | press-release
+#                   policy: commissioned | cited | briefing
+#   source          outlet or issuing body
+#   title, url, lang
+#   work, doi       the publication the mention refers to (enables per-publication links later)
+#   show            true = on the public page; false = private log only
+#
+# Bookkeeping fields (never rendered)
+#   status          verified = I read the item and found the mention
+#                   reported = known from a secondary source only (see found_via)
+#   found_via, note
+
+# ───────────────────────────── MEDIA ─────────────────────────────
+
+- date: 2026-10-21
+  section: media
+  kind: interview
+  source: Nau.ch
+  title: "Trump und Co.: Welche Rolle spielt Migration wirklich bei Krawallen?"
+  url: https://www.nau.ch/news/europa/trump-und-co-welche-rolle-spielt-migration-wirklich-bei-krawallen-67190275
+  lang: de
+  show: true
+  status: verified
+  found_via: supplied by PL
+  note: "Only expert quoted; byline Belinda Schwenter."
+
+- date: 2026-06-12
+  section: media
+  kind: interview
+  source: Euractiv
+  title: "Swiss vote on migration cap threatens EU ties"
+  url: https://www.euractiv.com/news/swiss-vote-on-migration-cap-threatens-eu-ties/
+  lang: en
+  show: true
+  status: reported
+  found_via: philipplutz.org news item of 12 Jun 2026
+  note: "Euractiv blocks automated reading. Title is taken from the URL; date is the news-item date. Confirm both."
+
+- date: 2025-12-13
+  section: media
+  kind: quoted
+  source: The Telegraph
+  title: ""
+  url: ""
+  lang: en
+  show: false
+  status: reported
+  found_via: old Google Sites news feed
+  note: "Comment on the 10-million initiative. Headline and URL missing; switch to show: true once added."
+
+- date: 2025-12-04
+  section: media
+  kind: coverage
+  source: "Horizons (SNSF research magazine)"
+  title: "More Swiss than the Swiss"
+  url: https://www.horizons-mag.ch/?p=14242
+  lang: en
+  work: "Manser-Egli & Lutz (2026)"
+  doi: 10.1162/euso.a.30
+  show: true
+  status: verified
+  note: "Also published in French and German; byline Kalina Anguelova."
+
+- date: 2025-08-29
+  date_precision: month
+  section: media
+  kind: coverage
+  source: Caritas Schweiz
+  title: "Neuer Asyl- und Migrationspakt: Fachpersonen hegen grosse Zweifel"
+  url: https://www.caritas.ch/de/neuer-asyl-und-migrationspakt-fachpersonen-hegen-grosse-zweifel/
+  lang: de
+  show: true
+  status: verified
+  note: "Write-up of the Medien-Dialog Migration of 20 Aug 2025. Publication date approximate. French version: https://www.caritas.ch/fr/le-nouveau-pacte-sur-lasile-et-la-migration-suscite-une-grande-perplexite/"
+
+- date: 2025-03-27
+  section: media
+  kind: cited
+  source: The Diplomat
+  title: "4 Key Myths That Manufacture an Immigration ‘Crisis’ in Australia"
+  url: https://thediplomat.com/2025/03/4-key-myths-that-manufacture-an-immigration-crisis-in-australia
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: false
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Article by Mansouri & Elias (360info, syndicated) that links to the paper. A citation, not coverage of PL: kept off the public list."
+
+- date: 2024-07-04
+  section: media
+  kind: cited
+  source: The Conversation France
+  title: "Pourquoi présenter tous les électeurs du Rassemblement national comme des « racistes » peut être contre-productif"
+  url: https://theconversation.com/pourquoi-presenter-tous-les-electeurs-du-rassemblement-national-comme-des-racistes-peut-etre-contre-productif-233901
+  lang: fr
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: false
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Altmetric records a link to the paper; the link was not visible in the text I could read. A citation, not coverage of PL."
+
+- date: 2026-05-29
+  section: media
+  kind: press-release
+  source: Vrije Universiteit Amsterdam
+  title: "Dublin asylum system fairer than assumed, but not by design"
+  url: https://vu.nl/en/news/2026/dublin-asylum-system-fairer-than-assumed-but-not-by-design
+  lang: en
+  work: "Lutz, Trauner & Stutz (2026)"
+  doi: 10.1177/14651165261446534
+  show: false
+  status: verified
+  note: "Institutional press release; already linked from the publication entry. Dutch version on vu.nl/nl."
+
+- date: 2025-10-15
+  section: media
+  kind: press-release
+  source: Vrije Universiteit Amsterdam
+  title: "How does Europe disperse asylum seekers?"
+  url: https://vu.nl/en/news/2025/how-does-europe-disperse-asylum-seekers
+  lang: en
+  work: "Bartl & Lutz (2025)"
+  doi: 10.1111/gove.70072
+  show: false
+  status: verified
+  note: "Institutional press release."
+
+# ───────────────────────────── POLICY ─────────────────────────────
+
+- date: 2026-07-01
+  section: policy
+  kind: cited
+  source: National Bureau of Economic Research
+  title: "Trading Off Openness: Economic Information and Immigration Policy Preferences"
+  url: https://www.nber.org/papers/w35509
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: false
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Altmetric counts NBER working papers as policy sources. This is an academic working paper, so weak as evidence of policy uptake."
+
+- date: 2026-01-01
+  date_precision: year
+  section: policy
+  kind: cited
+  source: "Adviesraad Migratie (Netherlands)"
+  title: "Wat is goede asielopvang?"
+  url: https://www.adviesraadmigratie.nl/site/binaries/site-content/collections/documents/2025/12/save-the-date/in-gesprek-over-goede-asielopvang/verkenning-goede-asielopvang-universiteit-utrecht-060326.pdf
+  lang: nl
+  work: "Bartl & Lutz (2025)"
+  doi: 10.1111/gove.70072
+  show: true
+  status: verified
+  note: "Study commissioned by the Adviesraad Migratie (Miellet, van Liempt, Zill & Geuijen). Cited twice on p. 16, footnotes 37 and 38. Cover gives 2026 without a day or month."
+
+- date: 2026-01-15
+  section: policy
+  kind: cited
+  source: "Economic and Social Research Institute (Ireland)"
+  title: "The role of misperceptions in attitudes to immigration"
+  url: https://www.esri.ie/publications/the-role-of-misperceptions-in-attitudes-to-immigration
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Not yet opened to locate the citation."
+
+- date: 2025-03-01
+  date_precision: month
+  section: policy
+  kind: cited
+  source: "Sociaal en Cultureel Planbureau (Netherlands)"
+  title: "Migratie als spiegel van maatschappijbeelden"
+  url: https://www.scp.nl/site/binaries/site-content/collections/documents/2025/04/01/migratie-als-spiegel-van-maatschappijbeelden/Rapport+Migratie+als+spiegel+van+maatschappijbeelden.pdf
+  lang: nl
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: verified
+  note: "Kunst, Coenders & Dagevos. Cited on p. 33, section 3.2.3, for the finding that Europeans overestimate the number of migrants. Report dated March 2025. Not in Altmetric."
+
+- date: 2025-02-21
+  section: policy
+  kind: commissioned
+  source: "Geschäftsprüfungskommission des Ständerates (Swiss Parliament)"
+  title: "Verteilung der Asylsuchenden auf die Kantone"
+  url: https://www.parlament.ch/centers/documents/de/Bericht%20GPK-S%20zur%20Verteilung%20der%20Asylsuchenden%20auf%20die%20Kantone_D20250224.pdf
+  lang: de
+  work: "Herrmann, Zogg & Lutz (2024)"
+  show: true
+  status: verified
+  note: "Committee report built on the PVK evaluation; the co-authored PPC expert report is published as its annex. Expert report: https://www.parlament.ch/centers/documents/de/Expertenbericht_PPC_Statistische_Analyse_Asylverteilung_20250224.pdf"
+
+- date: 2025-02-18
+  section: policy
+  kind: cited
+  source: "ifo Institut (Germany)"
+  title: "Steigert Migration die Kriminalität? Ein datenbasierter Blick"
+  url: https://www.ifo.de/DocDL/sd-2025-digital-03-adema-alipour-migration-kriminalitaet.pdf
+  lang: de
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: verified
+  found_via: supplied by PL
+  note: "ifo Schnelldienst digital 3/2025 (Adema & Alipour). Cited on p. 8, section on chronic misperceptions about migration."
+
+- date: 2025-08-20
+  section: policy
+  kind: briefing
+  source: Medien-Dialog Migration
+  title: "Der EU-Migrations- und Asylpakt: Was die Reform bezweckt, wie sie umgesetzt wird und was sich konkret verändert"
+  url: https://www.youtube.com/embed/2OLIoficTyU
+  lang: de
+  show: true
+  status: verified
+  note: "Speaker, with Adriana Romer and Maud Bachelet. Already under Public events on the engagement page: avoid double listing."
+
+- date: 2024-06-14
+  section: policy
+  kind: cited
+  source: Publications Office of the European Union
+  title: "Trustworthy public communication"
+  url: https://op.europa.eu/en/publication-detail/-/publication/ad053f72-2c51-11ef-a61b-01aa75ed71a1/language-en
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Not yet opened. Replace the source with the authoring body (probably a Commission service) once checked."
+
+- date: 2024-05-23
+  section: policy
+  kind: briefing
+  source: Point presse migration
+  title: "Pacte européen sur la migration: contenu, nouveautés et impact pour la Suisse"
+  url: https://asile.ch/2024/05/17/point-presse-migration-23-05-24-pacte-europeen-sur-la-migration-contenu-nouveautes-et-impact-pour-la-suisse/
+  lang: fr
+  show: true
+  status: verified
+  note: "Speaker, with Maud Bachelet. asile.ch published a write-up on 15 Aug 2024."
+
+- date: 2024-01-01
+  date_precision: year
+  section: policy
+  kind: cited
+  source: "Sida, Swedish International Development Cooperation Agency"
+  title: "Migration, Forced Displacement and Climate Change"
+  url: https://www.sida.se/om-sida/publikationer/migration-forced-displacement-and-climate-change
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Altmetric gives 1 Jan 2024, which looks like a placeholder: year only."
+
+- date: 2023-07-17
+  section: policy
+  kind: cited
+  source: Bruegel
+  title: "Globalisation and automation as sources of labour-market competition, and support for European Union unemployment insurance"
+  url: https://www.bruegel.org/working-paper/globalisation-and-automation-sources-labour-market-competition-and-support-european
+  lang: en
+  work: "Lutz & Bitschnau (2023)"
+  doi: 10.1017/S0007123422000084
+  show: true
+  status: reported
+  found_via: Altmetric (details/127610809)
+  note: "Think-tank working paper. Title completed from the URL: confirm the wording."
