@@ -9,13 +9,17 @@ pagetitle: "Philipp Lutz"
 <!-- ===================== main column ===================== -->
 ::: {.g-col-12 .g-col-lg-8}
 
-<p class="home-tagline">Migration ¬∑ Asylum ¬∑ European Integration ¬∑ Public Opinion</p>
+<p class="home-tagline">Migration · Asylum · European Integration · Public Opinion</p>
 
 <h1 class="home-name">Philipp Lutz</h1>
 
-<p class="home-lead">SNSF Ambizione Fellow at the <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> and Senior Assistant Professor at the <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a>.</p>
+<p class="home-lead">Welcome! I'm a political scientist at the <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (SNSF Ambizione Fellow) and the <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (Senior Assistant Professor).</p>
 
-I study the politics of immigration in liberal democracies, focusing on how governments navigate the tension between economic pressures for openness and political demands for closure. My research examines how citizens form perceptions and attitudes on immigration, how states cooperate at the European and international levels to regulate migration, and what drives migration policy-making from a comparative perspective.
+I study the politics of immigration in liberal democracies, focusing on how governments navigate the tension between economic pressures for openness and political demands for closure. Specifically, my research examines how citizens form perceptions and attitudes on the issue of immigration, how states cooperate at the European and international levels to regulate migration, and what drives migration policy-making from a comparative perspective.
+
+You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd) and [public engagement](engagement.qmd) as well as my [CV](cv.qmd) on this site.
+
+Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
 ## Research {.home-section}
 
@@ -35,7 +39,6 @@ States increasingly use trade agreements to govern international migration. Draw
 
 Liberal democracies face a fundamental tension between economic needs to remain open to migration and political demands for closure. I study how governments navigate this tension in [the design of immigration policies](https://doi.org/10.1080/01402382.2023.2185852), how [radical right parties shape migration policy](https://doi.org/10.1080/01402382.2018.1504509), and [the double standards in what societies expect from immigrants](https://doi.org/10.1162/euso.a.30).
 
-<p class="home-more">More: [all publications](publications.qmd) ¬∑ [projects](projects.qmd) ¬∑ [datasets](data.qmd) ¬∑ [public engagement](engagement.qmd) ¬∑ [CV](cv.qmd)</p>
 
 :::
 
@@ -48,7 +51,7 @@ Liberal democracies face a fundamental tension between economic needs to remain 
 #### Upcoming
 
 <div class="side-item">
-<span class="side-date">1‚Äì2 Feb 2027</span>
+<span class="side-date">1–2 Feb 2027</span>
 Annual Conference of the Swiss Political Science Association<br>
 <span class="side-meta">University of Lucerne (CH)</span>
 </div>
@@ -91,7 +94,7 @@ New article in <em>The Review of International Organizations</em> on mobility pr
 Our article on measuring misperceptions about immigration is now in print in <em>Political Science Research and Methods</em>.
 </div>
 
-<p class="side-all">[All news ‚Üí](news.qmd)</p>
+<p class="side-all">[All news →](news.qmd)</p>
 :::
 
 :::
