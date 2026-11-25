@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bdee7f7ba7ce3de9d6c7348142b0e203.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a83d6762c50732039a18587b91764e0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-506e7e2c99015e16c3721f82fb7b673d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a83d6762c50732039a18587b91764e0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -756,6 +756,41 @@ For working papers, add a "## Working papers" section above "## Peer-reviewed ar
 </section>
 
 </main> <!-- /main -->
+<script>
+/* Adds a small icon to every .pub-btn link, chosen by its label.
+   New buttons get an icon automatically; unknown labels get a generic one. */
+document.addEventListener("DOMContentLoaded", function () {
+  var rules = [
+    [/^pdf$|accepted version/i,            "bi-file-earmark-pdf"],
+    [/^doi$/i,                             "bi-link-45deg"],
+    [/supplement|appendix/i,               "bi-paperclip"],
+    [/replication|materials/i,             "bi-box-seam"],
+    [/pre-?registration/i,                 "bi-clipboard-check"],
+    [/blog/i,                              "bi-pencil-square"],
+    [/policy brief|dataset article|technical report/i, "bi-file-earmark-text"],
+    [/press release/i,                     "bi-megaphone"],
+    [/op-?ed|nzz/i,                        "bi-newspaper"],
+    [/explorer|dashboard/i,                "bi-bar-chart-line"],
+    [/codebook/i,                          "bi-journal-text"],
+    [/^data|dataset/i,                     "bi-table"],
+    [/analysis/i,                          "bi-graph-up"],
+    [/download/i,                          "bi-download"],
+    [/video|talk/i,                        "bi-play-circle"],
+    [/german version|version/i,            "bi-translate"]
+  ];
+  document.querySelectorAll("a.pub-btn").forEach(function (a) {
+    if (a.querySelector("i.bi")) return;
+    var label = a.textContent.trim(), icon = "bi-box-arrow-up-right";
+    for (var i = 0; i < rules.length; i++) {
+      if (rules[i][0].test(label)) { icon = rules[i][1]; break; }
+    }
+    var el = document.createElement("i");
+    el.className = "bi " + icon;
+    el.setAttribute("aria-hidden", "true");
+    a.insertBefore(el, a.firstChild);
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
