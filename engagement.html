@@ -428,7 +428,7 @@ gtag('config', 'G-SWWYN9EBW3', { 'anonymize_ip': true});
 <li><p><strong>Lutz, P.</strong> &amp; Bitschnau, M. (2020) <a href="https://www.routedmagazine.com/omc2020-2-people-wrong-migration"><em>Why most people are wrong about immigration</em></a> Article in Routed Migration and (Im)mobility Magazine.</p></li>
 <li><p>Stünzi, A., Kaufmann, D., <strong>Lutz, P.</strong> &amp; Manser-Egli, S. (2019) <a href="https://www.terra-cognita.ch/fileadmin/user_upload/terracognita/documents/Terra_Cognita_35-19.pdf"><em>Wie kann die europäische Asylpolitik reformiert werden?</em></a> Terra cognita - Schweizer Zeitschrift zu Integration und Migration: Asylpolitische Perspektiven, Ausgabe 35.</p></li>
 <li><p><strong>Lutz, P.</strong> &amp; Manser-Egli, S. (2019) <a href="https://nccr-onthemove.ch/blog/schengen-dublin-als-offentliches-gut-eines-integrierten-europas/"><em>Schengen-Dublin als öffentliches Gut eines integrierten Europas</em></a> Blog post nccr on the move, 17.Mai 2019.</p></li>
-<li><p><strong>Lutz, P.</strong> (2017) <a href="https://www.philosophie.ch/2017-06-28-lutz"><em>Warum Heimat nach Gestaltung statt Konservierung verlangt</em></a> (Blog post philosophie.ch, 28.Juni 2017).</p></li>
+<li><p><strong>Lutz, P.</strong> (2017) <a href="https://www.philosophie.ch/2017-06-28-lutz"><em>Warum Heimat nach Gestaltung statt Konservierung verlangt</em></a> (Blog post philosophie.ch, 28.Juni 2017). Reprinted as <a href="https://www.bwso.ch/wp-content/uploads/2026/07/BWSO-Info_2-2026-Homepage.pdf"><em>Heimat gestalten statt konservieren</em></a>, <em>INFO-BWSO</em> 2/2026 (Bürgergemeinden und Wald Kanton Solothurn), pp.&nbsp;4–5.</p></li>
 <li><p><strong>Lutz, P.</strong> (2017) <a href="https://www.haus-der-religionen.ch/file/repository/SAGW_Bulletin_2_17_web_Einzelseiten.pdf"><em>Wie Migranten Muslime wurden</em></a> Islam in der Schweiz, Bulletin der Schweizerischen Akademie der Geistes- und Sozialwissenschaften 2/2017.</p></li>
 </ul>
 <hr>
@@ -651,7 +651,8 @@ document.addEventListener("DOMContentLoaded", function () {
           var a = li.querySelector('a[href*="doi.org/10."]');
           var d = a ? doiOf(a.getAttribute("href")) : "";
           if (!d) return;
-          var hits = rows.filter(function (r) { return r.doi && r.doi.toLowerCase() === d; });
+          var hits = rows.filter(function (r) {    // doi may list several, separated by ";"
+            return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
           if (!hits.length) return;
           var det = document.createElement("details");
           det.className = "uptake";

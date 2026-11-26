@@ -595,7 +595,8 @@ document.addEventListener("DOMContentLoaded", function () {
           var a = li.querySelector('a[href*="doi.org/10."]');
           var d = a ? doiOf(a.getAttribute("href")) : "";
           if (!d) return;
-          var hits = rows.filter(function (r) { return r.doi && r.doi.toLowerCase() === d; });
+          var hits = rows.filter(function (r) {    // doi may list several, separated by ";"
+            return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
           if (!hits.length) return;
           var det = document.createElement("details");
           det.className = "uptake";
