@@ -429,3 +429,6 @@ details.uptake { margin-top: 0.2rem; }
 details.uptake summary { color: var(--bs-link-color, #2761e3); cursor: pointer; }
 details.uptake ul { margin: 0.4rem 0 0.6rem 0; font-size: 0.95rem; }
 .mentions li { margin-bottom: 0.55rem; }
+
+/* Homepage: the name is the page heading, so hide the duplicate in the navigation bar (space kept so the menu does not shift) */
+body.home .navbar-brand .navbar-title { visibility: hidden; }
