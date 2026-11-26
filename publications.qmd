@@ -3,7 +3,9 @@ title: "Publications"
 body-classes: pub-timeline
 ---
 
+::: {#scholar-stats .scholar-stats}
 For the most up-to-date list and citation counts, see my [Google Scholar profile](https://scholar.google.com/citations?user=Ml32muAAAAAJ).
+:::
 
 ::: {#agenda-filter .agenda-filter}
 :::
