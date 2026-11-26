@@ -4,6 +4,7 @@ project:
   resources:
     - fonts/
     - mentions.yml
+    - scholar.json
 
 website:
   title: "Philipp Lutz"

@@ -113,8 +113,8 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Media and policy mentions, read from mentions.yml (one source for two places):
    - engagement page: fills the lists #mentions-policy (without descriptions, grouped by the body field)
      and #mentions-media;
-   - publications page: adds a collapsed "Policy and media uptake" section to every entry
-     whose DOI appears in mentions.yml. */
+   - publications page: adds a reception line under each entry with its Google Scholar citation
+     count (scholar.json) and its policy and media uptake (mentions.yml, matched by DOI). */
 (function () {
   var MONTHS = ["January", "February", "March", "April", "May", "June", "July",
                 "August", "September", "October", "November", "December"];
@@ -169,13 +169,62 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   function doiOf(s) { var m = String(s || "").match(/10\.\d{4,9}\/[^\s"<>]+/); return m ? m[0].replace(/[.,;]+$/, "").toLowerCase() : ""; }
 
+  /* Reception line under a publication: "Cited 54 times (Google Scholar) · Policy uptake: SCP (2021)".
+     Citation counts come from scholar.json (updated monthly), uptake from mentions.yml. */
+  var MIN_CITES = 5;                 // counts below this are not shown
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function textKey(s) {
+    return String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  }
+  function shortName(r) { return r.short || String(r.source || "").replace(/\*/g, "").replace(/\s*\([^)]*\)\s*$/, ""); }
+  function grouped(rows) {           // "World Bank (2023), MIDEM (2025, 2026)": each date links to a document
+    var order = [], by = {};
+    rows.forEach(function (r) { var n = shortName(r); if (!by[n]) { by[n] = []; order.push(n); } by[n].push(r); });
+    return order.map(function (n) {
+      var g = by[n].slice().sort(function (a, b) { return (a.date || "").localeCompare(b.date || ""); });
+      var years = g.map(function (r) { return (r.date || "").slice(0, 4); });
+      var clash = years.some(function (y, i) { return years.indexOf(y) !== i; });
+      return esc(n) + " (" + g.map(function (r) {
+        var p = (r.date || "").split("-"), m = parseInt(p[1], 10);
+        var label = clash && m ? MON[m - 1] + " " + p[0] : p[0];
+        return '<a href="' + esc(r.url) + '" title="' + esc(r.title || r.label || "") + '">' + label + "</a>";
+      }).join(", ") + ")";
+    }).join(", ");
+  }
+  function reception(li, rows, cites) {
+    var a = li.querySelector('a[href*="doi.org/10."]');
+    var d = a ? doiOf(a.getAttribute("href")) : "";
+    var k = textKey(li.innerText);
+    var parts = [];
+    var c = cites.filter(function (x) { return x.doi ? x.doi === d : (x.key && k.indexOf(x.key) >= 0); })[0];
+    if (c && c.cites >= MIN_CITES)
+      parts.push('<a href="' + esc(c.link) + '">Cited ' + c.cites + " times</a> (Google Scholar)");
+    var hits = !d ? [] : rows.filter(function (r) {    // doi may list several, separated by ";"
+      return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
+    var pol = hits.filter(function (r) { return r.section === "policy"; }).sort(function (x, y) {
+      var bx = x.body === "public" ? 0 : 1, by = y.body === "public" ? 0 : 1;
+      return bx - by || byDate(x, y); });
+    var med = hits.filter(function (r) { return r.section === "media"; }).sort(byDate);
+    if (pol.length) parts.push("Policy uptake: " + grouped(pol));
+    if (med.length) parts.push("Media: " + grouped(med));
+    if (!parts.length) return;
+    var div = document.createElement("div");
+    div.className = "reception";
+    div.innerHTML = parts.join(" &middot; ");
+    li.insertBefore(div, li.querySelector(":scope > details"));
+  }
+  function get(url) {
+    return fetch(url).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var pol = document.getElementById("mentions-policy");
     var med = document.getElementById("mentions-media");
     var pubs = document.getElementById("agenda-filter");   // only on the publications page
     if (!pol && !med && !pubs) return;
-    fetch("mentions.yml").then(function (r) { return r.ok ? r.text() : ""; }).then(function (text) {
-      var rows = parse(text);
+    Promise.all([get("mentions.yml"), pubs ? get("scholar.json") : ""]).then(function (res) {
+      var rows = parse(res[0]), cites = [];
+      try { cites = JSON.parse(res[1]).items || []; } catch (e) { cites = []; }
       if (pol) {
         var prows = rows.filter(function (r) {
           return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); });
@@ -195,18 +244,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (pubs) {
         var content = document.getElementById("quarto-document-content") || document.body;
         content.querySelectorAll("section li").forEach(function (li) {
-          if (li.closest("details")) return;
-          var a = li.querySelector('a[href*="doi.org/10."]');
-          var d = a ? doiOf(a.getAttribute("href")) : "";
-          if (!d) return;
-          var hits = rows.filter(function (r) {    // doi may list several, separated by ";"
-            return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
-          if (!hits.length) return;
-          var det = document.createElement("details");
-          det.className = "uptake";
-          det.innerHTML = "<summary>Policy and media uptake (" + hits.length + ")</summary>";
-          det.appendChild(list(hits, short));
-          li.appendChild(det);
+          if (!li.closest("details")) reception(li, rows, cites);
         });
       }
     }).catch(function () {});
