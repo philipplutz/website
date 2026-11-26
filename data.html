@@ -571,49 +571,64 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   function doiOf(s) { var m = String(s || "").match(/10\.\d{4,9}\/[^\s"<>]+/); return m ? m[0].replace(/[.,;]+$/, "").toLowerCase() : ""; }
 
-  /* Reception line under a publication: "Cited 54 times (Google Scholar) · Policy uptake: SCP (2021)".
-     Citation counts come from scholar.json (updated monthly), uptake from mentions.yml. */
-  var MIN_CITES = 5;                 // counts below this are not shown
+  /* Under a publication: a citation chip at the end of the button row (scholar.json, updated monthly)
+     and, where there is any, a line with policy uptake and media (mentions.yml). */
+  var MIN_CITES = 1;                 // counts below this are not shown
   var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   function textKey(s) {
-    return String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    return String(s || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
   }
   function shortName(r) { return r.short || String(r.source || "").replace(/\*/g, "").replace(/\s*\([^)]*\)\s*$/, ""); }
-  function grouped(rows) {           // "World Bank (2023), MIDEM (2025, 2026)": each date links to a document
+  function docLink(r, label) {
+    return '<a href="' + esc(r.url) + '" title="' + esc(r.title || r.label || "") + '">' + label + "</a>";
+  }
+  function grouped(rows) {           // "SCP 2021, MIDEM 2025, 2026": one link per document
     var order = [], by = {};
     rows.forEach(function (r) { var n = shortName(r); if (!by[n]) { by[n] = []; order.push(n); } by[n].push(r); });
     return order.map(function (n) {
       var g = by[n].slice().sort(function (a, b) { return (a.date || "").localeCompare(b.date || ""); });
       var years = g.map(function (r) { return (r.date || "").slice(0, 4); });
       var clash = years.some(function (y, i) { return years.indexOf(y) !== i; });
-      return esc(n) + " (" + g.map(function (r) {
+      var dates = g.map(function (r) {
         var p = (r.date || "").split("-"), m = parseInt(p[1], 10);
-        var label = clash && m ? MON[m - 1] + " " + p[0] : p[0];
-        return '<a href="' + esc(r.url) + '" title="' + esc(r.title || r.label || "") + '">' + label + "</a>";
-      }).join(", ") + ")";
+        return clash && m ? MON[m - 1] + " " + p[0] : p[0];
+      });
+      if (g.length === 1) return docLink(g[0], esc(n) + " " + dates[0]);
+      return esc(n) + " " + g.map(function (r, i) { return docLink(r, dates[i]); }).join(", ");
     }).join(", ");
+  }
+  function part(icon, html, cls) {
+    return '<span class="rc ' + cls + '"><i class="bi ' + icon + '" aria-hidden="true"></i><span>' + html + "</span></span>";
   }
   function reception(li, rows, cites) {
     var a = li.querySelector('a[href*="doi.org/10."]');
     var d = a ? doiOf(a.getAttribute("href")) : "";
     var k = textKey(li.innerText);
-    var parts = [];
     var c = cites.filter(function (x) { return x.doi ? x.doi === d : (x.key && k.indexOf(x.key) >= 0); })[0];
-    if (c && c.cites >= MIN_CITES)
-      parts.push('<a href="' + esc(c.link) + '">Cited ' + c.cites + " times</a> (Google Scholar)");
+    var details = li.querySelector(":scope > details");
+    if (c && c.cites >= MIN_CITES) {   // grey chip at the end of the button row
+      var chip = document.createElement("a");
+      chip.className = "cite-chip";
+      chip.href = c.link;
+      chip.title = "Citing works on Google Scholar";
+      chip.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>' + c.cites + (c.cites === 1 ? " citation" : " citations");
+      var btns = li.querySelectorAll(":scope > a.pub-btn"), last = btns[btns.length - 1];
+      if (last) last.after(chip); else li.insertBefore(chip, details);
+    }
     var hits = !d ? [] : rows.filter(function (r) {    // doi may list several, separated by ";"
       return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
     var pol = hits.filter(function (r) { return r.section === "policy"; }).sort(function (x, y) {
       var bx = x.body === "public" ? 0 : 1, by = y.body === "public" ? 0 : 1;
       return bx - by || byDate(x, y); });
     var med = hits.filter(function (r) { return r.section === "media"; }).sort(byDate);
-    if (pol.length) parts.push("Policy uptake: " + grouped(pol));
-    if (med.length) parts.push("Media: " + grouped(med));
+    var parts = [];
+    if (pol.length) parts.push(part("bi-bank2", '<span class="rc-label">Policy uptake:</span> ' + grouped(pol), "rc-policy"));
+    if (med.length) parts.push(part("bi-newspaper", '<span class="rc-label">Media:</span> ' + grouped(med), "rc-media"));
     if (!parts.length) return;
     var div = document.createElement("div");
     div.className = "reception";
-    div.innerHTML = parts.join(" &middot; ");
-    li.insertBefore(div, li.querySelector(":scope > details"));
+    div.innerHTML = parts.join("");
+    li.insertBefore(div, details);
   }
   function get(url) {
     return fetch(url).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; });
@@ -626,7 +641,18 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!pol && !med && !pubs) return;
     Promise.all([get("mentions.yml"), pubs ? get("scholar.json") : ""]).then(function (res) {
       var rows = parse(res[0]), cites = [];
-      try { cites = JSON.parse(res[1]).items || []; } catch (e) { cites = []; }
+      var sch = {};
+      try { sch = JSON.parse(res[1]) || {}; } catch (e) { sch = {}; }
+      cites = sch.items || [];
+      var box = document.getElementById("scholar-stats"), t = sch.totals || {};
+      if (box && t.citations) {      // "954 citations · h-index 14 · Google Scholar, November 2026"
+        var u = (sch.updated || "").split("-"), mo = parseInt(u[1], 10);
+        box.innerHTML = '<span class="ss"><i class="bi bi-quote" aria-hidden="true"></i><strong>' +
+          Number(t.citations).toLocaleString("en-US") + "</strong> citations</span>" +
+          (t.h_index ? '<span class="ss">h-index <strong>' + t.h_index + "</strong></span>" : "") +
+          '<span class="ss ss-src"><a href="' + esc(sch.profile || "") + '">Google Scholar</a>' +
+          (mo ? ", " + MONTHS[mo - 1] + " " + u[0] : "") + "</span>";
+      }
       if (pol) {
         var prows = rows.filter(function (r) {
           return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); });
