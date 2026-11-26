@@ -451,3 +451,19 @@ body.pub-timeline section.level3 > ul > li::before {
 
 /* Homepage: the name is the page heading, so hide the duplicate in the navigation bar (space kept so the menu does not shift) */
 body.home .navbar-brand .navbar-title { visibility: hidden; }
+
+/* Line drawing of Amsterdam canal houses, a lake and the Swiss Alps, above the footer on every page */
+footer.footer { position: relative; margin-top: calc(clamp(70px, 9vw, 135px) + 1.5rem); }
+footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bottom: 100%;
+  height: clamp(70px, 9vw, 135px); pointer-events: none; opacity: 0.6;
+  background: url("skyline.svg") center bottom / auto 100% no-repeat; }
+
+/* Citation count, option "top": small figure at the top right of the entry */
+.cite-chip.cite-top { float: right; margin: 0.15rem 0 0.2rem 1rem; padding: 0; border: none; border-radius: 0;
+  font-size: 0.8rem; line-height: 1.6; }
+.cite-chip.cite-top:hover { text-decoration: underline; }
+/* option "abstract": on the line of the Abstract toggle */
+.cite-chip.cite-abs { margin-left: 0.9rem; padding: 0.05rem 0.55rem; font-size: 0.76rem; vertical-align: 0.05rem; }
+@media (max-width: 575.98px) {   /* narrow screens: count on its own small line above the reference */
+  .cite-chip.cite-top { float: none; display: block; width: fit-content; margin: 0 0 0.15rem; }
+}
