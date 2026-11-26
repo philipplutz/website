@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://philipplutz.org/data.html</loc>
-    <lastmod>2026-11-25T21:41:27.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/news/2026-06-11-workshop-krems.html</loc>
-    <lastmod>2026-11-25T21:41:27.559Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/index.html</loc>
-    <lastmod>2026-11-25T21:41:27.545Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/publications.html</loc>
-    <lastmod>2026-11-25T21:41:27.559Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/engagement.html</loc>
-    <lastmod>2026-11-25T21:41:27.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/SETUP.html</loc>
-    <lastmod>2026-11-25T21:41:27.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/news.html</loc>
-    <lastmod>2026-11-25T21:41:27.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/projects.html</loc>
-    <lastmod>2026-11-25T21:41:27.559Z</lastmod>
+    <loc>https://philipplutz.org/cv.html</loc>
+    <lastmod>2026-11-26T12:52:59.151Z</lastmod>
   </url>
   <url>
     <loc>https://philipplutz.org/news/2026-01-15-dublin-paper.html</loc>
-    <lastmod>2026-11-25T21:41:27.558Z</lastmod>
+    <lastmod>2026-11-26T12:52:59.181Z</lastmod>
   </url>
   <url>
-    <loc>https://philipplutz.org/cv.html</loc>
-    <lastmod>2026-11-25T21:41:27.529Z</lastmod>
+    <loc>https://philipplutz.org/data.html</loc>
+    <lastmod>2026-11-26T12:52:59.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/projects.html</loc>
+    <lastmod>2026-11-26T12:52:59.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/SETUP.html</loc>
+    <lastmod>2026-11-26T12:52:59.149Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/publications.html</loc>
+    <lastmod>2026-11-26T12:52:59.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/index.html</loc>
+    <lastmod>2026-11-26T12:52:59.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/news.html</loc>
+    <lastmod>2026-11-26T12:52:59.181Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/engagement.html</loc>
+    <lastmod>2026-11-26T12:52:59.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/news/2026-06-11-workshop-krems.html</loc>
+    <lastmod>2026-11-26T12:52:59.183Z</lastmod>
   </url>
 </urlset>
