@@ -621,6 +621,7 @@ document.addEventListener("DOMContentLoaded", function () {
   /* Under a publication: a citation chip at the end of the button row (scholar.json, updated monthly)
      and, where there is any, a line with policy uptake and media (mentions.yml). */
   var MIN_CITES = 1;                 // counts below this are not shown
+  var CITE_POS = window.CITE_POS || "top";   // where the citation count goes: "top" (right of the title) | "abstract" | "buttons"
   var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   function textKey(s) {
     return String(s || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
@@ -659,8 +660,13 @@ document.addEventListener("DOMContentLoaded", function () {
       chip.href = c.link;
       chip.title = "Citing works on Google Scholar";
       chip.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>' + c.cites + (c.cites === 1 ? " citation" : " citations");
-      var btns = li.querySelectorAll(":scope > a.pub-btn"), last = btns[btns.length - 1];
-      if (last) last.after(chip); else li.insertBefore(chip, details);
+      var sum = details && details.querySelector("summary");
+      if (CITE_POS === "top") { chip.classList.add("cite-top"); li.insertBefore(chip, li.firstChild); }
+      else if (CITE_POS === "abstract" && sum) { chip.classList.add("cite-abs"); sum.appendChild(chip); }
+      else {
+        var btns = li.querySelectorAll(":scope > a.pub-btn"), last = btns[btns.length - 1];
+        if (last) last.after(chip); else li.insertBefore(chip, details);
+      }
     }
     var hits = !d ? [] : rows.filter(function (r) {    // doi may list several, separated by ";"
       return r.doi && r.doi.toLowerCase().split(/[;,\s]+/).indexOf(d) >= 0; });
