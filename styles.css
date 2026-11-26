@@ -424,10 +424,10 @@ body.pub-timeline section.level3 > ul > li::before {
   color: #fff;
 }
 
-/* Policy and media uptake under a publication (filled from mentions.yml) */
-details.uptake { margin-top: 0.2rem; }
-details.uptake summary { color: var(--bs-link-color, #2761e3); cursor: pointer; }
-details.uptake ul { margin: 0.4rem 0 0.6rem 0; font-size: 0.95rem; }
+/* Reception line under a publication: citations and policy/media uptake (filled by pub-icons.html) */
+.reception { margin: 0.2rem 0 0.15rem; font-size: 0.85rem; line-height: 1.45; color: var(--bs-secondary-color, #6c757d); }
+.reception a { color: inherit; text-decoration: underline; text-decoration-color: rgba(108, 117, 125, 0.45); text-underline-offset: 2px; }
+.reception a:hover { color: var(--bs-link-color, #2761e3); text-decoration-color: currentColor; }
 .mentions li { margin-bottom: 0.55rem; }
 
 /* Homepage: the name is the page heading, so hide the duplicate in the navigation bar (space kept so the menu does not shift) */

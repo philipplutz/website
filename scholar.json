@@ -1,0 +1,229 @@
+{
+ "updated": "2026-11-26",
+ "source": "Google Scholar (via SerpApi)",
+ "profile": "https://scholar.google.com/citations?user=Ml32muAAAAAJ",
+ "items": [
+  {
+   "doi": "10.1080/01402382.2018.1504509",
+   "key": "",
+   "cites": 206,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6678366120913160874"
+  },
+  {
+   "doi": "10.1017/s0007123422000084",
+   "key": "",
+   "cites": 108,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12923830470139784208"
+  },
+  {
+   "doi": "10.1186/s40878-017-0064-0",
+   "key": "",
+   "cites": 68,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=773620589042563433"
+  },
+  {
+   "doi": "10.1111/1475-6765.12422",
+   "key": "",
+   "cites": 66,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3916544663215483662"
+  },
+  {
+   "doi": "10.1080/13501763.2021.1882541",
+   "key": "",
+   "cites": 56,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18441221924154012288"
+  },
+  {
+   "doi": "10.1016/j.landusepol.2018.01.022",
+   "key": "",
+   "cites": 55,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9120337884663862797"
+  },
+  {
+   "doi": "10.1080/13501763.2020.1720782",
+   "key": "",
+   "cites": 54,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14487500451661577189"
+  },
+  {
+   "doi": "10.1177/1354068819840776",
+   "key": "",
+   "cites": 43,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5299354215366328105"
+  },
+  {
+   "doi": "10.1007/s11558-023-09493-5",
+   "key": "",
+   "cites": 41,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1183848127670922722,6013438556704373509"
+  },
+  {
+   "doi": "10.1111/jcms.12974",
+   "key": "",
+   "cites": 39,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4364978201810758866"
+  },
+  {
+   "doi": "10.1057/s41295-019-00185-2",
+   "key": "",
+   "cites": 25,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4624046067526462590"
+  },
+  {
+   "doi": "10.1080/1369183x.2021.1999222",
+   "key": "",
+   "cites": 21,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5376228424391427165"
+  },
+  {
+   "doi": "10.17645/pag.v11i2.6341",
+   "key": "",
+   "cites": 16,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15373034403004611588"
+  },
+  {
+   "doi": "10.1111/jcms.13455",
+   "key": "",
+   "cites": 14,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6201055565838954445"
+  },
+  {
+   "doi": "10.1093/isq/sqab016",
+   "key": "",
+   "cites": 14,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2046158578520630132"
+  },
+  {
+   "doi": "10.1080/01402382.2023.2185852",
+   "key": "",
+   "cites": 12,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7136851473474324487"
+  },
+  {
+   "doi": "",
+   "key": "welfarestatesdemographictransitionandimmigrationpolicies",
+   "cites": 11,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5676869650904782023"
+  },
+  {
+   "doi": "10.1111/jcms.13563",
+   "key": "",
+   "cites": 10,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16695206938365720104"
+  },
+  {
+   "doi": "10.1177/14651165241226721",
+   "key": "",
+   "cites": 10,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7931503706346689392"
+  },
+  {
+   "doi": "10.1111/gove.70072",
+   "key": "",
+   "cites": 9,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14841395072371138419"
+  },
+  {
+   "doi": "10.1017/s1537592724001014",
+   "key": "",
+   "cites": 8,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8613743514717749329"
+  },
+  {
+   "doi": "10.1057/s41295-022-00306-4",
+   "key": "",
+   "cites": 7,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10341640078516075887"
+  },
+  {
+   "doi": "10.1017/s1755773924000183",
+   "key": "",
+   "cites": 6,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16790830396592718932"
+  },
+  {
+   "doi": "10.1186/s40878-025-00483-7",
+   "key": "",
+   "cites": 5,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17046837949357168384"
+  },
+  {
+   "doi": "",
+   "key": "daspolitischesystemderschweizundseinekontaktpunktezurevaluation",
+   "cites": 4,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1346289494740486408"
+  },
+  {
+   "doi": "10.1017/psrm.2025.10055",
+   "key": "",
+   "cites": 3,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16475113568158784145"
+  },
+  {
+   "doi": "10.1162/euso.a.30",
+   "key": "",
+   "cites": 3,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2730969010912093803"
+  },
+  {
+   "doi": "10.1093/migration/mnaf028",
+   "key": "",
+   "cites": 3,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16899188250527246450"
+  },
+  {
+   "doi": "",
+   "key": "migrationmiteinergebuhrschrittweiseliberalisieren",
+   "cites": 3,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2981485837573588390"
+  },
+  {
+   "doi": "10.1007/s11109-026-10181-4",
+   "key": "",
+   "cites": 2,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10927533090811281070"
+  },
+  {
+   "doi": "",
+   "key": "insidethemigrationstatethequestfordemocraticlegitimacy",
+   "cites": 2,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=666806179701051927"
+  },
+  {
+   "doi": "",
+   "key": "theradicalrightinpoweracomparativeanalysisoftheirmigrationpolicyinfluence",
+   "cites": 2,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=155518322428610000"
+  },
+  {
+   "doi": "10.1177/14651165261446534",
+   "key": "",
+   "cites": 1,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3406804335021462403"
+  },
+  {
+   "doi": "10.1080/13501763.2026.2636284",
+   "key": "",
+   "cites": 1,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10517164170823891017"
+  },
+  {
+   "doi": "",
+   "key": "businessmobilityasaprivilegedformoftemporarylabourmigrationinsightsfromthemitadatabaseandswitzerland",
+   "cites": 1,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3532787547256036911"
+  },
+  {
+   "doi": "",
+   "key": "thelegitimacyofthewelfarestateintheageofmigration",
+   "cites": 1,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12182609843490995391"
+  },
+  {
+   "doi": "",
+   "key": "migrationimkonfliktzwischenaussenundinnenpolitik",
+   "cites": 1,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6299056382513422108"
+  }
+ ]
+}
