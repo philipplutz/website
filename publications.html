@@ -879,7 +879,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 /* Media and policy mentions, read from mentions.yml (one source for two places):
-   - engagement page: fills the lists #mentions-policy (without descriptions) and #mentions-media;
+   - engagement page: fills the lists #mentions-policy (without descriptions, grouped by the body field)
+     and #mentions-media;
    - publications page: adds a collapsed "Policy and media uptake" section to every entry
      whose DOI appears in mentions.yml. */
 (function () {
@@ -943,8 +944,21 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!pol && !med && !pubs) return;
     fetch("mentions.yml").then(function (r) { return r.ok ? r.text() : ""; }).then(function (text) {
       var rows = parse(text);
-      if (pol) pol.appendChild(list(rows.filter(function (r) {
-        return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); }), plain));
+      if (pol) {
+        var prows = rows.filter(function (r) {
+          return r.section === "policy" && (r.kind === "cited" || r.kind === "commissioned"); });
+        var groups = [["public", "Public bodies and international organisations"],
+                      ["thinktank", "Think tanks and research institutes"]];
+        if (prows.some(function (r) { return r.body; })) {
+          groups.forEach(function (g) {
+            var sub = prows.filter(function (r) { return (r.body || "thinktank") === g[0]; });
+            if (!sub.length) return;
+            var h = document.createElement("h3");
+            h.className = "mentions-group"; h.textContent = g[1];
+            pol.appendChild(h); pol.appendChild(list(sub, plain));
+          });
+        } else pol.appendChild(list(prows, plain));
+      }
       if (med) med.appendChild(list(rows.filter(function (r) { return r.section === "media"; }), full));
       if (pubs) {
         var content = document.getElementById("quarto-document-content") || document.body;
