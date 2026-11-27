@@ -633,6 +633,29 @@ document.addEventListener("DOMContentLoaded", function () {
     div.innerHTML = parts.join("");
     li.insertBefore(div, details);
   }
+  /* Small bar chart of citations per year for the totals line: one series, no legend;
+     bars grow from one baseline, rounded tops, the current (incomplete) year lighter. */
+  function yearBars(byYear, updated) {
+    if (!byYear || byYear.length < 3) return "";
+    var W = 12, GAP = 4, H = 34, R = 3, n = byYear.length, w = n * W + (n - 1) * GAP;
+    var max = Math.max.apply(null, byYear.map(function (d) { return d[1]; })) || 1;
+    var thisYear = parseInt((updated || "").slice(0, 4), 10);
+    var bars = byYear.map(function (d, i) {
+      var x = i * (W + GAP), h = Math.max(2, Math.round(d[1] / max * H)), y = H - h, r = Math.min(R, h);
+      var partial = d[0] === thisYear;
+      var tip = d[0] + (partial ? " (to date)" : "") + ": " + d[1] + " citations";
+      return '<g class="yb' + (partial ? " yb-partial" : "") + '"><title>' + tip + "</title>" +
+        '<rect class="yb-hit" x="' + (x - GAP / 2) + '" y="0" width="' + (W + GAP) + '" height="' + (H + 14) + '"/>' +
+        '<path class="yb-bar" d="M' + x + " " + H + "V" + (y + r) + "Q" + x + " " + y + " " + (x + r) + " " + y +
+        "H" + (x + W - r) + "Q" + (x + W) + " " + y + " " + (x + W) + " " + (y + r) + "V" + H + 'Z"/></g>';
+    }).join("");
+    var label = "Citations per year: " + byYear.map(function (d) { return d[0] + " " + d[1]; }).join(", ");
+    return '<svg class="year-bars" width="' + w + '" height="' + (H + 14) + '" viewBox="0 0 ' + w + " " + (H + 14) +
+      '" role="img" aria-label="' + label + '">' + bars +
+      '<line class="yb-base" x1="0" x2="' + w + '" y1="' + (H + 0.5) + '" y2="' + (H + 0.5) + '"/>' +
+      '<text class="yb-year" x="0" y="' + (H + 12) + '">' + byYear[0][0] + "</text>" +
+      '<text class="yb-year" x="' + w + '" y="' + (H + 12) + '" text-anchor="end">' + byYear[n - 1][0] + "</text></svg>";
+  }
   function get(url) {
     return fetch(url).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; });
   }
@@ -653,6 +676,7 @@ document.addEventListener("DOMContentLoaded", function () {
         box.innerHTML = '<span class="ss"><i class="bi bi-quote" aria-hidden="true"></i><strong>' +
           Number(t.citations).toLocaleString("en-US") + "</strong> citations</span>" +
           (t.h_index ? '<span class="ss">h-index <strong>' + t.h_index + "</strong></span>" : "") +
+          (sch.by_year && sch.by_year.length >= 3 ? '<span class="ss ss-chart">' + yearBars(sch.by_year, sch.updated) + "</span>" : "") +
           '<span class="ss ss-src"><a href="' + esc(sch.profile || "") + '">Google Scholar</a>' +
           (mo ? ", " + MONTHS[mo - 1] + " " + u[0] : "") + "</span>";
       }
