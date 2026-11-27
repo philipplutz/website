@@ -26,6 +26,7 @@ def clean(md):
     md = re.sub(r"<iframe.*?</iframe>", "", md, flags=re.S)
     md = re.sub(r'<a [^>]*class="agenda-tile".*?</a>', "", md, flags=re.S)   # decorative tiles
     md = re.sub(r"<button.*?</button>", "", md, flags=re.S)
+    md = re.sub(r'<pre class="bibtex".*?</pre>', "", md, flags=re.S)
     md = re.sub(r"<dt>(.*?)</dt><dd>(.*?)</dd>", lambda m: "%s: %s\n" % (m.group(1), m.group(2).replace("<br>", "; ")), md, flags=re.S)
     md = re.sub(r"<img[^>]*>", "", md)
     md = re.sub(r'<a [^>]*href="([^"]+)"[^>]*>(.*?)</a>', lambda m: "[%s](%s)" % (re.sub(r"<[^>]+>", "", m.group(2)), absolute(m.group(1))), md, flags=re.S)

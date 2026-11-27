@@ -584,3 +584,17 @@ button.pub-btn { border: 0; font-family: inherit; line-height: inherit; cursor: 
 @media (max-width: 1179.98px) {
   .tile-icon .tile-pending { font-size: 1.3rem; }
 }
+
+/* Data page: one compact entry per dataset or survey module */
+.data-entry { margin-top: 2.2rem; }
+.data-entry > h3:first-child, .data-entry h3 { margin-top: 0; margin-bottom: 0.2rem; }
+.data-byline { margin: 0 0 0.6rem; color: var(--bs-secondary-color, #4b5563); font-size: 0.95rem; }
+.data-entry .proj-meta { margin: 0.7rem 0 0.8rem; }
+.data-links p { margin-bottom: 0.3rem; }
+.data-entry details { margin-top: 0.5rem; }
+.data-entry details ul { margin: 0; padding-left: 1.1rem; }
+.data-entry details li { margin-bottom: 0.35rem; }
+.replication-list ul { padding-left: 1.1rem; }
+.replication-list li { margin-bottom: 0.55rem; font-size: 0.95rem; }
+.replication-list li .pub-btn { margin-left: 0.3rem; }
+

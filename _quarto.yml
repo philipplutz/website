@@ -9,6 +9,7 @@ project:
     - figures/
     - citations.json
     - publications.bib
+    - datasets.bib
     - llms.txt
     - llms-full.txt
     - robots.txt
