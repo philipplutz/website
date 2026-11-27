@@ -11,11 +11,16 @@ I study the politics of immigration in Europe's liberal democracies, focusing on
 - **European migration governance**: When and how do European states cooperate on migration?
 - **Migration governance through trade agreements**: Why do states govern migration through trade agreements?
 
+## Short bio
+
+Philipp Lutz is a political scientist at the University of Geneva, where he is an SNSF Ambizione Fellow, and at the Vrije Universiteit Amsterdam, where he is a Senior Assistant Professor. He studies the politics of immigration in Europe&rsquo;s liberal democracies: how governments make migration policy, how citizens form attitudes and perceptions on immigration, and how European states cooperate on migration. His work has appeared in journals such as the European Journal of Political Research, the Journal of European Public Policy, West European Politics, the British Journal of Political Science and Political Science Research and Methods. He holds a PhD in political science from the University of Bern.
+
 ## Pages
 
 - [Publications](https://philipplutz.org/publications.html): journal articles, books and book chapters with abstracts, PDFs, DOIs and replication files
 - [Projects](https://philipplutz.org/projects.html): research projects and their funding
-- [Data](https://philipplutz.org/data.html): policy datasets (URAF, RDP, MITA, RESET-OECD) with documentation
+- [Data](https://philipplutz.org/data.html): policy datasets (URAF, MITA, RDP, RESET-OECD), survey modules and replication files
+- [Teaching](https://philipplutz.org/teaching.html): courses, supervision and PhD workshops
 - [Engagement](https://philipplutz.org/engagement.html): media coverage, policy uptake, public talks and blog posts
 - [CV](https://philipplutz.org/cv.pdf): curriculum vitae (PDF)
 
@@ -24,6 +29,7 @@ I study the politics of immigration in Europe's liberal democracies, focusing on
 - [llms-full.txt](https://philipplutz.org/llms-full.txt): the content of this site as plain Markdown, including every publication with its abstract
 - [publications.bib](https://philipplutz.org/publications.bib): BibTeX entries for all journal articles, from Crossref metadata
 - [citations.json](https://philipplutz.org/citations.json): the same publication metadata as JSON, keyed by DOI
+- [datasets.bib](https://philipplutz.org/datasets.bib): BibTeX entries for the datasets
 - [scholar.json](https://philipplutz.org/scholar.json): Google Scholar citation counts, updated monthly
 - [mentions.yml](https://philipplutz.org/mentions.yml): media and policy mentions of the research
 

@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bdee7f7ba7ce3de9d6c7348142b0e203.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e1ff599981aebc214154414376dcc4b3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -331,6 +331,10 @@ gtag('config', 'G-SWWYN9EBW3', { 'anonymize_ip': true});
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./engagement.html"> 
 <span class="menu-text">Engagement</span></a>
   </li>  
@@ -399,7 +403,7 @@ Philipp Lutz
 Welcome! I’m a political scientist at the <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (SNSF Ambizione Fellow) and the <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (Senior Assistant Professor).
 </p>
 <p>I study the politics of immigration in Europe’s liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements.</p>
-<p>You’ll find my <a href="./projects.html">research projects</a>, including <a href="./publications.html">publications</a>, <a href="./data.html">datasets</a> and <a href="./engagement.html">public engagement</a> as well as my <a href="./cv.html">CV</a> on this site.</p>
+<p>You’ll find my <a href="./projects.html">research projects</a>, including <a href="./publications.html">publications</a>, <a href="./data.html">datasets</a>, <a href="./teaching.html">teaching</a> and <a href="./engagement.html">public engagement</a> as well as my <a href="./cv.html">CV</a> on this site.</p>
 <p>Feel free to <a href="mailto:p.lutz@vu.nl">get in touch</a>.</p>
 <section id="research" class="level2 home-section">
 <h2 class="home-section anchored" data-anchor-id="research">Research</h2>
@@ -967,6 +971,20 @@ document.addEventListener("DOMContentLoaded", function () {
       entry.querySelector(".data-links").after(box);
       btn.setAttribute("aria-expanded", "true");
     });
+  });
+});
+</script>
+
+<script>
+/* Engagement page: copy the short bio of the open tab */
+document.addEventListener("click", function (e) {
+  var b = e.target.closest && e.target.closest("button.bio-copy");
+  if (!b) return;
+  var pane = b.closest(".tab-pane") || b.parentNode, p = pane.querySelector(".bio-text");
+  if (!p) return;
+  navigator.clipboard.writeText(p.textContent.trim()).then(function () {
+    var label = b.lastChild; label.textContent = "Copied";
+    setTimeout(function () { label.textContent = "Copy"; }, 1500);
   });
 });
 </script>
