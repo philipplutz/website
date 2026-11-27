@@ -441,7 +441,7 @@ body.pub-timeline section.level3 > ul > li::before {
 /* Citation totals at the top of the publications page (filled from scholar.json) */
 .scholar-stats { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 1.4rem; margin: 0 0 1.2rem;
   font-size: 0.95rem; color: var(--bs-secondary-color, #6b7280); }
-.scholar-stats .ss strong { font-size: 1.15rem; font-weight: 600; color: var(--bs-emphasis-color, #1f2937); margin: 0 0.1rem; }
+.scholar-stats .ss strong { font-size: 1.15rem; font-weight: 600; color: var(--bs-body-color, #1f2937); margin: 0 0.1rem; }
 .scholar-stats .bi { color: var(--bs-tertiary-color, #9aa3ae); margin-right: 0.35rem; }
 .scholar-stats .ss-src { font-size: 0.85rem; }
 .scholar-stats a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--bs-border-color, #cfd4da); }
@@ -469,3 +469,15 @@ footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bott
 /* option "abstract": on the line of the Abstract toggle */
 .cite-chip.cite-abs { margin-left: 0.9rem; padding: 0.05rem 0.55rem; font-size: 0.76rem; vertical-align: 0.05rem; }
 
+
+/* Citations-per-year bars in the totals line (filled by pub-icons.html) */
+.scholar-stats .ss-chart { display: inline-flex; align-items: flex-end; }
+.year-bars { display: block; overflow: visible; }
+.year-bars .yb-bar { fill: var(--bs-primary, #2780e3); }
+.year-bars .yb-partial .yb-bar { fill-opacity: 0.45; }
+.year-bars .yb-hit { fill: transparent; }
+.year-bars .yb:hover .yb-bar { fill-opacity: 0.75; }
+.year-bars .yb-partial:hover .yb-bar { fill-opacity: 0.3; }
+.year-bars .yb-base { stroke: var(--bs-border-color, #dee2e6); stroke-width: 1; }
+.year-bars .yb-year { font-size: 10px; fill: var(--bs-secondary-color, #6b7280); }
+.quarto-dark .year-bars .yb-partial .yb-bar { fill-opacity: 0.6; }

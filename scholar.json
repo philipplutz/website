@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "source": "Google Scholar (via SerpApi)",
  "profile": "https://scholar.google.com/citations?user=Ml32muAAAAAJ",
  "totals": {
@@ -7,6 +7,44 @@
   "h_index": 14,
   "i10_index": 19
  },
+ "by_year": [
+  [
+   2018,
+   8
+  ],
+  [
+   2019,
+   20
+  ],
+  [
+   2020,
+   41
+  ],
+  [
+   2021,
+   73
+  ],
+  [
+   2022,
+   88
+  ],
+  [
+   2023,
+   116
+  ],
+  [
+   2024,
+   148
+  ],
+  [
+   2025,
+   218
+  ],
+  [
+   2026,
+   224
+  ]
+ ],
  "items": [
   {
    "doi": "10.1080/01402382.2018.1504509",
