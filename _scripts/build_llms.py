@@ -26,6 +26,8 @@ def clean(md):
     md = re.sub(r"<iframe.*?</iframe>", "", md, flags=re.S)
     md = re.sub(r'<a [^>]*class="agenda-tile".*?</a>', "", md, flags=re.S)   # decorative tiles
     md = re.sub(r"<button.*?</button>", "", md, flags=re.S)
+    md = re.sub(r'<span class="teach-years">(.*?)</span>', r" (\1)", md)
+    md = re.sub(r'<span class="teach-meta">', ". ", md)
     md = re.sub(r'<pre class="bibtex".*?</pre>', "", md, flags=re.S)
     md = re.sub(r"<dt>(.*?)</dt><dd>(.*?)</dd>", lambda m: "%s: %s\n" % (m.group(1), m.group(2).replace("<br>", "; ")), md, flags=re.S)
     md = re.sub(r"<img[^>]*>", "", md)
@@ -89,12 +91,14 @@ def main():
     lead, bio, agendas = home()
     links = [("Publications", "publications.html", "journal articles, books and book chapters with abstracts, PDFs, DOIs and replication files"),
              ("Projects", "projects.html", "research projects and their funding"),
-             ("Data", "data.html", "policy datasets (URAF, RDP, MITA, RESET-OECD) with documentation"),
+             ("Data", "data.html", "policy datasets (URAF, MITA, RDP, RESET-OECD), survey modules and replication files"),
+             ("Teaching", "teaching.html", "courses, supervision and PhD workshops"),
              ("Engagement", "engagement.html", "media coverage, policy uptake, public talks and blog posts"),
              ("CV", "cv.pdf", "curriculum vitae (PDF)")]
     machine = [("llms-full.txt", "the content of this site as plain Markdown, including every publication with its abstract"),
                ("publications.bib", "BibTeX entries for all journal articles, from Crossref metadata"),
                ("citations.json", "the same publication metadata as JSON, keyed by DOI"),
+               ("datasets.bib", "BibTeX entries for the datasets"),
                ("scholar.json", "Google Scholar citation counts, updated monthly"),
                ("mentions.yml", "media and policy mentions of the research")]
     profiles = [("ORCID", "https://orcid.org/0000-0003-2373-0180"),
@@ -104,8 +108,12 @@ def main():
                 ("LinkedIn", "https://www.linkedin.com/in/philipp-lutz-78254489")]
 
     summary = re.sub(r"^Welcome!\s*I'm a", "Philipp Lutz is a", lead)
+    eng = read("engagement.qmd")
+    mb = re.search(r'<p class="bio-text" lang="en">(.*?)</p>', eng, re.S)
+    short_bio = clean(mb.group(1)) if mb else ""
     s = ["# Philipp Lutz", "", "> " + summary, "", bio, "", "## Research agendas", ""]
     s += ["- **%s**: %s" % (h, q) for h, q, _ in agendas]
+    if short_bio: s += ["", "## Short bio", "", short_bio]
     s += ["", "## Pages", ""] + ["- [%s](%s/%s): %s" % (n, SITE, u, d) for n, u, d in links]
     s += ["", "## Machine-readable resources", ""] + ["- [%s](%s/%s): %s" % (n, SITE, n, d) for n, d in machine]
     s += ["", "## Profiles", ""] + ["- [%s](%s)" % p for p in profiles]
@@ -118,7 +126,9 @@ def main():
         f += ["### " + h, "", "*" + q + "*", "", text, ""]
     f += ["## Publications", "", re.sub(r"^## ", "### ", re.sub(r"^### ", "#### ", publications(), flags=re.M), flags=re.M), "",
           "## Projects", "", re.sub(r"^#", "##", page("projects.qmd"), flags=re.M), "",
-          "## Data", "", re.sub(r"^#", "##", page("data.qmd"), flags=re.M), ""]
+          "## Data", "", re.sub(r"^#", "##", page("data.qmd"), flags=re.M), "",
+          "## Teaching", "", re.sub(r"^#", "##", page("teaching.qmd"), flags=re.M), ""]
+    if short_bio: f[4:4] = ["## Short bio", "", short_bio, ""]
     (ROOT / "llms-full.txt").write_text("\n".join(f), encoding="utf-8")
     print("llms.txt and llms-full.txt written")
 

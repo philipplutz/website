@@ -469,3 +469,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+<script>
+/* Engagement page: copy the short bio of the open tab */
+document.addEventListener("click", function (e) {
+  var b = e.target.closest && e.target.closest("button.bio-copy");
+  if (!b) return;
+  var pane = b.closest(".tab-pane") || b.parentNode, p = pane.querySelector(".bio-text");
+  if (!p) return;
+  navigator.clipboard.writeText(p.textContent.trim()).then(function () {
+    var label = b.lastChild; label.textContent = "Copied";
+    setTimeout(function () { label.textContent = "Copy"; }, 1500);
+  });
+});
+</script>
+

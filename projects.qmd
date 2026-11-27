@@ -4,7 +4,7 @@ image: prof_pic.jpg
 image-alt: "Portrait of Philipp Lutz"
 ---
 
-<p class="proj-intro">The funded projects behind my <a href="index.html#research">research agendas</a>, with their funding, team and outputs.</p>
+<p class="proj-intro">The funded projects behind my <a href="index.html#research">research agendas</a>, with their funding, people and outputs.</p>
 
 ::: {.agenda-row .proj-row}
 <a class="agenda-tile" href="publications.html#project=nwo" tabindex="-1" aria-hidden="true" title="Migration bias in integration norms: stronger expectations towards immigrants (Manser-Egli &amp; Lutz 2026)"><img src="figures/tile_nwo.svg" alt="" loading="lazy" width="120" height="120"></a>
@@ -15,10 +15,10 @@ image-alt: "Portrait of Philipp Lutz"
 <dl class="proj-meta">
 <dt>Funding</dt><dd>Dutch Research Council (NWO), Open Competition XS (2026–2027)<br>nccr – on the move, collaborative project grant “Contested Liberalism in Diverse Societies: Migration, Diversity and Support for Liberal Values” (2020)</dd>
 <dt>Role</dt><dd>Principal investigator, Vrije Universiteit Amsterdam</dd>
-<dt>Team</dt><dd>Stefan Manser-Egli, Guido Priem</dd>
+<dt>Team &amp; collaborators</dt><dd>Guido Priem, Stefan Manser-Egli</dd>
 </dl>
 
-<p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="nwo" href="publications.html#project=nwo">Publications</a> <span class="sep">·</span> <i class="bi bi-link-45deg"></i><a href="https://doi.org/10.1162/euso.a.30" target="_blank" rel="noopener">Pilot study (DOI)</a></p>
+<p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="nwo" href="publications.html#project=nwo">Publications</a></p>
 
 <details>
 <summary>Project description</summary>
@@ -38,7 +38,7 @@ Beyond formal immigration policies, societies hold unwritten expectations about 
 <dl class="proj-meta">
 <dt>Funding</dt><dd>Swiss National Science Foundation, Ambizione grant (2023–2027)</dd>
 <dt>Role</dt><dd>Principal investigator, University of Geneva</dd>
-<dt>Team</dt><dd>Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz</dd>
+<dt>Team &amp; collaborators</dt><dd>Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz</dd>
 </dl>
 
 <p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="ambizione" href="publications.html#project=ambizione">Publications</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a> <span class="sep">·</span> <i class="bi bi-box-arrow-up-right"></i><a href="https://data.snf.ch/grants/grant/208858" target="_blank" rel="noopener">SNSF grant page</a></p>
@@ -73,7 +73,7 @@ The research design combines a quantitative-comparative analysis of policy outco
 
 <dl class="proj-meta">
 <dt>Funding</dt><dd>nccr – on the move, collaborative project grant (since 2024)<br>OECD</dd>
-<dt>Team</dt><dd>Juliana Chueri, Anna-Lena Nadler, Mia Gandelberger</dd>
+<dt>Team &amp; collaborators</dt><dd>Juliana Chueri, Anna-Lena Nadler, Mia Gandelberger</dd>
 </dl>
 <!-- GAP: one sentence on the project (question and design), to be written by Philipp; leave out if not wanted. -->
 
@@ -89,7 +89,7 @@ The research design combines a quantitative-comparative analysis of policy outco
 
 <dl class="proj-meta">
 <dt>Funding</dt><dd>nccr – on the move, collaborative project grant “Putting the Genie Back in the Bottle? How Control Perceptions Shape Immigration Preferences” (2021)<br>FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey module (2023)</dd>
-<dt>Team</dt><dd>Marco Bitschnau</dd>
+<dt>Team &amp; collaborators</dt><dd>Marco Bitschnau, Serena Does</dd>
 </dl>
 
 <p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="misperceptions" href="publications.html#project=misperceptions">Publications</a></p>
@@ -112,7 +112,7 @@ Issues of immigration are central political challenges for European democracies,
 <dl class="proj-meta">
 <dt>Funding</dt><dd>Swiss National Science Foundation, nccr – on the move (2019–2022)</dd>
 <dt>Role</dt><dd>Postdoctoral researcher, University of Geneva</dd>
-<dt>Team</dt><dd>Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio</dd>
+<dt>Team &amp; collaborators</dt><dd>Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio</dd>
 </dl>
 
 <p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="mobilities" href="publications.html#project=mobilities">Publications</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mita">MITA dataset</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/" target="_blank" rel="noopener">MITA Explorer</a> <span class="sep">·</span> <i class="bi bi-file-earmark-pdf"></i><a href="publications/IP24.pdf" target="_blank" rel="noopener">Project poster</a> <span class="sep">·</span> <i class="bi bi-box-arrow-up-right"></i><a href="https://nccr-onthemove.ch/projects/migration-governance-through-trade-mobilities/" target="_blank" rel="noopener">Project website</a></p>
@@ -135,7 +135,8 @@ International trade and migration are two important facets of an increasingly in
 <dl class="proj-meta">
 <dt>Funding</dt><dd>FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey module with Klaus Armingeon (2017)</dd>
 <dt>Role</dt><dd>Doctoral researcher, University of Bern (2015–2019)</dd>
-<dt>Team</dt><dd>Klaus Armingeon, Caroline Schultz, Stephan Simon</dd>
+<dt>Advisors</dt><dd>Klaus Armingeon, Marc Helbling</dd>
+<dt>Team &amp; collaborators</dt><dd>Caroline Schultz, Stephan Simon</dd>
 </dl>
 
 <p class="agenda-links proj-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-pr="phd" href="publications.html#project=phd">Publications</a> <span class="sep">·</span> <i class="bi bi-mortarboard"></i><a href="https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e" target="_blank" rel="noopener">PhD thesis</a></p>

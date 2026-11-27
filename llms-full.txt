@@ -2,6 +2,10 @@
 
 Source: https://philipplutz.org (generated from the site's pages at each build)
 
+## Short bio
+
+Philipp Lutz is a political scientist at the University of Geneva, where he is an SNSF Ambizione Fellow, and at the Vrije Universiteit Amsterdam, where he is a Senior Assistant Professor. He studies the politics of immigration in Europe&rsquo;s liberal democracies: how governments make migration policy, how citizens form attitudes and perceptions on immigration, and how European states cooperate on migration. His work has appeared in journals such as the European Journal of Political Research, the Journal of European Public Policy, West European Politics, the British Journal of Political Science and Political Science Research and Methods. He holds a PhD in political science from the University of Bern.
+
 Philipp Lutz is a political scientist at the [University of Geneva](https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz) (SNSF Ambizione Fellow) and the [Vrije Universiteit Amsterdam](https://research.vu.nl/en/persons/philipp-lutz/) (Senior Assistant Professor).
 
 I study the politics of immigration in Europe's liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements.
@@ -257,7 +261,7 @@ For outreach publications see [Engagement](https://philipplutz.org/engagement.ht
 
 ## Projects
 
-The funded projects behind my [research agendas](https://philipplutz.org/index.html#research), with their funding, team and outputs.
+The funded projects behind my [research agendas](https://philipplutz.org/index.html#research), with their funding, people and outputs.
 
 ### The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies
 
@@ -265,9 +269,9 @@ Funding: Dutch Research Council (NWO), Open Competition XS (2026–2027); nccr �
 
 Role: Principal investigator, Vrije Universiteit Amsterdam
 
-Team: Stefan Manser-Egli, Guido Priem
+Team & collaborators: Guido Priem, Stefan Manser-Egli
 
-[Publications](https://philipplutz.org/publications.html#project=nwo) · [Pilot study (DOI)](https://doi.org/10.1162/euso.a.30)
+[Publications](https://philipplutz.org/publications.html#project=nwo)
 
 Project description
 
@@ -279,7 +283,7 @@ Funding: Swiss National Science Foundation, Ambizione grant (2023–2027)
 
 Role: Principal investigator, University of Geneva
 
-Team: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz
+Team & collaborators: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz
 
 [Publications](https://philipplutz.org/publications.html#project=ambizione) · [Dublin Explorer](https://philipplutz.org/projects.html#dublin-explorer) · [Datasets](https://philipplutz.org/data.html#uraf) · [SNSF grant page](https://data.snf.ch/grants/grant/208858)
 
@@ -299,13 +303,13 @@ Interactive dashboard on Dublin transfers across EU member states, accompanying 
 
 Funding: nccr – on the move, collaborative project grant (since 2024); OECD
 
-Team: Juliana Chueri, Anna-Lena Nadler, Mia Gandelberger
+Team & collaborators: Juliana Chueri, Anna-Lena Nadler, Mia Gandelberger
 
 ### Perceptions and Misperceptions about Immigration
 
 Funding: nccr – on the move, collaborative project grant “Putting the Genie Back in the Bottle? How Control Perceptions Shape Immigration Preferences” (2021); FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey module (2023)
 
-Team: Marco Bitschnau
+Team & collaborators: Marco Bitschnau, Serena Does
 
 [Publications](https://philipplutz.org/publications.html#project=misperceptions)
 
@@ -319,7 +323,7 @@ Funding: Swiss National Science Foundation, nccr – on the move (2019–2022)
 
 Role: Postdoctoral researcher, University of Geneva
 
-Team: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio
+Team & collaborators: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio
 
 [Publications](https://philipplutz.org/publications.html#project=mobilities) · [MITA dataset](https://philipplutz.org/data.html#mita) · [MITA Explorer](https://philipplutz.shinyapps.io/MITA/) · [Project poster](https://philipplutz.org/publications/IP24.pdf) · [Project website](https://nccr-onthemove.ch/projects/migration-governance-through-trade-mobilities/)
 
@@ -333,7 +337,9 @@ Funding: FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey m
 
 Role: Doctoral researcher, University of Bern (2015–2019)
 
-Team: Klaus Armingeon, Caroline Schultz, Stephan Simon
+Advisors: Klaus Armingeon, Marc Helbling
+
+Team & collaborators: Caroline Schultz, Stephan Simon
 
 [Publications](https://philipplutz.org/publications.html#project=phd) · [PhD thesis](https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e)
 
@@ -520,3 +526,48 @@ Replication packages for 11 publications. Each publication with its abstract is 
 - **Lutz, P.** (2024) Between common responsibility and national interest: When do Europeans support a common European migration policy? *European Union Politics*, 25(2): 313–332. [Replication files](https://philipplutz.org/Lutz2024_replication.zip)
 - Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) Migration governance through trade agreements: Insights from the MITA dataset. *Review of International Organizations*, 19: 147–173. [Replication files](https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM2_ESM.zip)
 - Schultz, C., **Lutz, P.**, & Simon, S. (2021) Explaining the immigration policy mix: Countries’ relative openness to asylum and labour migration. *European Journal of Political Research*, 60(4): 763–784. [Replication files](https://philipplutz.org/Schultz2021_replication.zip)
+
+## Teaching
+
+I teach comparative and European politics, research design and migration policy at BA, MA and PhD level, in English, French and German.
+
+### Thesis supervision
+
+I am happy to supervise theses on the politics of migration, public opinion and European integration, and I particularly welcome theses with a quantitative-comparative design. Please send me a short [email](mailto:p.lutz@vu.nl) with your research question and the data you plan to use.
+
+### Courses
+
+#### Vrije Universiteit Amsterdam
+
+- Comparative Politics: Democracies and Other Regimes (2025–2026). Lecture for BA and pre-master students, with Juliana Chueri (2025) and Loes Aaldering (2026)
+- Research Colloquium in Political Science (2023, 2026). Applied research course for BA honours students, with Walter Bartl (2023)
+- State, Power, Conflict (2022–2024). Lecture introducing concepts of comparative and European politics, with Hortense Jongen
+- Political Analysis (2023). Lecture and tutorials on research design, with Boris Slijper
+- Academic Writing (2023). Tutorials for pre-master students
+- Academic Skills (2022). Tutorials for pre-master students
+
+#### University of Geneva
+
+- Séminaire d'encadrement du projet de recherche en science politique (2021–2022). Two-semester research seminar (in French)
+- Migration and Asylum Policies: Measurement and Indices (2019–2021). MA seminar “Global Migration Governance” (2019, 2021) and Geneva Summer School “Global and Regional Migration Governance” (2019)
+
+#### University of Bern
+
+- Vergleichende Migrationspolitik in Europa (2016–2018). BA seminar on comparative migration policy in Europe (in German)
+- Europäische Demokratie in der Krise? (2017). BA seminar on European democracy in crisis (in German), with David Weisstanner
+
+### Supervision and mentoring
+
+- Postdoctoral researcher: Guido Priem (since 2026). NWO project “The Normative Integration Regime”, Vrije Universiteit Amsterdam
+- Doctoral researcher: Maud Bachelet (since 2023). SNSF Ambizione project, University of Geneva
+- PhD mentoring: Stefan Manser-Egli (2020–2022). nccr – on the move, University of Neuchâtel
+- MA theses (since 2019). Vrije Universiteit Amsterdam (2024–2026), University of Geneva, Zurich University of Applied Sciences (2019)
+- BA theses (2018, 2023). University of Bern (2018), Vrije Universiteit Amsterdam (2023)
+- Visiting researchers hosted. Philipp Stutz, Judith Sijstermans, Jacob Alabab-Moser (Vrije Universiteit Amsterdam); Walter Bartl (University of Geneva)
+
+### Workshops and guest lectures
+
+- Guest lecture “Migration” (2025, 2026). Course “The Governance and Politics of Social Problems”, Faculty of Social Sciences and Humanities, Vrije Universiteit Amsterdam
+- Guest lecture “Connecting Countries and Dividing People: What Solution to Refugee Protection in the European Union?” (2025). John Stuart Mill College, Vrije Universiteit Amsterdam
+- PhD workshop “How to Conceptualise and Measure Migration Policies?” (2023). nccr – on the move, University of Neuchâtel
+- PhD workshop “Migration Policy Data across Time and Space: Measurement, Analysis, and the Migration-Mobility Nexus” (2019). University of Neuchâtel, with Carlo Knotz

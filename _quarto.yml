@@ -36,6 +36,8 @@ website:
         text: Projects
       - href: data.qmd
         text: Data
+      - href: teaching.qmd
+        text: Teaching
       - href: engagement.qmd
         text: Engagement
       - href: cv.qmd

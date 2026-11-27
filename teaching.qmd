@@ -1,0 +1,60 @@
+---
+title: "Teaching"
+image: prof_pic.jpg
+image-alt: "Portrait of Philipp Lutz"
+---
+
+<p class="proj-intro">I teach comparative and European politics, research design and migration policy at BA, MA and PhD level, in English, French and German.</p>
+
+<!-- GAP (optional): two or three sentences on how you teach, written by Philipp -->
+
+## Thesis supervision {#theses}
+
+I am happy to supervise theses on the politics of migration, public opinion and European integration, and I particularly welcome theses with a quantitative-comparative design. Please send me a short [email](mailto:p.lutz@vu.nl) with your research question and the data you plan to use.
+
+## Courses
+
+### Vrije Universiteit Amsterdam {.teach-inst}
+
+::: {.teach-list}
+- <span class="teach-title">Comparative Politics: Democracies and Other Regimes</span><span class="teach-years">2025–2026</span><span class="teach-meta">Lecture for BA and pre-master students, with Juliana Chueri (2025) and Loes Aaldering (2026)</span>
+- <span class="teach-title">Research Colloquium in Political Science</span><span class="teach-years">2023, 2026</span><span class="teach-meta">Applied research course for BA honours students, with Walter Bartl (2023)</span>
+- <span class="teach-title">State, Power, Conflict</span><span class="teach-years">2022–2024</span><span class="teach-meta">Lecture introducing concepts of comparative and European politics, with Hortense Jongen</span>
+- <span class="teach-title">Political Analysis</span><span class="teach-years">2023</span><span class="teach-meta">Lecture and tutorials on research design, with Boris Slijper</span>
+- <span class="teach-title">Academic Writing</span><span class="teach-years">2023</span><span class="teach-meta">Tutorials for pre-master students</span>
+- <span class="teach-title">Academic Skills</span><span class="teach-years">2022</span><span class="teach-meta">Tutorials for pre-master students</span>
+:::
+
+### University of Geneva {.teach-inst}
+
+::: {.teach-list}
+- <span class="teach-title">Séminaire d'encadrement du projet de recherche en science politique</span><span class="teach-years">2021–2022</span><span class="teach-meta">Two-semester research seminar (in French)</span>
+- <span class="teach-title">Migration and Asylum Policies: Measurement and Indices</span><span class="teach-years">2019–2021</span><span class="teach-meta">MA seminar “Global Migration Governance” (2019, 2021) and Geneva Summer School “Global and Regional Migration Governance” (2019)</span>
+:::
+
+### University of Bern {.teach-inst}
+
+::: {.teach-list}
+- <span class="teach-title">Vergleichende Migrationspolitik in Europa</span><span class="teach-years">2016–2018</span><span class="teach-meta">BA seminar on comparative migration policy in Europe (in German)</span>
+- <span class="teach-title">Europäische Demokratie in der Krise?</span><span class="teach-years">2017</span><span class="teach-meta">BA seminar on European democracy in crisis (in German), with David Weisstanner</span>
+:::
+
+## Supervision and mentoring
+
+::: {.teach-list}
+- <span class="teach-title">Postdoctoral researcher: Guido Priem</span><span class="teach-years">since 2026</span><span class="teach-meta">NWO project “The Normative Integration Regime”, Vrije Universiteit Amsterdam</span>
+- <span class="teach-title">Doctoral researcher: Maud Bachelet</span><span class="teach-years">since 2023</span><span class="teach-meta">SNSF Ambizione project, University of Geneva</span>
+- <span class="teach-title">PhD mentoring: Stefan Manser-Egli</span><span class="teach-years">2020–2022</span><span class="teach-meta">nccr – on the move, University of Neuchâtel</span>
+- <span class="teach-title">MA theses</span><span class="teach-years">since 2019</span><span class="teach-meta">Vrije Universiteit Amsterdam (2024–2026), University of Geneva, Zurich University of Applied Sciences (2019)</span>
+- <span class="teach-title">BA theses</span><span class="teach-years">2018, 2023</span><span class="teach-meta">University of Bern (2018), Vrije Universiteit Amsterdam (2023)</span>
+- <span class="teach-title">Visiting researchers hosted</span><span class="teach-meta">Philipp Stutz, Judith Sijstermans, Jacob Alabab-Moser (Vrije Universiteit Amsterdam); Walter Bartl (University of Geneva)</span>
+:::
+
+## Workshops and guest lectures
+
+::: {.teach-list}
+- <span class="teach-title">Guest lecture “Migration”</span><span class="teach-years">2025, 2026</span><span class="teach-meta">Course “The Governance and Politics of Social Problems”, Faculty of Social Sciences and Humanities, Vrije Universiteit Amsterdam</span>
+- <span class="teach-title">Guest lecture “Connecting Countries and Dividing People: What Solution to Refugee Protection in the European Union?”</span><span class="teach-years">2025</span><span class="teach-meta">John Stuart Mill College, Vrije Universiteit Amsterdam</span>
+- <span class="teach-title">PhD workshop “How to Conceptualise and Measure Migration Policies?”</span><span class="teach-years">2023</span><span class="teach-meta">nccr – on the move, University of Neuchâtel</span>
+- <span class="teach-title">PhD workshop “Migration Policy Data across Time and Space: Measurement, Analysis, and the Migration-Mobility Nexus”</span><span class="teach-years">2019</span><span class="teach-meta">University of Neuchâtel, with Carlo Knotz</span>
+:::

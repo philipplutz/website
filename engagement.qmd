@@ -10,6 +10,32 @@ For media requests, public talks, or advisory work, please [email me](mailto:p.l
 
 [Download portrait photo (high resolution)](prof_pic.jpg){.pub-btn download="prof_pic.jpg"} *Photo: Peter Gerritsen.*
 
+## Short bio {#bio}
+
+For programmes, announcements and media. Feel free to use and shorten.
+
+::: {.panel-tabset .bio-tabs}
+
+### English
+
+<p class="bio-text" lang="en">Philipp Lutz is a political scientist at the University of Geneva, where he is an SNSF Ambizione Fellow, and at the Vrije Universiteit Amsterdam, where he is a Senior Assistant Professor. He studies the politics of immigration in Europe&rsquo;s liberal democracies: how governments make migration policy, how citizens form attitudes and perceptions on immigration, and how European states cooperate on migration. His work has appeared in journals such as the European Journal of Political Research, the Journal of European Public Policy, West European Politics, the British Journal of Political Science and Political Science Research and Methods. He holds a PhD in political science from the University of Bern.</p>
+
+<button type="button" class="pub-btn bio-copy"><i class="bi bi-clipboard" aria-hidden="true"></i>Copy</button>
+
+### Deutsch
+
+<p class="bio-text" lang="de">Philipp Lutz ist Politikwissenschaftler an der Universität Genf, wo er SNF-Ambizione-Fellow ist, und an der Vrije Universiteit Amsterdam, wo er als Senior Assistant Professor tätig ist. Er erforscht die Politik der Zuwanderung in Europas liberalen Demokratien: wie Regierungen Migrationspolitik gestalten, wie Bürgerinnen und Bürger Einstellungen und Wahrnehmungen zur Zuwanderung entwickeln und wie europäische Staaten in Migrationsfragen zusammenarbeiten. Seine Forschung ist in Fachzeitschriften wie dem European Journal of Political Research, dem Journal of European Public Policy, West European Politics, dem British Journal of Political Science und Political Science Research and Methods erschienen. Er wurde an der Universität Bern in Politikwissenschaft promoviert.</p>
+
+<button type="button" class="pub-btn bio-copy"><i class="bi bi-clipboard" aria-hidden="true"></i>Copy</button>
+
+### Français
+
+<p class="bio-text" lang="fr">Philipp Lutz est politologue à l'Université de Genève, où il est boursier Ambizione du FNS, et à la Vrije Universiteit Amsterdam, où il est Senior Assistant Professor. Il étudie la politique de l'immigration dans les démocraties libérales européennes : comment les gouvernements élaborent les politiques migratoires, comment les citoyennes et les citoyens forment leurs attitudes et leurs perceptions de l'immigration, et comment les États européens coopèrent en matière de migration. Ses travaux ont été publiés dans des revues telles que l'European Journal of Political Research, le Journal of European Public Policy, West European Politics, le British Journal of Political Science et Political Science Research and Methods. Il est titulaire d'un doctorat en science politique de l'Université de Berne.</p>
+
+<button type="button" class="pub-btn bio-copy"><i class="bi bi-clipboard" aria-hidden="true"></i>Copy</button>
+
+:::
+
 ## Policy papers
 
 - Trauner, F., **Lutz, P.**, & Stutz, P. (November 2025) [*Towards a fairer EU asylum policy: Lessons from the Dublin system for the EU's Solidarity Mechanism*](https://www.epc.eu/publication/towards-a-fairer-eu-asylum-policy-lessons-from-the-dublin-system-for-the-eus-solidarity-mechanism/). Discussion Paper. Brussels: European Policy Centre.

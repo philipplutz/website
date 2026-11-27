@@ -19,7 +19,7 @@ include-in-header: person-ld.html
 
 I study the politics of immigration in Europe's liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements.
 
-You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd) and [public engagement](engagement.qmd) as well as my [CV](cv.qmd) on this site.
+You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd), [teaching](teaching.qmd) and [public engagement](engagement.qmd) as well as my [CV](cv.qmd) on this site.
 
 Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
