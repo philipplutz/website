@@ -673,7 +673,10 @@ document.addEventListener("DOMContentLoaded", function () {
       chip.title = "Citing works on Google Scholar";
       chip.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>' + c.cites + (c.cites === 1 ? " citation" : " citations");
       var sum = details && details.querySelector("summary");
-      if (CITE_POS === "top") { chip.classList.add("cite-top"); li.insertBefore(chip, li.firstChild); }
+      if (CITE_POS === "top") {      // the count sits in the right margin, positioned against the entry
+        chip.classList.add("cite-top"); li.insertBefore(chip, li.firstChild);
+        if (getComputedStyle(li).position === "static") li.style.position = "relative";
+      }
       else if (CITE_POS === "abstract" && sum) { chip.classList.add("cite-abs"); sum.appendChild(chip); }
       else {
         var btns = li.querySelectorAll(":scope > a.pub-btn"), last = btns[btns.length - 1];

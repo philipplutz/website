@@ -443,7 +443,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795733189821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795767610328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-06-11-workshop-krems.html" class="no-external-icon">Research workshop at Danube University Krems</a>
@@ -674,7 +674,10 @@ document.addEventListener("DOMContentLoaded", function () {
       chip.title = "Citing works on Google Scholar";
       chip.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>' + c.cites + (c.cites === 1 ? " citation" : " citations");
       var sum = details && details.querySelector("summary");
-      if (CITE_POS === "top") { chip.classList.add("cite-top"); li.insertBefore(chip, li.firstChild); }
+      if (CITE_POS === "top") {      // the count sits in the right margin, positioned against the entry
+        chip.classList.add("cite-top"); li.insertBefore(chip, li.firstChild);
+        if (getComputedStyle(li).position === "static") li.style.position = "relative";
+      }
       else if (CITE_POS === "abstract" && sum) { chip.classList.add("cite-abs"); sum.appendChild(chip); }
       else {
         var btns = li.querySelectorAll(":scope > a.pub-btn"), last = btns[btns.length - 1];

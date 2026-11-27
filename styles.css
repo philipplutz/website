@@ -458,12 +458,14 @@ footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bott
   height: clamp(70px, 9vw, 135px); pointer-events: none; opacity: 0.6;
   background: url("skyline.svg") center bottom / auto 100% no-repeat; }
 
-/* Citation count, option "top": small figure at the top right of the entry */
-.cite-chip.cite-top { float: right; margin: 0.15rem 0 0.2rem 1rem; padding: 0; border: none; border-radius: 0;
-  font-size: 0.8rem; line-height: 1.6; }
+/* Citation count, option "top": in the right margin next to the first line of the reference
+   (wide screens); on narrower screens a small line above the reference */
+.cite-chip.cite-top { display: block; width: fit-content; margin: 0 0 0.15rem; padding: 0; border: none;
+  border-radius: 0; font-size: 0.8rem; line-height: 1.6; }
 .cite-chip.cite-top:hover { text-decoration: underline; }
+@media (min-width: 1100px) {
+  .cite-chip.cite-top { position: absolute; left: 100%; top: 0.3rem; margin: 0 0 0 1.25rem; white-space: nowrap; }
+}
 /* option "abstract": on the line of the Abstract toggle */
 .cite-chip.cite-abs { margin-left: 0.9rem; padding: 0.05rem 0.55rem; font-size: 0.76rem; vertical-align: 0.05rem; }
-@media (max-width: 575.98px) {   /* narrow screens: count on its own small line above the reference */
-  .cite-chip.cite-top { float: none; display: block; width: fit-content; margin: 0 0 0.15rem; }
-}
+
