@@ -524,3 +524,17 @@ footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bott
 
 /* CV page: embedded PDFs are awkward on phones; there the download button is enough */
 @media (max-width: 767.98px) { .cv-frame { display: none; } }
+
+/* Cite button and BibTeX box on the publications page */
+button.pub-btn { border: 0; font-family: inherit; line-height: inherit; cursor: pointer; }
+.cite-btn[aria-expanded="true"] { background-color: var(--bs-primary); color: #fff; }
+.cite-box { margin: 0.55rem 0 0.4rem; padding: 0.7rem 0.9rem; border-radius: 0.5rem; background-color: var(--bs-tertiary-bg); }
+.cite-box pre { margin: 0 0 0.55rem; padding: 0; border: 0; background: transparent; font-size: 0.74rem; line-height: 1.5;
+  white-space: pre-wrap; word-break: break-word; color: var(--bs-body-color); }
+.cite-actions { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; align-items: center; font-size: 0.8rem; }
+.cite-actions .bi { margin-right: 0.3rem; }
+.cite-copy { border: 1px solid var(--bs-border-color, #dee2e6); background: var(--bs-body-bg); color: var(--bs-body-color);
+  border-radius: 0.25rem; padding: 0.1rem 0.55rem; font-size: 0.8rem; cursor: pointer; }
+.cite-copy:hover { border-color: var(--bs-primary); color: var(--bs-primary); }
+.cite-actions a { color: var(--bs-secondary-color, #6b7280); text-decoration: none; border-bottom: 1px dotted currentColor; }
+.cite-actions a:hover { color: var(--bs-link-color); }

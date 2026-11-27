@@ -4,6 +4,7 @@ pagetitle: "Philipp Lutz"
 body-classes: home
 image: prof_pic.jpg
 image-alt: "Portrait of Philipp Lutz"
+include-in-header: person-ld.html
 ---
 
 ::: {.column-page}
@@ -28,7 +29,7 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 <a class="agenda-tile" href="publications.html#agenda=policy" tabindex="-1" aria-hidden="true" title="Asylum and labour policy restrictiveness by country (Schultz, Lutz &amp; Simon 2021)"><img src="figures/tile_policy.svg" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### <i class="bi bi-bank"></i> Comparative analysis of migration policies
+### Comparative analysis of migration policies
 
 <p class="agenda-q">How do liberal democracies balance openness and closure in their migration policies?</p>
 
@@ -42,7 +43,7 @@ Immigration policies decide who may enter a country and on what terms immigrants
 <a class="agenda-tile" href="publications.html#agenda=opinion" tabindex="-1" aria-hidden="true" title="Own vs. perceived public immigration attitudes of survey respondents, with egocentric and conservatism bias (Lutz &amp; Does 2026)"><img src="figures/tile_opinion.webp" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### <i class="bi bi-eye"></i> Public opinion and perceptions
+### Public opinion and perceptions
 
 <p class="agenda-q">What do citizens believe about immigration, and why does it matter for democracy?</p>
 
@@ -56,7 +57,7 @@ Public opinion on immigration is often shaped by perceptions rather than reality
 <a class="agenda-tile" href="publications.html#agenda=sharing" tabindex="-1" aria-hidden="true" title="Deviation from fair share in asylum responsibility, 2008–2024 (Dublin Explorer)"><img src="figures/tile_governance.webp" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### <i class="bi bi-arrows-angle-contract"></i> European migration governance
+### European migration governance
 
 <p class="agenda-q">Why and how do European states share responsibility for refugees, and what do citizens consider fair?</p>
 
@@ -67,10 +68,10 @@ Open borders within Europe and exposure to external immigration require collecti
 :::
 
 ::: {.agenda-row}
-<a class="agenda-tile" href="publications.html#agenda=trade" tabindex="-1" aria-hidden="true" title="Migration provisions in preferential trade agreements (MITA)"><span class="tile-pending"><i class="bi bi-globe2"></i></span></a>
+<a class="agenda-tile" href="publications.html#agenda=trade" tabindex="-1" aria-hidden="true" title="Cumulative number of preferential trade agreements with mobility, rights and control provisions, 1960–2020 (MITA dataset)"><img src="figures/tile_trade.svg" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### <i class="bi bi-globe2"></i> Migration governance through trade agreements
+### Migration governance through trade agreements
 
 <p class="agenda-q">Why do states govern migration through trade agreements?</p>
 

@@ -7,6 +7,11 @@ project:
     - scholar.json
     - skyline.svg
     - figures/
+    - citations.json
+    - publications.bib
+    - llms.txt
+    - llms-full.txt
+    - robots.txt
 
 website:
   title: "Philipp Lutz"
