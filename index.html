@@ -87,6 +87,35 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-SWWYN9EBW3', { 'anonymize_ip': true});
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "@id": "https://philipplutz.org/#person",
+ "name": "Philipp Lutz",
+ "givenName": "Philipp",
+ "familyName": "Lutz",
+ "url": "https://philipplutz.org/",
+ "image": "https://philipplutz.org/prof_pic.jpg",
+ "email": "mailto:p.lutz@vu.nl",
+ "jobTitle": ["Senior Assistant Professor", "SNSF Ambizione Fellow"],
+ "description": "Political scientist studying the politics of immigration in Europe's liberal democracies: migration policy-making, public opinion and perceptions, European migration governance, and migration provisions in trade agreements.",
+ "affiliation": [
+  {"@type": "CollegeOrUniversity", "name": "Vrije Universiteit Amsterdam", "url": "https://vu.nl"},
+  {"@type": "CollegeOrUniversity", "name": "University of Geneva", "url": "https://www.unige.ch"}
+ ],
+ "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Bern", "url": "https://www.unibe.ch"},
+ "knowsAbout": ["Migration policy", "Immigration politics", "Public opinion on immigration", "Misperceptions about immigration",
+                "European migration governance", "Responsibility-sharing in refugee protection", "Migration provisions in trade agreements"],
+ "sameAs": [
+  "https://orcid.org/0000-0003-2373-0180",
+  "https://scholar.google.com/citations?user=Ml32muAAAAAJ",
+  "https://www.researchgate.net/profile/Philipp-Lutz-2",
+  "https://bsky.app/profile/lutzphilipp.bsky.social",
+  "https://www.linkedin.com/in/philipp-lutz-78254489"
+ ]
+}
+</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
 
 
@@ -377,7 +406,7 @@ Welcome! I’m a political scientist at the <a href="https://www.unige.ch/scienc
 <div class="agenda-row">
 <p><a class="agenda-tile" href="publications.html#agenda=policy" tabindex="-1" aria-hidden="true" title="Asylum and labour policy restrictiveness by country (Schultz, Lutz &amp; Simon 2021)"><img src="figures/tile_policy.svg" alt="" loading="lazy" width="120" height="120"></a></p>
 <section id="comparative-analysis-of-migration-policies" class="level3 agenda-body">
-<h3 class="anchored" data-anchor-id="comparative-analysis-of-migration-policies"><i class="bi bi-bank"></i> Comparative analysis of migration policies</h3>
+<h3 class="anchored" data-anchor-id="comparative-analysis-of-migration-policies">Comparative analysis of migration policies</h3>
 <p class="agenda-q">
 How do liberal democracies balance openness and closure in their migration policies?
 </p>
@@ -390,7 +419,7 @@ How do liberal democracies balance openness and closure in their migration polic
 <div class="agenda-row">
 <p><a class="agenda-tile" href="publications.html#agenda=opinion" tabindex="-1" aria-hidden="true" title="Own vs. perceived public immigration attitudes of survey respondents, with egocentric and conservatism bias (Lutz &amp; Does 2026)"><img src="figures/tile_opinion.webp" alt="" loading="lazy" width="120" height="120"></a></p>
 <section id="public-opinion-and-perceptions" class="level3 agenda-body">
-<h3 class="anchored" data-anchor-id="public-opinion-and-perceptions"><i class="bi bi-eye"></i> Public opinion and perceptions</h3>
+<h3 class="anchored" data-anchor-id="public-opinion-and-perceptions">Public opinion and perceptions</h3>
 <p class="agenda-q">
 What do citizens believe about immigration, and why does it matter for democracy?
 </p>
@@ -403,7 +432,7 @@ What do citizens believe about immigration, and why does it matter for democracy
 <div class="agenda-row">
 <p><a class="agenda-tile" href="publications.html#agenda=sharing" tabindex="-1" aria-hidden="true" title="Deviation from fair share in asylum responsibility, 2008–2024 (Dublin Explorer)"><img src="figures/tile_governance.webp" alt="" loading="lazy" width="120" height="120"></a></p>
 <section id="european-migration-governance" class="level3 agenda-body">
-<h3 class="anchored" data-anchor-id="european-migration-governance"><i class="bi bi-arrows-angle-contract"></i> European migration governance</h3>
+<h3 class="anchored" data-anchor-id="european-migration-governance">European migration governance</h3>
 <p class="agenda-q">
 Why and how do European states share responsibility for refugees, and what do citizens consider fair?
 </p>
@@ -414,9 +443,9 @@ Why and how do European states share responsibility for refugees, and what do ci
 </section>
 </div>
 <div class="agenda-row">
-<p><a class="agenda-tile" href="publications.html#agenda=trade" tabindex="-1" aria-hidden="true" title="Migration provisions in preferential trade agreements (MITA)"><span class="tile-pending"><i class="bi bi-globe2"></i></span></a></p>
+<p><a class="agenda-tile" href="publications.html#agenda=trade" tabindex="-1" aria-hidden="true" title="Cumulative number of preferential trade agreements with mobility, rights and control provisions, 1960–2020 (MITA dataset)"><img src="figures/tile_trade.svg" alt="" loading="lazy" width="120" height="120"></a></p>
 <section id="migration-governance-through-trade-agreements" class="level3 agenda-body">
-<h3 class="anchored" data-anchor-id="migration-governance-through-trade-agreements"><i class="bi bi-globe2"></i> Migration governance through trade agreements</h3>
+<h3 class="anchored" data-anchor-id="migration-governance-through-trade-agreements">Migration governance through trade agreements</h3>
 <p class="agenda-q">
 Why do states govern migration through trade agreements?
 </p>
@@ -804,6 +833,49 @@ document.addEventListener("click", function (e) {
   document.addEventListener("keydown", onKey);
   document.body.appendChild(box);
   box.querySelector(".fig-close").focus();
+});
+</script>
+
+<script>
+/* Cite: a BibTeX entry for each publication with a DOI, from citations.json
+   (Crossref metadata written by _scripts/update_citations.py, refreshed monthly). */
+document.addEventListener("DOMContentLoaded", function () {
+  var content = document.getElementById("quarto-document-content");
+  if (!content || !content.querySelector('li a.pub-btn[href*="doi.org/10."]')) return;
+  fetch("citations.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (cit) {
+    var byDoi = {};
+    Object.keys(cit).forEach(function (k) { byDoi[k.toLowerCase()] = cit[k]; });
+    content.querySelectorAll('li a.pub-btn[href*="doi.org/10."]').forEach(function (a) {
+      var doi = decodeURIComponent(a.getAttribute("href").replace(/^https?:\/\/(dx\.)?doi\.org\//, "")).toLowerCase();
+      var c = byDoi[doi], li = a.closest("li");
+      if (!c || !li || li.querySelector(".cite-btn")) return;
+      var btn = document.createElement("button");
+      btn.type = "button"; btn.className = "pub-btn cite-btn";
+      btn.setAttribute("aria-expanded", "false");
+      btn.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>Cite';
+      a.after(document.createTextNode(" · "), btn);
+      var box = null;
+      btn.addEventListener("click", function () {
+        if (box) { box.remove(); box = null; btn.setAttribute("aria-expanded", "false"); return; }
+        box = document.createElement("div");
+        box.className = "cite-box";
+        box.innerHTML = '<pre></pre><div class="cite-actions"><button type="button" class="cite-copy">' +
+          '<i class="bi bi-clipboard" aria-hidden="true"></i>Copy BibTeX</button>' +
+          '<a href="publications.bib" download><i class="bi bi-download" aria-hidden="true"></i>All publications (.bib)</a></div>';
+        box.querySelector("pre").textContent = c.bibtex;
+        box.querySelector(".cite-copy").addEventListener("click", function (e) {
+          var b = e.currentTarget;
+          navigator.clipboard.writeText(c.bibtex).then(function () {
+            b.lastChild.textContent = "Copied";
+            setTimeout(function () { b.lastChild.textContent = "Copy BibTeX"; }, 1500);
+          });
+        });
+        var det = li.querySelector(":scope > details");
+        if (det) li.insertBefore(box, det); else li.appendChild(box);
+        btn.setAttribute("aria-expanded", "true");
+      });
+    });
+  }).catch(function () {});
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

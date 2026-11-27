@@ -1,0 +1,40 @@
+# Philipp Lutz
+
+> Philipp Lutz is a political scientist at the [University of Geneva](https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz) (SNSF Ambizione Fellow) and the [Vrije Universiteit Amsterdam](https://research.vu.nl/en/persons/philipp-lutz/) (Senior Assistant Professor).
+
+I study the politics of immigration in Europe's liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements.
+
+## Research agendas
+
+- **Comparative analysis of migration policies**: How do liberal democracies balance openness and closure in their migration policies?
+- **Public opinion and perceptions**: What do citizens believe about immigration, and why does it matter for democracy?
+- **European migration governance**: Why and how do European states share responsibility for refugees, and what do citizens consider fair?
+- **Migration governance through trade agreements**: Why do states govern migration through trade agreements?
+
+## Pages
+
+- [Publications](https://philipplutz.org/publications.html): journal articles, books and book chapters with abstracts, PDFs, DOIs and replication files
+- [Projects](https://philipplutz.org/projects.html): research projects and their funding
+- [Data](https://philipplutz.org/data.html): policy datasets (URAF, RDP, MITA, RESET-OECD) with documentation
+- [Engagement](https://philipplutz.org/engagement.html): media coverage, policy uptake, public talks and blog posts
+- [CV](https://philipplutz.org/cv.pdf): curriculum vitae (PDF)
+
+## Machine-readable resources
+
+- [llms-full.txt](https://philipplutz.org/llms-full.txt): the content of this site as plain Markdown, including every publication with its abstract
+- [publications.bib](https://philipplutz.org/publications.bib): BibTeX entries for all journal articles, from Crossref metadata
+- [citations.json](https://philipplutz.org/citations.json): the same publication metadata as JSON, keyed by DOI
+- [scholar.json](https://philipplutz.org/scholar.json): Google Scholar citation counts, updated monthly
+- [mentions.yml](https://philipplutz.org/mentions.yml): media and policy mentions of the research
+
+## Profiles
+
+- [ORCID](https://orcid.org/0000-0003-2373-0180)
+- [Google Scholar](https://scholar.google.com/citations?user=Ml32muAAAAAJ)
+- [ResearchGate](https://www.researchgate.net/profile/Philipp-Lutz-2)
+- [Bluesky](https://bsky.app/profile/lutzphilipp.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/philipp-lutz-78254489)
+
+## Contact
+
+- Email: p.lutz@vu.nl

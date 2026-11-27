@@ -443,7 +443,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795780658002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795783493207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-01-15-dublin-paper.html" class="no-external-icon">New article in <em>European Union Politics</em></a>
@@ -793,6 +793,49 @@ document.addEventListener("click", function (e) {
   document.addEventListener("keydown", onKey);
   document.body.appendChild(box);
   box.querySelector(".fig-close").focus();
+});
+</script>
+
+<script>
+/* Cite: a BibTeX entry for each publication with a DOI, from citations.json
+   (Crossref metadata written by _scripts/update_citations.py, refreshed monthly). */
+document.addEventListener("DOMContentLoaded", function () {
+  var content = document.getElementById("quarto-document-content");
+  if (!content || !content.querySelector('li a.pub-btn[href*="doi.org/10."]')) return;
+  fetch("citations.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (cit) {
+    var byDoi = {};
+    Object.keys(cit).forEach(function (k) { byDoi[k.toLowerCase()] = cit[k]; });
+    content.querySelectorAll('li a.pub-btn[href*="doi.org/10."]').forEach(function (a) {
+      var doi = decodeURIComponent(a.getAttribute("href").replace(/^https?:\/\/(dx\.)?doi\.org\//, "")).toLowerCase();
+      var c = byDoi[doi], li = a.closest("li");
+      if (!c || !li || li.querySelector(".cite-btn")) return;
+      var btn = document.createElement("button");
+      btn.type = "button"; btn.className = "pub-btn cite-btn";
+      btn.setAttribute("aria-expanded", "false");
+      btn.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>Cite';
+      a.after(document.createTextNode(" · "), btn);
+      var box = null;
+      btn.addEventListener("click", function () {
+        if (box) { box.remove(); box = null; btn.setAttribute("aria-expanded", "false"); return; }
+        box = document.createElement("div");
+        box.className = "cite-box";
+        box.innerHTML = '<pre></pre><div class="cite-actions"><button type="button" class="cite-copy">' +
+          '<i class="bi bi-clipboard" aria-hidden="true"></i>Copy BibTeX</button>' +
+          '<a href="publications.bib" download><i class="bi bi-download" aria-hidden="true"></i>All publications (.bib)</a></div>';
+        box.querySelector("pre").textContent = c.bibtex;
+        box.querySelector(".cite-copy").addEventListener("click", function (e) {
+          var b = e.currentTarget;
+          navigator.clipboard.writeText(c.bibtex).then(function () {
+            b.lastChild.textContent = "Copied";
+            setTimeout(function () { b.lastChild.textContent = "Copy BibTeX"; }, 1500);
+          });
+        });
+        var det = li.querySelector(":scope > details");
+        if (det) li.insertBefore(box, det); else li.appendChild(box);
+        btn.setAttribute("aria-expanded", "true");
+      });
+    });
+  }).catch(function () {});
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
