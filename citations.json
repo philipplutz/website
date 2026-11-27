@@ -384,6 +384,63 @@
    "publisher": "Wiley"
   }
  },
+ "10.1093/migration/mnaf028": {
+  "key": "Lavenex2025attracting",
+  "bibtex": "@article{Lavenex2025attracting,\n  author = {Lavenex, Sandra and Hoffmeyer-Zlotnik, Paula and Alvarado, Mariana and Lutz, Philipp},\n  title = {Attracting migrants through the backdoor: Business migration in {Switzerland}},\n  journal = {Migration Studies},\n  year = {2025},\n  volume = {13},\n  number = {3},\n  pages = {mnaf028},\n  doi = {10.1093/migration/mnaf028},\n  url = {https://doi.org/10.1093/migration/mnaf028}\n}",
+  "title": "Attracting migrants through the backdoor: Business migration in Switzerland",
+  "authors": [
+   {
+    "given": "Sandra",
+    "family": "Lavenex"
+   },
+   {
+    "given": "Paula",
+    "family": "Hoffmeyer-Zlotnik"
+   },
+   {
+    "given": "Mariana",
+    "family": "Alvarado"
+   },
+   {
+    "given": "Philipp",
+    "family": "Lutz"
+   }
+  ],
+  "journal": "Migration Studies",
+  "year": "2025",
+  "volume": "13",
+  "issue": "3",
+  "pages": "",
+  "crossref": {
+   "type": "journal-article",
+   "title": "Attracting migrants through the backdoor: Business migration in Switzerland",
+   "subtitle": "",
+   "authors": [
+    {
+     "given": "Sandra",
+     "family": "Lavenex"
+    },
+    {
+     "given": "Paula",
+     "family": "Hoffmeyer-Zlotnik"
+    },
+    {
+     "given": "Mariana",
+     "family": "Alvarado"
+    },
+    {
+     "given": "Philipp",
+     "family": "Lutz"
+    }
+   ],
+   "journal": "Migration Studies",
+   "volume": "13",
+   "issue": "3",
+   "pages": "",
+   "article_number": "mnaf028",
+   "publisher": "Oxford University Press (OUP)"
+  }
+ },
  "10.1186/s40878-025-00483-7": {
   "key": "Alvarado2025business",
   "bibtex": "@article{Alvarado2025business,\n  author = {Alvarado, Mariana and Hoffmeyer-Zlotnik, Paula and Lavenex, Sandra and Lutz, Philipp},\n  title = {Business migration between labour and trade: evidence from {Switzerland}},\n  journal = {Comparative Migration Studies},\n  year = {2025},\n  volume = {13},\n  number = {1},\n  pages = {60},\n  doi = {10.1186/s40878-025-00483-7},\n  url = {https://doi.org/10.1186/s40878-025-00483-7}\n}",
@@ -587,6 +644,55 @@
    "pages": "147-173",
    "article_number": "",
    "publisher": "Springer Science and Business Media LLC"
+  }
+ },
+ "10.1111/jcms.13563": {
+  "key": "HoffmeyerZlotnik2024limits",
+  "bibtex": "@article{HoffmeyerZlotnik2024limits,\n  author = {Hoffmeyer-Zlotnik, Paula and Lavenex, Sandra and Lutz, Philipp},\n  title = {The Limits of {EU} Market Power in Migration Externalization: Explaining Migration Control Provisions in {EU} Preferential Trade Agreements},\n  journal = {JCMS: Journal of Common Market Studies},\n  year = {2024},\n  volume = {62},\n  number = {5},\n  pages = {1351--1378},\n  doi = {10.1111/jcms.13563},\n  url = {https://doi.org/10.1111/jcms.13563}\n}",
+  "title": "The Limits of EU Market Power in Migration Externalization: Explaining Migration Control Provisions in EU Preferential Trade Agreements",
+  "authors": [
+   {
+    "given": "Paula",
+    "family": "Hoffmeyer‐Zlotnik"
+   },
+   {
+    "given": "Sandra",
+    "family": "Lavenex"
+   },
+   {
+    "given": "Philipp",
+    "family": "Lutz"
+   }
+  ],
+  "journal": "JCMS: Journal of Common Market Studies",
+  "year": "2024",
+  "volume": "62",
+  "issue": "5",
+  "pages": "1351-1378",
+  "crossref": {
+   "type": "journal-article",
+   "title": "The Limits of EU Market Power in Migration Externalization: Explaining Migration Control Provisions in EU Preferential Trade Agreements",
+   "subtitle": "",
+   "authors": [
+    {
+     "given": "Paula",
+     "family": "Hoffmeyer‐Zlotnik"
+    },
+    {
+     "given": "Sandra",
+     "family": "Lavenex"
+    },
+    {
+     "given": "Philipp",
+     "family": "Lutz"
+    }
+   ],
+   "journal": "JCMS: Journal of Common Market Studies",
+   "volume": "62",
+   "issue": "5",
+   "pages": "1351-1378",
+   "article_number": "",
+   "publisher": "Wiley"
   }
  },
  "10.1111/jcms.13455": {
@@ -1211,5 +1317,53 @@
    "article_number": "19",
    "publisher": "Springer Science and Business Media LLC"
   }
+ },
+ "key:Lutz2019inside": {
+  "key": "Lutz2019inside",
+  "bibtex": "@phdthesis{Lutz2019inside,\n  author = {Lutz, Philipp},\n  title = {Inside the Migration State: The Quest for Democratic Legitimacy},\n  school = {Institute of Political Science, University of Bern},\n  year = {2019},\n  type = {Doctoral dissertation},\n  doi = {10.48549/4882},\n  url = {https://doi.org/10.48549/4882}\n}"
+ },
+ "key:Lutz2026warum": {
+  "key": "Lutz2026warum",
+  "bibtex": "@incollection{Lutz2026warum,\n  author = {Lutz, Philipp},\n  title = {{Warum das Migrationsland Schweiz eine (neue) Erzählung braucht}},\n  booktitle = {{Migrationsland Schweiz – Mythen, Realitäten und Perspektiven}},\n  editor = {Ameti, Sanija and Mazzone, Lisa and Mosimann, Nadja and Wermuth, Cédric and Zwicky, Pascal},\n  publisher = {edition 8},\n  address = {Zürich},\n  year = {2026},\n  pages = {39--50},\n  language = {german}\n}"
+ },
+ "key:Lavenex2025mobility": {
+  "key": "Lavenex2025mobility",
+  "bibtex": "@incollection{Lavenex2025mobility,\n  author = {Lavenex, Sandra and Alvarado, Mariana and Hoffmeyer-Zlotnik, Paula and Lutz, Philipp},\n  title = {Business mobility as a privileged form of temporary labour migration: Insights from the {MITA} database and {Switzerland}},\n  booktitle = {Temporary labour migration: Towards social justice?},\n  editor = {Kuptsch, Christiane and Mieres, Fabiola},\n  publisher = {International Labour Organisation},\n  address = {Geneva},\n  year = {2025},\n  pages = {107--128}\n}"
+ },
+ "key:HoffmeyerZlotnik2024twolevel": {
+  "key": "HoffmeyerZlotnik2024twolevel",
+  "bibtex": "@incollection{HoffmeyerZlotnik2024twolevel,\n  author = {Hoffmeyer-Zlotnik, Paula and Lavenex, Sandra and Lutz, Philipp},\n  title = {Migration governance through trade agreements: A two-level analysis},\n  booktitle = {Drawing boundaries and crossing borders: Migration in Theorie und Praxis. Jahrbuch Migrationsforschung 7},\n  editor = {Sievers, W. and Bauböck, R. and Czaika, M. and Kraler, A.},\n  publisher = {Verlag der Österreichischen Akademie der Wissenschaften},\n  address = {Vienna},\n  year = {2024},\n  pages = {169--184}\n}"
+ },
+ "key:Lutz2022legitimacy": {
+  "key": "Lutz2022legitimacy",
+  "bibtex": "@incollection{Lutz2022legitimacy,\n  author = {Lutz, Philipp and Knotz, C.},\n  title = {The legitimacy of the welfare state in the age of migration},\n  booktitle = {De Gruyter Handbook of Contemporary Welfare States},\n  editor = {Greve, B.},\n  publisher = {De Gruyter},\n  address = {Berlin/Boston},\n  year = {2022},\n  pages = {271--284}\n}"
+ },
+ "key:Lavenex2022conflicts": {
+  "key": "Lavenex2022conflicts",
+  "bibtex": "@incollection{Lavenex2022conflicts,\n  author = {Lavenex, Sandra and Hoffmeyer-Zlotnik, Paula and Lutz, Philipp},\n  title = {Migration: Conflicts between foreign and domestic policy},\n  booktitle = {A {Swiss} foreign policy for the 21st century},\n  editor = {Bernauer, Thomas and Gentinetta, Katja and Kuntz, Joëlle},\n  publisher = {NZZ Libro},\n  address = {Zurich},\n  year = {2022},\n  pages = {205--219}\n}"
+ },
+ "key:Lavenex2021source": {
+  "key": "Lavenex2021source",
+  "bibtex": "@incollection{Lavenex2021source,\n  author = {Lavenex, Sandra and Hoffmeyer-Zlotnik, Paula and Lutz, Philipp},\n  title = {{Migration: Une source de conflits entre les politiques extérieure et intérieure}},\n  booktitle = {{La politique extérieure suisse au défi du XXIe siècle}},\n  editor = {Bernauer, Thomas and Gentinetta, Katja and Kuntz, Joëlle},\n  publisher = {Slatkine},\n  address = {Genève},\n  year = {2021},\n  pages = {185--198},\n  language = {french}\n}"
+ },
+ "key:Lavenex2021konflikt": {
+  "key": "Lavenex2021konflikt",
+  "bibtex": "@incollection{Lavenex2021konflikt,\n  author = {Lavenex, Sandra and Hoffmeyer-Zlotnik, Paula and Lutz, Philipp},\n  title = {{Migration: Im Konflikt zwischen Aussen- und Innenpolitik}},\n  booktitle = {{Eine Aussenpolitik für die Schweiz im 21. Jahrhundert}},\n  editor = {Bernauer, Thomas and Gentinetta, Katja and Kuntz, Joëlle},\n  publisher = {NZZ Libro},\n  address = {Zurich},\n  year = {2021},\n  language = {german}\n}"
+ },
+ "key:Lutz2020welfare": {
+  "key": "Lutz2020welfare",
+  "bibtex": "@incollection{Lutz2020welfare,\n  author = {Lutz, Philipp},\n  title = {Welfare states, demographic transition and immigration policies},\n  booktitle = {The {European} social model under pressure},\n  editor = {Careja, R. and Emmenegger, P. and Giger, N.},\n  publisher = {Springer},\n  year = {2020},\n  pages = {331--347}\n}"
+ },
+ "key:Lutz2019radical": {
+  "key": "Lutz2019radical",
+  "bibtex": "@incollection{Lutz2019radical,\n  author = {Lutz, Philipp},\n  title = {The Radical-Right in Power: A Comparative Analysis of Their Migration Policy Influence},\n  booktitle = {Do they make a difference? The policy influence of radical right populist parties in {Western} {Europe}},\n  editor = {Biard, Benjamin and Bernhard, Laurent and Betz, Hans-Georg},\n  publisher = {ECPR Press},\n  year = {2019}\n}"
+ },
+ "key:Sager2017politische": {
+  "key": "Sager2017politische",
+  "bibtex": "@incollection{Sager2017politische,\n  author = {Sager, Fritz and Künzler, J. and Lutz, Philipp},\n  title = {{Das politische System der Schweiz und seine Kontaktpunkte zur Evaluation}},\n  booktitle = {{Evaluation im politischen System der Schweiz: Entwicklung, Bedeutung und Wechselwirkungen}},\n  editor = {Sager, Fritz and Widmer, Thomas and Balthasar, Andreas},\n  publisher = {NZZ Libro},\n  address = {Zürich},\n  year = {2017},\n  language = {german}\n}"
+ },
+ "key:Schlegel2016gebuehr": {
+  "key": "Schlegel2016gebuehr",
+  "bibtex": "@incollection{Schlegel2016gebuehr,\n  author = {Schlegel, S. and Lutz, Philipp and Kaufmann, D.},\n  title = {{Migration mit einer Gebühr schrittweise liberalisieren}},\n  booktitle = {{Migrationsland Schweiz}},\n  publisher = {Hier und Jetzt},\n  address = {Zürich},\n  year = {2016},\n  language = {german}\n}"
  }
 }
