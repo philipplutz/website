@@ -443,7 +443,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795771352511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795771897906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-01-15-dublin-paper.html" class="no-external-icon">New article in <em>European Union Politics</em></a>
@@ -771,6 +771,29 @@ document.addEventListener("DOMContentLoaded", function () {
     }).catch(function () {});
   });
 })();
+</script>
+
+<script>
+/* Figures: clicking a figure opens it large; click, Escape or the close button closes it. */
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a.fig-zoom");
+  if (!a) return;
+  e.preventDefault();
+  var box = document.createElement("div");
+  box.className = "fig-lightbox";
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  var img = a.querySelector("img");
+  box.innerHTML = '<button class="fig-close" aria-label="Close">&times;</button><img alt="">';
+  box.querySelector("img").src = a.getAttribute("href");
+  box.querySelector("img").alt = img ? img.alt : "";
+  function close() { box.remove(); document.removeEventListener("keydown", onKey); a.focus(); }
+  function onKey(ev) { if (ev.key === "Escape") close(); }
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", onKey);
+  document.body.appendChild(box);
+  box.querySelector(".fig-close").focus();
+});
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

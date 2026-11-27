@@ -753,6 +753,29 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 })();
 </script>
+
+<script>
+/* Figures: clicking a figure opens it large; click, Escape or the close button closes it. */
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a.fig-zoom");
+  if (!a) return;
+  e.preventDefault();
+  var box = document.createElement("div");
+  box.className = "fig-lightbox";
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  var img = a.querySelector("img");
+  box.innerHTML = '<button class="fig-close" aria-label="Close">&times;</button><img alt="">';
+  box.querySelector("img").src = a.getAttribute("href");
+  box.querySelector("img").alt = img ? img.alt : "";
+  function close() { box.remove(); document.removeEventListener("keydown", onKey); a.focus(); }
+  function onKey(ev) { if (ev.key === "Escape") close(); }
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", onKey);
+  document.body.appendChild(box);
+  box.querySelector(".fig-close").focus();
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
