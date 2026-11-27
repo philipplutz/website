@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 QMD = ROOT / "publications.qmd"
 OUT_JSON, OUT_BIB, OUT_LD = ROOT / "citations.json", ROOT / "publications.bib", ROOT / "pub-ld.html"
+MANUAL = Path(__file__).resolve().parent / "citations_manual.bib"   # thesis and chapters without a Crossref DOI
 SITE = "https://philipplutz.org"
 PERSON_ID = SITE + "/#person"
 UA = "philipplutz.org citation updater (mailto:p.lutz@vu.nl)"
@@ -31,7 +32,7 @@ def entries():
     out, seen = [], set()
     text = QMD.read_text(encoding="utf-8")
     for block in re.split(r"\n(?=- )", text):
-        m = re.search(r"\[DOI\]\(https?://(?:dx\.)?doi\.org/([^)\s]+)\)", block)
+        m = re.search(r"\[DOI\]\(\s*(?:https?://)?(?:dx\.)?doi\.org/([^)\s]+)\s*\)", block)
         if not m:
             continue
         doi = m.group(1).strip()
@@ -184,12 +185,18 @@ def main():
              "issue": rec.get("issue", ""), "pages": rec.get("pages", "") if rec.get("volume") else "", "crossref": rec}
         out[doi] = c
         items.append((doi, c))
+    manual = []
+    if MANUAL.exists():
+        for e in re.findall(r"(@\w+\{[^,]+,.*?\n\})", MANUAL.read_text(encoding="utf-8"), re.S):
+            key = re.match(r"@\w+\{([^,]+),", e).group(1)
+            out["key:" + key] = {"key": key, "bibtex": e}
+            manual.append(e)
     OUT_JSON.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    OUT_BIB.write_text("% Publications of Philipp Lutz (journal articles with a DOI), from Crossref metadata.\n"
-                       "% Source: https://philipplutz.org/publications.html\n\n" +
-                       "\n\n".join(c["bibtex"] for _, c in items) + "\n", encoding="utf-8")
+    OUT_BIB.write_text("% Publications of Philipp Lutz. Source: https://philipplutz.org/publications.html\n"
+                       "% Journal articles: Crossref metadata. Thesis and book chapters: from the publications page.\n\n" +
+                       "\n\n".join(c["bibtex"] for _, c in items) + "\n\n" + "\n\n".join(manual) + "\n", encoding="utf-8")
     OUT_LD.write_text(jsonld(items), encoding="utf-8")
-    print("Wrote", len(items), "entries")
+    print("Wrote", len(items), "Crossref entries and", len(manual), "manual entries")
 
 
 if __name__ == "__main__":
