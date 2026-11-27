@@ -33,7 +33,7 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
 <p class="agenda-q">How do liberal democracies balance openness and closure in their migration policies?</p>
 
-Immigration policies decide who may enter a country and on what terms immigrants may stay. Comparing European democracies, I study what drives migration policy-making, how governments combine rules on entry and stay, and when radical right parties succeed in shaping migration policy.
+Immigration policies decide who may enter a country and on what terms immigrants may stay. I seek to explain why some countries are more open to immigration than others, how they combine different instruments in their policy mix, and how political parties and ideology shape these policies.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#reset">RESET-OECD data</a></p>
 :::
@@ -45,9 +45,9 @@ Immigration policies decide who may enter a country and on what terms immigrants
 ::: {.agenda-body}
 ### Public opinion and perceptions
 
-<p class="agenda-q">What do citizens believe about immigration, and why does it matter for democracy?</p>
+<p class="agenda-q">What do citizens want and believe about immigration, and why does it matter for democracy?</p>
 
-Public opinion on immigration is often shaped by perceptions rather than reality. I study how Europeans form attitudes towards immigration and free movement, how accurate their perceptions are and how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
+I study how Europeans form attitudes and policy preferences on immigration and European integration, in particular how they navigate conflicting pressures and the ambivalence these create. Public opinion also rests on perceptions that often diverge from reality: I study how accurate these perceptions are, how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#misperceptions">Misperceptions project</a></p>
 :::
@@ -59,9 +59,9 @@ Public opinion on immigration is often shaped by perceptions rather than reality
 ::: {.agenda-body}
 ### European migration governance
 
-<p class="agenda-q">Why and how do European states share responsibility for refugees, and what do citizens consider fair?</p>
+<p class="agenda-q">When and how do European states cooperate on migration?</p>
 
-Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection, and how states contribute through their domestic legislation, the common European policy and cooperation with third countries.
+Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how the EU combines internal free movement with external border control, and how European states share responsibility for refugee protection under the pressures of functional interdependence and domestic political contestation. The overarching question is how Europe can organise migration cooperation that is effective and that states and citizens accept as fair.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a></p>
 :::
