@@ -17,9 +17,7 @@ include-in-header: person-ld.html
 
 <p class="home-lead">Welcome! I'm a political scientist at the <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (SNSF Ambizione Fellow) and the <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (Senior Assistant Professor).</p>
 
-I study the politics of immigration in Europe's liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements.
-
-You'll find my [research projects](projects.qmd), including [publications](publications.qmd), [datasets](data.qmd), [teaching](teaching.qmd) and [public engagement](engagement.qmd) as well as my [CV](cv.qmd) on this site.
+I study the politics of immigration in Europe's liberal democracies, focusing on how they navigate the tension between economic pressures for openness and political demands for closure. My research examines what drives migration policy-making in comparative perspective, how citizens form perceptions and attitudes on immigration and European integration, and how states cooperate to govern migration at the European level and through trade agreements. Through my research, teaching and public engagement, I seek to advance our understanding of contemporary challenges to liberal democracies, to equip students with critical analytical skills for a complex world, and to inform policy-making and contribute to public debates.
 
 Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
@@ -80,6 +78,19 @@ Trade and migration are two facets of an increasingly interconnected world, yet 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mita">MITA data</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
 :::
 :::
+
+
+## Teaching {.home-section}
+
+I teach comparative and European politics, research design and migration policy at BA, MA and PhD level, in English, French and German, and I am happy to supervise theses on the politics of migration, public opinion and European integration.
+
+<p class="agenda-links"><i class="bi bi-easel"></i><a href="teaching.html">Courses</a> <span class="sep">·</span> <i class="bi bi-mortarboard"></i><a href="teaching.html#theses">Thesis supervision</a></p>
+
+## Public engagement {.home-section}
+
+My research engages with public and policy debates on migration, asylum and European integration through public talks, think-tank work, policy advocacy and media commentary, with features in outlets such as SRF, NZZ, Le Temps, Die Zeit and The Telegraph.
+
+<p class="agenda-links"><i class="bi bi-file-earmark-text"></i><a href="engagement.html#policy-papers">Policy papers</a> <span class="sep">·</span> <i class="bi bi-bank"></i><a href="engagement.html#policy-uptake">Policy uptake</a> <span class="sep">·</span> <i class="bi bi-newspaper"></i><a href="engagement.html#recent-media">Media</a> <span class="sep">·</span> <i class="bi bi-person-lines-fill"></i><a href="engagement.html#bio">Short bio</a></p>
 
 :::
 

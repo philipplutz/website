@@ -599,7 +599,7 @@ button.pub-btn { border: 0; font-family: inherit; line-height: inherit; cursor: 
 .replication-list li .pub-btn { margin-left: 0.3rem; }
 
 /* Teaching page: compact course and supervision lists (title, years on the right, details below) */
-.teach-inst { font-size: 1.05rem; margin-top: 1.4rem; color: var(--bs-secondary-color, #4b5563); }
+h3.teach-inst { font-size: 1.05rem; margin-top: 1.4rem; color: var(--bs-secondary-color, #4b5563); }
 .teach-list ul { list-style: none; padding-left: 0; margin: 0.4rem 0 1rem; }
 .teach-list li { display: grid; grid-template-columns: minmax(0, 1fr) max-content; column-gap: 1rem;
   padding: 0.45rem 0; border-bottom: 1px solid var(--bs-border-color, #e5e7eb); }
