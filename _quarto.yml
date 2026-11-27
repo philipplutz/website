@@ -6,6 +6,7 @@ project:
     - mentions.yml
     - scholar.json
     - skyline.svg
+    - figures/
 
 website:
   title: "Philipp Lutz"
