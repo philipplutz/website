@@ -24,6 +24,8 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
 ### <i class="bi bi-bank"></i> Comparative analysis of migration policies
 
+<figure class="agenda-fig"><a class="fig-zoom" href="figures/lutz2023.webp"><img src="figures/lutz2023_sm.webp" alt="Mobility preference of immigration policies by country: more restrictions on entry or on stay." loading="lazy"></a><figcaption>Lutz (2024), <em>West European Politics</em></figcaption></figure>
+
 <p class="agenda-q">How do liberal democracies balance openness and closure in their migration policies?</p>
 
 Immigration policies decide who may enter a country and on what terms immigrants may stay. Comparing European democracies, I study what drives migration policy-making, how governments combine rules on entry and stay, and when radical right parties succeed in shaping migration policy.
@@ -31,6 +33,8 @@ Immigration policies decide who may enter a country and on what terms immigrants
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#reset">RESET-OECD data</a></p>
 
 ### <i class="bi bi-eye"></i> Public opinion and perceptions
+
+<figure class="agenda-fig"><a class="fig-zoom" href="figures/lutz_bitschnau2025.webp"><img src="figures/lutz_bitschnau2025_sm.webp" alt="Average misperception and guessing about immigrant groups." loading="lazy"></a><figcaption>Lutz &amp; Bitschnau (2026), <em>Political Science Research and Methods</em></figcaption></figure>
 
 <p class="agenda-q">What do citizens believe about immigration, and why does it matter for democracy?</p>
 
@@ -40,6 +44,8 @@ Public opinion on immigration is often shaped by perceptions rather than reality
 
 ### <i class="bi bi-arrows-angle-contract"></i> European migration governance
 
+<figure class="agenda-fig"><a class="fig-zoom" href="figures/dublin_map.webp"><img src="figures/dublin_map_sm.webp" alt="Map of European states’ deviation from their fair share of asylum responsibility, 2008–2024." loading="lazy"></a><figcaption><a href="https://philipplutz.shinyapps.io/dublin_app/">Dublin Explorer</a>: deviation from fair share, 2008–2024</figcaption></figure>
+
 <p class="agenda-q">Why and how do European states share responsibility for refugees, and what do citizens consider fair?</p>
 
 Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection, and how states contribute through their domestic legislation, the common European policy and cooperation with third countries.
@@ -47,6 +53,8 @@ Open borders within Europe and exposure to external immigration require collecti
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a></p>
 
 ### <i class="bi bi-globe2"></i> Migration governance through trade agreements
+
+<figure class="agenda-fig"><a class="fig-zoom" href="figures/lutz_et_al2026_rio.webp"><img src="figures/lutz_et_al2026_rio_sm.webp" alt="Absolute and relative frequency of mobility provisions in preferential trade agreements, by signing party." loading="lazy"></a><figcaption>Lutz, Lavenex &amp; Hoffmeyer-Zlotnik (2026), <em>Review of International Organizations</em></figcaption></figure>
 
 <p class="agenda-q">Why do states govern migration through trade agreements?</p>
 
