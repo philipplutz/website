@@ -443,7 +443,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795795427311" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795802494206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-01-15-dublin-paper.html" class="no-external-icon">New article in <em>European Union Politics</em></a>
@@ -896,6 +896,39 @@ document.addEventListener("click", function (e) {
   document.addEventListener("DOMContentLoaded", openTarget);
   window.addEventListener("hashchange", openTarget);
 })();
+</script>
+
+<script>
+/* Data page: Cite button for each dataset, from the BibTeX kept (hidden) in the entry */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".data-entry pre.bibtex").forEach(function (pre) {
+    var entry = pre.closest(".data-entry"), row = entry.querySelector(".data-links p") || entry.querySelector(".data-links");
+    if (!row) return;
+    var bib = pre.textContent.trim();
+    var btn = document.createElement("button");
+    btn.type = "button"; btn.className = "pub-btn cite-btn"; btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>Cite';
+    row.appendChild(document.createTextNode(" · ")); row.appendChild(btn);
+    var box = null;
+    btn.addEventListener("click", function () {
+      if (box) { box.remove(); box = null; btn.setAttribute("aria-expanded", "false"); return; }
+      box = document.createElement("div"); box.className = "cite-box";
+      box.innerHTML = '<pre></pre><div class="cite-actions"><button type="button" class="cite-copy">' +
+        '<i class="bi bi-clipboard" aria-hidden="true"></i>Copy BibTeX</button>' +
+        '<a href="datasets.bib" download><i class="bi bi-download" aria-hidden="true"></i>All datasets (.bib)</a></div>';
+      box.querySelector("pre").textContent = bib;
+      box.querySelector(".cite-copy").addEventListener("click", function (e) {
+        var b = e.currentTarget;
+        navigator.clipboard.writeText(bib).then(function () {
+          b.lastChild.textContent = "Copied";
+          setTimeout(function () { b.lastChild.textContent = "Copy BibTeX"; }, 1500);
+        });
+      });
+      entry.querySelector(".data-links").after(box);
+      btn.setAttribute("aria-expanded", "true");
+    });
+  });
+});
 </script>
 
 <script id="quarto-html-after-body" type="application/javascript">

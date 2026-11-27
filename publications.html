@@ -1694,7 +1694,7 @@ Figure 3. Mobility preference across admission channels (panel a).
 </figure>
 </details></li>
 <li><span class="ag" data-ag="trade" data-pr="mobilities"></span> Lavenex, S., <strong>Lutz, P.</strong>, &amp; Hoffmeyer-Zlotnik, P. (2024) Migration governance through trade agreements: Insights from the MITA dataset. <em>Review of International Organizations</em>, 19: 147–173.<br>
-<a href="publications/lavenex_et_al2023.pdf" class="pub-btn">PDF</a> · <a href="https://doi.org/10.1007/s11558-023-09493-5" class="pub-btn">DOI</a> · <a href="https://zenodo.org/records/7837954" class="pub-btn">Dataset</a> · <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM1_ESM.docx" class="pub-btn">Supplementary material</a> · <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM2_ESM.zip" class="pub-btn">Replications files</a> · <a href="https://migrationpolicycentre.eu/what-do-trade-agreements-have-to-do-with-migration-policy/" class="pub-btn">Blog post</a>
+<a href="publications/lavenex_et_al2023.pdf" class="pub-btn">PDF</a> · <a href="https://doi.org/10.1007/s11558-023-09493-5" class="pub-btn">DOI</a> · <a href="https://zenodo.org/records/7837954" class="pub-btn">Dataset</a> · <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM1_ESM.docx" class="pub-btn">Supplementary material</a> · <a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM2_ESM.zip" class="pub-btn">Replication files</a> · <a href="https://migrationpolicycentre.eu/what-do-trade-agreements-have-to-do-with-migration-policy/" class="pub-btn">Blog post</a>
 <details>
 <summary>
 Abstract
@@ -2479,6 +2479,39 @@ document.addEventListener("click", function (e) {
   document.addEventListener("DOMContentLoaded", openTarget);
   window.addEventListener("hashchange", openTarget);
 })();
+</script>
+
+<script>
+/* Data page: Cite button for each dataset, from the BibTeX kept (hidden) in the entry */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".data-entry pre.bibtex").forEach(function (pre) {
+    var entry = pre.closest(".data-entry"), row = entry.querySelector(".data-links p") || entry.querySelector(".data-links");
+    if (!row) return;
+    var bib = pre.textContent.trim();
+    var btn = document.createElement("button");
+    btn.type = "button"; btn.className = "pub-btn cite-btn"; btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = '<i class="bi bi-quote" aria-hidden="true"></i>Cite';
+    row.appendChild(document.createTextNode(" · ")); row.appendChild(btn);
+    var box = null;
+    btn.addEventListener("click", function () {
+      if (box) { box.remove(); box = null; btn.setAttribute("aria-expanded", "false"); return; }
+      box = document.createElement("div"); box.className = "cite-box";
+      box.innerHTML = '<pre></pre><div class="cite-actions"><button type="button" class="cite-copy">' +
+        '<i class="bi bi-clipboard" aria-hidden="true"></i>Copy BibTeX</button>' +
+        '<a href="datasets.bib" download><i class="bi bi-download" aria-hidden="true"></i>All datasets (.bib)</a></div>';
+      box.querySelector("pre").textContent = bib;
+      box.querySelector(".cite-copy").addEventListener("click", function (e) {
+        var b = e.currentTarget;
+        navigator.clipboard.writeText(bib).then(function () {
+          b.lastChild.textContent = "Copied";
+          setTimeout(function () { b.lastChild.textContent = "Copy BibTeX"; }, 1500);
+        });
+      });
+      entry.querySelector(".data-links").after(box);
+      btn.setAttribute("aria-expanded", "true");
+    });
+  });
+});
 </script>
 
 <script id="quarto-html-after-body" type="application/javascript">
