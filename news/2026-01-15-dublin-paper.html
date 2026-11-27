@@ -377,15 +377,15 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://scholar.google.com/citations?user=Ml32muAAAAAJ"> 
-<span class="menu-text"><i class="ai ai-google-scholar"></i></span></a>
+<span class="menu-text"><i class="ai ai-google-scholar" aria-hidden="true"></i><span class="visually-hidden">Google Scholar</span></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://www.researchgate.net/profile/Philipp-Lutz-2"> 
-<span class="menu-text"><i class="ai ai-researchgate"></i></span></a>
+<span class="menu-text"><i class="ai ai-researchgate" aria-hidden="true"></i><span class="visually-hidden">ResearchGate</span></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0000-0003-2373-0180"> 
-<span class="menu-text"><i class="ai ai-orcid"></i></span></a>
+<span class="menu-text"><i class="ai ai-orcid" aria-hidden="true"></i><span class="visually-hidden">ORCID</span></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://bsky.app/profile/lutzphilipp.bsky.social"> <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
@@ -447,7 +447,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795807824479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795817703422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-06-11-workshop-krems.html" class="no-external-icon">Research workshop at Danube University Krems</a>
@@ -531,23 +531,33 @@ document.addEventListener("DOMContentLoaded", function () {
       content.querySelectorAll("section.level2 > h2").forEach(function (h) { heads.push({ h: h, text: h.textContent }); });
       var note = document.createElement("p");
       note.className = "proj-filter-note"; note.hidden = true;
+      var search = document.createElement("input");
+      search.type = "search"; search.className = "pub-search";
+      search.placeholder = "Search titles, authors, journals, abstracts";
+      search.setAttribute("aria-label", "Search publications");
+      var cur = { k: "all", proj: null };
       function apply(k, proj) {
         if (proj && !PROJECTS[proj]) proj = null;
         if (proj) k = null; else if (k !== "all" && !NAMES[k]) k = "all";
+        cur = { k: k, proj: proj };
         bar.querySelectorAll("button").forEach(function (b) { b.classList.toggle("active", b.dataset.ag === k); });
-        var all = k === "all";
+        var q = search.value.trim().toLowerCase();
+        var hit = function (el) { return !q || el.textContent.toLowerCase().indexOf(q) >= 0; };
+        var all = k === "all" && !q;
         note.hidden = !proj;
         if (proj) note.innerHTML = 'Outputs of the project <a href="projects.html#' + (proj === "mobilities" ? "trade-mobilities" : proj) +
                                    '">' + PROJECTS[proj] + '</a>';
         items.forEach(function (i) {
-          var on = proj ? i.prs.indexOf(proj) >= 0 : (all || i.tags.indexOf(k) >= 0);
-          i.el.style.display = on ? "" : "none";
+          var on = proj ? i.prs.indexOf(proj) >= 0 : (k === "all" || i.tags.indexOf(k) >= 0);
+          i.el.style.display = (on && hit(i.el)) ? "" : "none";
         });
         content.querySelectorAll("section li").forEach(function (li) {
-          if (taggedEls.indexOf(li) < 0 && !li.closest("details")) li.style.display = all ? "" : "none";
+          if (taggedEls.indexOf(li) < 0 && !li.closest("details"))
+            li.style.display = all ? "" : ((k === "all" && !proj && q && hit(li)) ? "" : "none");
         });
         content.querySelectorAll("section.level3, section.level2").forEach(function (sec) {
-          var visible = items.some(function (i) { return sec.contains(i.el) && i.el.style.display !== "none"; });
+          var visible = items.some(function (i) { return sec.contains(i.el) && i.el.style.display !== "none"; }) ||
+                        [].some.call(sec.querySelectorAll("li"), function (li) { return !li.closest("details") && li.style.display !== "none" && taggedEls.indexOf(li) < 0 && q; });
           sec.style.display = (all || visible) ? "" : "none";
         });
         heads.forEach(function (o) {
@@ -569,6 +579,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         bar.appendChild(b);
       });
+      bar.appendChild(search);
+      search.addEventListener("input", function () { apply(cur.k, cur.proj); });
       bar.appendChild(note);
       function fromHash() {
         var p = location.hash.match(/project=(\w+)/);
@@ -878,10 +890,13 @@ document.addEventListener("click", function (e) {
   if (!b) return;
   var card = b.closest(".app-card");
   var open = card.querySelector("iframe");
-  if (open) { open.remove(); b.innerHTML = '<i class="bi bi-window"></i>Load it here'; b.setAttribute("aria-expanded", "false"); return; }
+  if (open) { open.remove(); b.innerHTML = b.dataset.label || '<i class="bi bi-window"></i>Load it here'; b.setAttribute("aria-expanded", "false"); return; }
+  b.dataset.label = b.innerHTML;
   var f = document.createElement("iframe");
   f.src = b.dataset.src; f.title = b.dataset.title || "Interactive app"; f.loading = "lazy";
-  f.style.height = (b.dataset.h || 1200) + "px";
+  if (b.dataset.ratio) { f.style.aspectRatio = b.dataset.ratio; f.style.height = "auto";
+                         f.allow = "autoplay; fullscreen; picture-in-picture"; f.allowFullscreen = true; }
+  else f.style.height = (b.dataset.h || 1200) + "px";
   card.appendChild(f);
   b.innerHTML = '<i class="bi bi-x-lg"></i>Close'; b.setAttribute("aria-expanded", "true");
 });
@@ -946,6 +961,33 @@ document.addEventListener("click", function (e) {
     var label = b.lastChild; label.textContent = "Copied";
     setTimeout(function () { label.textContent = "Copy"; }, 1500);
   });
+});
+</script>
+
+<script>
+/* Landing page: the latest items of the News page, so news is maintained in one place */
+document.addEventListener("DOMContentLoaded", function () {
+  var box = document.getElementById("news-latest");
+  if (!box) return;
+  fetch("news.html").then(function (r) { return r.ok ? r.text() : ""; }).then(function (html) {
+    if (!html) return;
+    var doc = new DOMParser().parseFromString(html, "text/html");
+    var items = doc.querySelectorAll(".news-list li");
+    for (var i = 0; i < Math.min(4, items.length); i++) {
+      var li = items[i].cloneNode(true);
+      var date = li.querySelector(".news-date"), type = li.querySelector(".news-type");
+      var div = document.createElement("div"); div.className = "side-item";
+      var head = document.createElement("span"); head.className = "side-date";
+      head.textContent = (date ? date.textContent : "") + (type ? " · " + type.textContent : "");
+      if (date) date.remove(); if (type) type.remove();
+      li.querySelectorAll("a").forEach(function (a) {
+        var h = a.getAttribute("href") || "";
+        if (!/^(https?:|mailto:|\/|#)/.test(h)) a.setAttribute("href", new URL(h, new URL("news.html", location.href)).href);
+      });
+      var p = document.createElement("p"); p.innerHTML = li.innerHTML.trim();
+      div.appendChild(head); div.appendChild(p); box.appendChild(div);
+    }
+  }).catch(function () {});
 });
 </script>
 
