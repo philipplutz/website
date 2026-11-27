@@ -410,7 +410,7 @@ Welcome! I’m a political scientist at the <a href="https://www.unige.ch/scienc
 <p class="agenda-q">
 How do liberal democracies balance openness and closure in their migration policies?
 </p>
-<p>Immigration policies decide who may enter a country and on what terms immigrants may stay. Comparing European democracies, I study what drives migration policy-making, how governments combine rules on entry and stay, and when radical right parties succeed in shaping migration policy.</p>
+<p>Immigration policies decide who may enter a country and on what terms immigrants may stay. I seek to explain why some countries are more open to immigration than others, how they combine different instruments in their policy mix, and how political parties and ideology shape these policies.</p>
 <p class="agenda-links">
 <i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#reset">RESET-OECD data</a>
 </p>
@@ -421,9 +421,9 @@ How do liberal democracies balance openness and closure in their migration polic
 <section id="public-opinion-and-perceptions" class="level3 agenda-body">
 <h3 class="anchored" data-anchor-id="public-opinion-and-perceptions">Public opinion and perceptions</h3>
 <p class="agenda-q">
-What do citizens believe about immigration, and why does it matter for democracy?
+What do citizens want and believe about immigration, and why does it matter for democracy?
 </p>
-<p>Public opinion on immigration is often shaped by perceptions rather than reality. I study how Europeans form attitudes towards immigration and free movement, how accurate their perceptions are and how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other’s views, including what they believe society expects of immigrants.</p>
+<p>I study how Europeans form attitudes and policy preferences on immigration and European integration, in particular how they navigate conflicting pressures and the ambivalence these create. Public opinion also rests on perceptions that often diverge from reality: I study how accurate these perceptions are, how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other’s views, including what they believe society expects of immigrants.</p>
 <p class="agenda-links">
 <i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#misperceptions">Misperceptions project</a>
 </p>
@@ -434,9 +434,9 @@ What do citizens believe about immigration, and why does it matter for democracy
 <section id="european-migration-governance" class="level3 agenda-body">
 <h3 class="anchored" data-anchor-id="european-migration-governance">European migration governance</h3>
 <p class="agenda-q">
-Why and how do European states share responsibility for refugees, and what do citizens consider fair?
+When and how do European states cooperate on migration?
 </p>
-<p>Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection, and how states contribute through their domestic legislation, the common European policy and cooperation with third countries.</p>
+<p>Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how the EU combines internal free movement with external border control, and how European states share responsibility for refugee protection under the pressures of functional interdependence and domestic political contestation. The overarching question is how Europe can organise migration cooperation that is effective and that states and citizens accept as fair.</p>
 <p class="agenda-links">
 <i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a>
 </p>
@@ -543,11 +543,17 @@ document.addEventListener("DOMContentLoaded", function () {
 (function () {
   var NAMES = { policy: "Migration policies", opinion: "Public opinion and perceptions",
                 sharing: "European governance", trade: "Trade agreements" };
+  var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
+                   ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
+                   misperceptions: "Perceptions and Misperceptions about Immigration",
+                   mobilities: "Migration Governance through Trade Mobilities (nccr – on the move)",
+                   phd: "Inside the Migration State (PhD project)" };
   function tagged(root) {
     var out = [];
     root.querySelectorAll("span.ag[data-ag]").forEach(function (s) {
       var el = s.closest("li") || s.closest(".grid");
-      if (el) out.push({ el: el, tags: s.getAttribute("data-ag").split(/\s+/), tr: s.hasAttribute("data-tr") });
+      if (el) out.push({ el: el, tags: s.getAttribute("data-ag").split(/\s+/), tr: s.hasAttribute("data-tr"),
+                         prs: (s.getAttribute("data-pr") || "").split(/\s+/).filter(Boolean) });
     });
     return out;
   }
@@ -559,11 +565,20 @@ document.addEventListener("DOMContentLoaded", function () {
       var taggedEls = items.map(function (i) { return i.el; });
       var heads = [];
       content.querySelectorAll("section.level2 > h2").forEach(function (h) { heads.push({ h: h, text: h.textContent }); });
-      function apply(k) {
-        if (k !== "all" && !NAMES[k]) k = "all";
+      var note = document.createElement("p");
+      note.className = "proj-filter-note"; note.hidden = true;
+      function apply(k, proj) {
+        if (proj && !PROJECTS[proj]) proj = null;
+        if (proj) k = null; else if (k !== "all" && !NAMES[k]) k = "all";
         bar.querySelectorAll("button").forEach(function (b) { b.classList.toggle("active", b.dataset.ag === k); });
         var all = k === "all";
-        items.forEach(function (i) { i.el.style.display = (all || i.tags.indexOf(k) >= 0) ? "" : "none"; });
+        note.hidden = !proj;
+        if (proj) note.innerHTML = 'Outputs of the project <a href="projects.html#' + (proj === "mobilities" ? "trade-mobilities" : proj) +
+                                   '">' + PROJECTS[proj] + '</a>';
+        items.forEach(function (i) {
+          var on = proj ? i.prs.indexOf(proj) >= 0 : (all || i.tags.indexOf(k) >= 0);
+          i.el.style.display = on ? "" : "none";
+        });
         content.querySelectorAll("section li").forEach(function (li) {
           if (taggedEls.indexOf(li) < 0 && !li.closest("details")) li.style.display = all ? "" : "none";
         });
@@ -590,19 +605,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         bar.appendChild(b);
       });
-      function fromHash() { var m = location.hash.match(/agenda=(\w+)/); apply(m ? m[1] : "all"); }
+      bar.appendChild(note);
+      function fromHash() {
+        var p = location.hash.match(/project=(\w+)/);
+        if (p) return apply(null, p[1]);
+        var m = location.hash.match(/agenda=(\w+)/); apply(m ? m[1] : "all");
+      }
       window.addEventListener("hashchange", fromHash);
       fromHash();
     }
-    var links = document.querySelectorAll("a.agenda-pubs[data-ag]");
+    var links = document.querySelectorAll("a.agenda-pubs[data-ag], a.agenda-pubs[data-pr]");
     if (links.length) {
       fetch("publications.html").then(function (r) { return r.ok ? r.text() : ""; }).then(function (html) {
         if (!html) return;
         var doc = new DOMParser().parseFromString(html, "text/html");
         var items = tagged(doc);
         links.forEach(function (a) {
-          var k = a.dataset.ag;
-          var n = items.filter(function (i) { return i.tags.indexOf(k) >= 0 && !i.tr; }).length;
+          var k = a.dataset.ag, pr = a.dataset.pr;
+          var n = items.filter(function (i) { return (pr ? i.prs.indexOf(pr) >= 0 : i.tags.indexOf(k) >= 0) && !i.tr; }).length;
           if (n) a.textContent = "Publications (" + n + ")";
         });
       }).catch(function () {});
@@ -885,6 +905,39 @@ document.addEventListener("DOMContentLoaded", function () {
   }).catch(function () {});
 });
 </script>
+
+<script>
+/* App cards (Projects, Data): the Shiny apps load only on request, so the page stays light
+   and nobody faces a blank frame while the free server wakes up. */
+document.addEventListener("click", function (e) {
+  var b = e.target.closest && e.target.closest("button.app-load");
+  if (!b) return;
+  var card = b.closest(".app-card");
+  var open = card.querySelector("iframe");
+  if (open) { open.remove(); b.innerHTML = '<i class="bi bi-window"></i>Load it here'; b.setAttribute("aria-expanded", "false"); return; }
+  var f = document.createElement("iframe");
+  f.src = b.dataset.src; f.title = b.dataset.title || "Interactive app"; f.loading = "lazy";
+  f.style.height = (b.dataset.h || 1200) + "px";
+  card.appendChild(f);
+  b.innerHTML = '<i class="bi bi-x-lg"></i>Close'; b.setAttribute("aria-expanded", "true");
+});
+</script>
+
+<script>
+/* A link to an element inside a collapsed description (e.g. projects.html#dublin-explorer) opens it first */
+(function () {
+  function openTarget() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    if (!id || id.indexOf("=") >= 0) return;
+    var el = document.getElementById(id);
+    var d = el && el.closest("details");
+    if (d && !d.open) { d.open = true; el.scrollIntoView({ block: "start" }); }
+  }
+  document.addEventListener("DOMContentLoaded", openTarget);
+  window.addEventListener("hashchange", openTarget);
+})();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

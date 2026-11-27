@@ -12,19 +12,19 @@ I study the politics of immigration in Europe's liberal democracies, focusing on
 
 *How do liberal democracies balance openness and closure in their migration policies?*
 
-Immigration policies decide who may enter a country and on what terms immigrants may stay. Comparing European democracies, I study what drives migration policy-making, how governments combine rules on entry and stay, and when radical right parties succeed in shaping migration policy.
+Immigration policies decide who may enter a country and on what terms immigrants may stay. I seek to explain why some countries are more open to immigration than others, how they combine different instruments in their policy mix, and how political parties and ideology shape these policies.
 
 ### Public opinion and perceptions
 
-*What do citizens believe about immigration, and why does it matter for democracy?*
+*What do citizens want and believe about immigration, and why does it matter for democracy?*
 
-Public opinion on immigration is often shaped by perceptions rather than reality. I study how Europeans form attitudes towards immigration and free movement, how accurate their perceptions are and how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
+I study how Europeans form attitudes and policy preferences on immigration and European integration, in particular how they navigate conflicting pressures and the ambivalence these create. Public opinion also rests on perceptions that often diverge from reality: I study how accurate these perceptions are, how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
 
 ### European migration governance
 
-*Why and how do European states share responsibility for refugees, and what do citizens consider fair?*
+*When and how do European states cooperate on migration?*
 
-Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how functional interdependence among European states and domestic political contestation shape responsibility-sharing in refugee protection, and how states contribute through their domestic legislation, the common European policy and cooperation with third countries.
+Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how the EU combines internal free movement with external border control, and how European states share responsibility for refugee protection under the pressures of functional interdependence and domestic political contestation. The overarching question is how Europe can organise migration cooperation that is effective and that states and citizens accept as fair.
 
 ### Migration governance through trade agreements
 
@@ -257,77 +257,89 @@ For outreach publications see [Engagement](https://philipplutz.org/engagement.ht
 
 ## Projects
 
-### The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies (2026-2027)
+The funded projects behind my [research agendas](https://philipplutz.org/index.html#research), with their funding, team and outputs.
+
+### The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies
+
+Funding: Dutch Research Council (NWO), Open Competition XS (2026–2027); nccr – on the move, collaborative project grant “Contested Liberalism in Diverse Societies: Migration, Diversity and Support for Liberal Values” (2020)
+
+Role: Principal investigator, Vrije Universiteit Amsterdam
+
+Team: Stefan Manser-Egli, Guido Priem
+
+[Publications](https://philipplutz.org/publications.html#project=nwo) · [Pilot study (DOI)](https://doi.org/10.1162/euso.a.30)
+
+Project description
 
 Beyond formal immigration policies, societies hold unwritten expectations about how immigrants should behave—but we lack systematic evidence on these rules. Do people expect more from immigrants than from others? Do they think society is stricter than it actually is? This research surveys 2,500 Dutch residents to map these expectations across everyday behaviours like civic participation, cultural practices, and social interactions. By comparing what people personally believe with what they think others expect, and examining whether identical behaviours are judged differently depending on who performs them, the study reveals how informal expectations shape integration debates and policy preferences in diverse societies.
 
-*Funded by the Dutch Research Council (NWO Open competition grant). *
+### Connecting countries and dividing people: The politics of burden-sharing in European migration governance
 
-Project collaborators: Stefan Manser-Egli, Guido Priem
+Funding: Swiss National Science Foundation, Ambizione grant (2023–2027)
 
-Pilot study on the migration bias in integration norms in Switzerland [DOI](https://doi.org/10.1162/euso.a.30)
+Role: Principal investigator, University of Geneva
 
-Starting date: September 2026
+Team: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz
 
----
+[Publications](https://philipplutz.org/publications.html#project=ambizione) · [Dublin Explorer](https://philipplutz.org/projects.html#dublin-explorer) · [Datasets](https://philipplutz.org/data.html#uraf) · [SNSF grant page](https://data.snf.ch/grants/grant/208858)
 
-### Connecting countries and dividing people: The politics of burden-sharing in European migration governance (2023-2027)
+Project description
 
-Migration is both the most visible consequence of globalisation and the the main factor behind the political backlash against a more interconnected world. European countries experience a growing number of immigrants, which is leading to a mounting political crisis in the absence of adequate governance responses. The conjuncture of open borders within Europe and exposure to external immigration requires collective efforts to effectively govern migration through burden-sharing. This project seeks to understand how the contrasting pressures stemming from this functional interdependence and domestic political contestation shape the politics of burden-sharing in refugee protection and in migration control: When and how do European countries contribute to European burden-sharing in migration governance? What interests and ideas drive burden-sharing politics in European democracies?
+Migration is both the most visible consequence of globalisation and the main factor behind the political backlash against a more interconnected world. European countries experience a growing number of immigrants, which is leading to a mounting political crisis in the absence of adequate governance responses. The conjuncture of open borders within Europe and exposure to external immigration requires collective efforts to effectively govern migration through burden-sharing. This project seeks to understand how the contrasting pressures stemming from this functional interdependence and domestic political contestation shape the politics of burden-sharing in refugee protection and in migration control: When and how do European countries contribute to European burden-sharing in migration governance? What interests and ideas drive burden-sharing politics in European democracies?
 
-To address these questions, I develop an innovative conceptual and theoretical framework of burden-sharing politics that combines an international relations perspective on functional interdependence and international norms with a comparative politics perspective on identitarian politics and domestic politicisation. I propose the concept of multi- level burden-sharing where European countries contribute to collective migration governance across three levels of policy-making - through their domestic legislation, through their participation in the common European migration policy and through their cooperation with third countries. I seek to explain states’ burden-sharing behaviour by com- bining a interest-based perspective of exposure to international migration and an idea-based perspective of values and identities mobilised in response to immigration. I focus on two key policy areas of migration governance that differ in terms of how they incorporate interests and ideas: refugee protection and migration control.
+To address these questions, I develop an innovative conceptual and theoretical framework of burden-sharing politics that combines an international relations perspective on functional interdependence and international norms with a comparative politics perspective on identitarian politics and domestic politicisation. I propose the concept of multi-level burden-sharing where European countries contribute to collective migration governance across three levels of policy-making – through their domestic legislation, through their participation in the common European migration policy and through their cooperation with third countries. I seek to explain states’ burden-sharing behaviour by combining an interest-based perspective of exposure to international migration and an idea-based perspective of values and identities mobilised in response to immigration. I focus on two key policy areas of migration governance that differ in terms of how they incorporate interests and ideas: refugee protection and migration control.
 
-The research design combines a quantitative-comparative analysis of policy outcomes (Work Package 1) with comparative case studies to examine domestic policy processes (Work Package 2). WP 1 builds a comprehensive burden-sharing index that covers 31 European countries between 1990 and 2020 to identify the explanatory factors behind states’ contributions to European burden-sharing. WP2 investigates domestic preference formation and the political conflict surrounding burden-sharing in three countries with different migration contexts (Germany, Italy, Hungary). I do so by conducting survey experiments among citizens and analysing national parliamentary debates. The combination of macro- and micro-level evidence allows me to draw conclusions about the nature and determinants of burden-sharing politics, as well as the prospects and the limitations of European migration governance. In sum, the project develops an ambitious research agenda meant to break new conceptual and empirical ground in the study of European migration governance. Its integrative theoretical framework and innovative empirical mea- surements shed light on the fundamental challenge of migration policy-making in our time of contested globalisation. The findings will reveal the underlying drivers and resulting outcomes of burden-sharing politics and thereby help scholars and policy-makers to better understand and address the contemporary crisis in migration governance.
+The research design combines a quantitative-comparative analysis of policy outcomes (Work Package 1) with comparative case studies to examine domestic policy processes (Work Package 2). WP 1 builds a comprehensive burden-sharing index that covers 31 European countries between 1990 and 2020 to identify the explanatory factors behind states’ contributions to European burden-sharing. WP2 investigates domestic preference formation and the political conflict surrounding burden-sharing in three countries with different migration contexts (Germany, Italy, Hungary). I do so by conducting survey experiments among citizens and analysing national parliamentary debates. The combination of macro- and micro-level evidence allows me to draw conclusions about the nature and determinants of burden-sharing politics, as well as the prospects and the limitations of European migration governance. In sum, the project develops an ambitious research agenda meant to break new conceptual and empirical ground in the study of European migration governance. Its integrative theoretical framework and innovative empirical measurements shed light on the fundamental challenge of migration policy-making in our time of contested globalisation. The findings will reveal the underlying drivers and resulting outcomes of burden-sharing politics and thereby help scholars and policy-makers to better understand and address the contemporary crisis in migration governance.
 
-*Funded by the Swiss National Science Foundation (Ambizione grant)* *
+The Dublin Explorer
+Interactive dashboard on Dublin transfers across EU member states, accompanying my work on the fairness of asylum responsibility-sharing.
+[Open the app](https://philipplutz.shinyapps.io/dublin_app/)
 
-Project collaborators: Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Velez, Florian Trauner, Philipp Stutz
+### Migration, Trade and Technology: Responsibility Attribution in a Global Economy
 
-Project outline and publications can be found [here](https://data.snf.ch/grants/grant/208858).
+Funding: nccr – on the move, collaborative project grant (since 2024); OECD
 
-#### The Dublin Explorer
-
-An interactive dashboard accompanying my work on the fairness of asylum responsibility-sharing in the European Union. It lets users explore patterns in Dublin transfers across member states.
-
-If the dashboard does not load above, you can [open it directly](https://philipplutz.shinyapps.io/dublin_app/).
-
----
-
-### Migration Governance through Trade Mobilities (2019-2022)
-
-International trade and migration are two important facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States have progressively used trade agreements to govern different aspects of international migration, such as facilitating international mobility, strengthening migration control, or protecting migrant rights. Firstly, we study the drivers and configuration of migration provisions in trade agreements worldwide. For this purpose, we compile a comprehensive database of migration-related content in preferential trade agreements since 1960. Secondly, our project assesses how migration provisions in trade agreements are implemented in national immigration regimes and how they create privileges or disadvantages for different migrants and people on the move through case studies. We focus on four developed economies, two of which belong to a regional economic community and two in the same region which do not: Germany (EU), Switzerland, Singapore (ASEAN), and Japan.
-
-Funded through the SNF research programme 'nccr on the move'.
-
-Project collaborators: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio
-
-[Project website](https://nccr-onthemove.ch/projects/migration-governance-through-trade-mobilities/)
-
-Download the project poster [here](https://philipplutz.org/publications/IP24.pdf)
-
----
+Team: Juliana Chueri, Anna-Lena Nadler, Mia Gandelberger
 
 ### Perceptions and Misperceptions about Immigration
 
-Issues of immigration are central political challenges for European democracies, with public views often shaped by perceptions rather than reality. Consequently, they tend to fall victim to erroneous beliefs, ranging from innumeracy (i.e., the overestimation of the immigrant share in one’s country) to highly complex conspiracy theories. Both perceptions and misperceptions have been identified as crucial puzzle pieces in explaining policy preferences and political behavior. In particular, they may foster polarization and undermine the public’s ability to engage in deliberative decision-making. Still, only in recent years have scholars begun to pay attention to these phenomena, and many major questions regarding their nature and drivers remain insufficiently answered so far. This research agenda seeks to advance our understanding of (mis-)perceptions on a conceptual, theoretical and empirical level. How accurate are public perceptions about immigration? How can we measure them and what methodological pitfalls should be avoided? Are those who hold misperceptions really misinformed or only uninformed? What are the motivations and drivers of particular issue-specific perceptions? What consequences do perceptions have for political preferences and behavior? To what extent can misperceptions be corrected?
+Funding: nccr – on the move, collaborative project grant “Putting the Genie Back in the Bottle? How Control Perceptions Shape Immigration Preferences” (2021); FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey module (2023)
 
-Project collaborators: Marco Bitschnau
+Team: Marco Bitschnau
 
-Review article on the state of the art [PDF](https://philipplutz.org/publications/lutz_bitschnau2023.pdf)
+[Publications](https://philipplutz.org/publications.html#project=misperceptions)
 
-Article on measuring immigration misperceptions [PDF](https://philipplutz.org/publications/lutz_bitschnau2025.pdf)
+Project description
 
----
+Issues of immigration are central political challenges for European democracies, with public views often shaped by perceptions rather than reality. Consequently, they tend to fall victim to misperceptions, ranging from innumeracy (i.e., the overestimation of the immigrant share in one’s country) to highly complex conspiracy theories. Both perceptions and misperceptions have been identified as crucial puzzle pieces in explaining policy preferences and political behaviour. In particular, they may foster polarisation and undermine the public’s ability to engage in deliberative decision-making. Still, only in recent years have scholars begun to pay attention to these phenomena, and many major questions regarding their nature and drivers remain insufficiently answered so far. This research agenda seeks to advance our understanding of (mis-)perceptions on a conceptual, theoretical and empirical level. How accurate are public perceptions about immigration? How can we measure them and what methodological pitfalls should be avoided? Are those who hold misperceptions really misinformed or only uninformed? What are the motivations and drivers of particular issue-specific perceptions? What consequences do perceptions have for political preferences and behaviour? To what extent can misperceptions be corrected?
 
-### Inside the Migration State: The Quest for Democratic Legitimacy (2015-2019)
+### Migration Governance through Trade Mobilities
 
-Migration is an evident consequence of globalization and at the same time the main concern of European constituencies against a more globalized world. Liberal democracies in Western Europe face a fundamental tension between economic needs to remain open to migration and political demands for closure. This research agenda tackles the dilemma for national governments striving for democratic legitimacy between competing policy imperatives of openness and closure. Thereby, I combine theoretical approaches of democratic representation, political economy and party politics to study policy trade-offs on immigration and to contribute to a better understanding of migration policy-making in the context of contested globalization.
+Funding: Swiss National Science Foundation, nccr – on the move (2019–2022)
 
-Project collaborators: Klaus Armingeon, Caroline Schultz, Stephan Simon
+Role: Postdoctoral researcher, University of Geneva
 
-Read my [PhD thesis](https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e) investigating how national governments navigate the tension in immigration policy-making between economic pressure for openness and political pressure for closure.
+Team: Sandra Lavenex, Paula Hoffmeyer-Zlotnik, Mariana Alvarado, Julia Gubler, Laura Mauricio
 
----
+[Publications](https://philipplutz.org/publications.html#project=mobilities) · [MITA dataset](https://philipplutz.org/data.html#mita) · [MITA Explorer](https://philipplutz.shinyapps.io/MITA/) · [Project poster](https://philipplutz.org/publications/IP24.pdf) · [Project website](https://nccr-onthemove.ch/projects/migration-governance-through-trade-mobilities/)
+
+Project description
+
+International trade and migration are two important facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States have progressively used trade agreements to govern different aspects of international migration, such as facilitating international mobility, strengthening migration control, or protecting migrant rights. Firstly, we study the drivers and configuration of migration provisions in trade agreements worldwide. For this purpose, we compile a comprehensive database of migration-related content in preferential trade agreements since 1960. Secondly, our project assesses how migration provisions in trade agreements are implemented in national immigration regimes and how they create privileges or disadvantages for different migrants and people on the move through case studies. We focus on four developed economies, two of which belong to a regional economic community and two in the same region which do not: Germany (EU), Switzerland, Singapore (ASEAN), and Japan.
+
+### Inside the Migration State: The Quest for Democratic Legitimacy
+
+Funding: FORS Swiss Centre of Expertise in the Social Sciences, MOSAiCH survey module with Klaus Armingeon (2017)
+
+Role: Doctoral researcher, University of Bern (2015–2019)
+
+Team: Klaus Armingeon, Caroline Schultz, Stephan Simon
+
+[Publications](https://philipplutz.org/publications.html#project=phd) · [PhD thesis](https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e)
+
+Project description
+
+Migration is an evident consequence of globalisation and at the same time the main concern of European constituencies against a more globalised world. Liberal democracies in Western Europe face a fundamental tension between economic needs to remain open to migration and political demands for closure. This research agenda tackles the dilemma for national governments striving for democratic legitimacy between competing policy imperatives of openness and closure. Thereby, I combine theoretical approaches of democratic representation, political economy and party politics to study policy trade-offs on immigration and to contribute to a better understanding of migration policy-making in the context of contested globalisation.
 
 ## Data
 
@@ -362,7 +374,9 @@ The MITA dataset is the broadest and most inclusive databases on preferential tr
 
 [DOI](https://zenodo.org/records/20692494) · [Data (dta)](https://zenodo.org/records/20692494/files/Migration_Provisions_in_Preferential_Trade_Agreements_Dataset_v2.dta?download=1) · [Codebook](https://zenodo.org/records/20692494/files/codebook_v2.pdf?download=1) · [Dataset article](https://link.springer.com/article/10.1007/s11558-023-09493-5)
 
-If the dashboard does not load above, you can [open it directly](https://philipplutz.shinyapps.io/MITA/).
+The MITA Explorer
+Interactive dashboard to explore the MITA dataset.
+[Open the app](https://philipplutz.shinyapps.io/MITA/)
 
 ---
 

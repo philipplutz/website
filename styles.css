@@ -490,7 +490,8 @@ footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bott
   color: var(--bs-secondary-color, #6b7280); }
 /* Research agendas on the homepage: small schematic tile in the empty left margin; text keeps its full width */
 .agenda-row { position: relative; margin-top: 1.6rem; }
-.agenda-row .agenda-body > h3:first-child { margin-top: 0; }
+.agenda-row .agenda-body > h3:first-child,
+.agenda-row .agenda-body > h2:first-child { margin-top: 0; }
 .agenda-row .agenda-links { margin-bottom: 0; }
 .agenda-tile { display: block; border-radius: 10px; overflow: hidden; aspect-ratio: 1;
   border: 1px solid var(--bs-border-color, #e5e7eb); background: #fcf9f3; transition: border-color .15s, box-shadow .15s; }
@@ -511,7 +512,8 @@ footer.footer::before { content: ""; position: absolute; left: 0; right: 0; bott
   .agenda-row { display: grid; grid-template-columns: 44px minmax(0, 1fr); column-gap: 0.8rem; }
   .agenda-row .agenda-body { display: contents; }
   .agenda-row .agenda-body > * { grid-column: 1 / -1; }
-  .agenda-row .agenda-body > h3:first-child { grid-column: 2; grid-row: 1; align-self: center; margin: 0; }
+  .agenda-row .agenda-body > h3:first-child,
+  .agenda-row .agenda-body > h2:first-child { grid-column: 2; grid-row: 1; align-self: center; margin: 0; }
   .agenda-tile { grid-row: 1; margin: 0 0 0.4rem; border-radius: 7px; }
 }
 /* Enlarged figure on click */
@@ -538,3 +540,47 @@ button.pub-btn { border: 0; font-family: inherit; line-height: inherit; cursor: 
 .cite-copy:hover { border-color: var(--bs-primary); color: var(--bs-primary); }
 .cite-actions a { color: var(--bs-secondary-color, #6b7280); text-decoration: none; border-bottom: 1px dotted currentColor; }
 .cite-actions a:hover { color: var(--bs-link-color); }
+
+/* Projects page: one entry per funded project, tile in the left margin as on the homepage */
+.proj-intro { color: var(--bs-secondary-color, #4b5563); margin: 0.2rem 0 0.4rem; }
+.proj-row { margin-top: 2.4rem; }
+.proj-row details { margin-top: 0.55rem; }
+.proj-row details[open] { margin-bottom: 0.5rem; }
+.tile-icon { cursor: default; }
+.tile-icon:hover { border-color: var(--bs-border-color, #e5e7eb); box-shadow: none; }
+.tile-icon .tile-pending { font-size: 2.3rem; color: #b9b2a4; }
+.proj-row .agenda-body > h2:first-child { font-size: 1.45rem; line-height: 1.3; padding-bottom: 0.45rem; }
+.proj-meta { display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: 0.9rem; row-gap: 0.25rem;
+  margin: 0.8rem 0 1rem; font-size: 0.9rem; line-height: 1.45; color: var(--bs-secondary-color, #4b5563); }
+.proj-meta dt { font-weight: 600; color: var(--bs-body-color, #1f2937); margin: 0; }
+.proj-meta dd { margin: 0; }
+.proj-links { margin-top: 0.2rem; }
+@media (max-width: 575.98px) {
+  .proj-meta { grid-template-columns: 1fr; row-gap: 0; }
+  .proj-meta dd { margin-bottom: 0.35rem; }
+}
+/* App cards: the Shiny apps open in a new tab or load in the page on request */
+.app-card { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 0.9rem; align-items: start;
+  margin: 1.3rem 0 0.4rem; padding: 0.9rem 1rem; border: 1px solid var(--bs-border-color, #e5e7eb); border-radius: 10px;
+  background: #fcf9f3; scroll-margin-top: 5rem; }
+.app-card .app-icon { font-size: 1.7rem; color: var(--bs-primary); line-height: 1.2; }
+.app-card .app-text p { margin: 0 0 0.35rem; }
+.app-card .app-title { font-weight: 600; }
+.app-card .app-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 0; }
+.app-card .app-open, .app-card .app-load { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.85rem;
+  padding: 0.25rem 0.7rem; border-radius: 999px; border: 1px solid #c9d6ec; background: #fff; color: #264d8c;
+  text-decoration: none; cursor: pointer; line-height: 1.4; }
+.app-card .app-open:hover, .app-card .app-load:hover { border-color: #264d8c; }
+.app-card iframe { grid-column: 1 / -1; width: 100%; margin-top: 0.9rem; border: 1px solid var(--bs-border-color, #e5e7eb);
+  border-radius: 6px; background: #fff; }
+.quarto-dark .app-card { background: #2b2f33; border-color: #3a3f44; }
+.quarto-dark .app-card .app-open, .quarto-dark .app-card .app-load { background: transparent; color: #9fc0ff; border-color: #4a5560; }
+/* Publications page: note shown when the list is filtered to one project */
+.proj-filter-note { flex-basis: 100%; margin: 0.4rem 0 0; font-size: 0.9rem; color: var(--bs-secondary-color, #4b5563); }
+
+@media (max-width: 767.98px) {
+  .proj-row .agenda-body > h2:first-child { font-size: 1.2rem; }
+}
+@media (max-width: 1179.98px) {
+  .tile-icon .tile-pending { font-size: 1.3rem; }
+}

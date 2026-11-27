@@ -443,7 +443,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795787144941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781136000000" data-listing-file-modified-sort="1795795427313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-06-11-workshop-krems.html" class="no-external-icon">Research workshop at Danube University Krems</a>
@@ -503,11 +503,17 @@ document.addEventListener("DOMContentLoaded", function () {
 (function () {
   var NAMES = { policy: "Migration policies", opinion: "Public opinion and perceptions",
                 sharing: "European governance", trade: "Trade agreements" };
+  var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
+                   ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
+                   misperceptions: "Perceptions and Misperceptions about Immigration",
+                   mobilities: "Migration Governance through Trade Mobilities (nccr – on the move)",
+                   phd: "Inside the Migration State (PhD project)" };
   function tagged(root) {
     var out = [];
     root.querySelectorAll("span.ag[data-ag]").forEach(function (s) {
       var el = s.closest("li") || s.closest(".grid");
-      if (el) out.push({ el: el, tags: s.getAttribute("data-ag").split(/\s+/), tr: s.hasAttribute("data-tr") });
+      if (el) out.push({ el: el, tags: s.getAttribute("data-ag").split(/\s+/), tr: s.hasAttribute("data-tr"),
+                         prs: (s.getAttribute("data-pr") || "").split(/\s+/).filter(Boolean) });
     });
     return out;
   }
@@ -519,11 +525,20 @@ document.addEventListener("DOMContentLoaded", function () {
       var taggedEls = items.map(function (i) { return i.el; });
       var heads = [];
       content.querySelectorAll("section.level2 > h2").forEach(function (h) { heads.push({ h: h, text: h.textContent }); });
-      function apply(k) {
-        if (k !== "all" && !NAMES[k]) k = "all";
+      var note = document.createElement("p");
+      note.className = "proj-filter-note"; note.hidden = true;
+      function apply(k, proj) {
+        if (proj && !PROJECTS[proj]) proj = null;
+        if (proj) k = null; else if (k !== "all" && !NAMES[k]) k = "all";
         bar.querySelectorAll("button").forEach(function (b) { b.classList.toggle("active", b.dataset.ag === k); });
         var all = k === "all";
-        items.forEach(function (i) { i.el.style.display = (all || i.tags.indexOf(k) >= 0) ? "" : "none"; });
+        note.hidden = !proj;
+        if (proj) note.innerHTML = 'Outputs of the project <a href="projects.html#' + (proj === "mobilities" ? "trade-mobilities" : proj) +
+                                   '">' + PROJECTS[proj] + '</a>';
+        items.forEach(function (i) {
+          var on = proj ? i.prs.indexOf(proj) >= 0 : (all || i.tags.indexOf(k) >= 0);
+          i.el.style.display = on ? "" : "none";
+        });
         content.querySelectorAll("section li").forEach(function (li) {
           if (taggedEls.indexOf(li) < 0 && !li.closest("details")) li.style.display = all ? "" : "none";
         });
@@ -550,19 +565,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         bar.appendChild(b);
       });
-      function fromHash() { var m = location.hash.match(/agenda=(\w+)/); apply(m ? m[1] : "all"); }
+      bar.appendChild(note);
+      function fromHash() {
+        var p = location.hash.match(/project=(\w+)/);
+        if (p) return apply(null, p[1]);
+        var m = location.hash.match(/agenda=(\w+)/); apply(m ? m[1] : "all");
+      }
       window.addEventListener("hashchange", fromHash);
       fromHash();
     }
-    var links = document.querySelectorAll("a.agenda-pubs[data-ag]");
+    var links = document.querySelectorAll("a.agenda-pubs[data-ag], a.agenda-pubs[data-pr]");
     if (links.length) {
       fetch("publications.html").then(function (r) { return r.ok ? r.text() : ""; }).then(function (html) {
         if (!html) return;
         var doc = new DOMParser().parseFromString(html, "text/html");
         var items = tagged(doc);
         links.forEach(function (a) {
-          var k = a.dataset.ag;
-          var n = items.filter(function (i) { return i.tags.indexOf(k) >= 0 && !i.tr; }).length;
+          var k = a.dataset.ag, pr = a.dataset.pr;
+          var n = items.filter(function (i) { return (pr ? i.prs.indexOf(pr) >= 0 : i.tags.indexOf(k) >= 0) && !i.tr; }).length;
           if (n) a.textContent = "Publications (" + n + ")";
         });
       }).catch(function () {});
@@ -845,6 +865,39 @@ document.addEventListener("DOMContentLoaded", function () {
   }).catch(function () {});
 });
 </script>
+
+<script>
+/* App cards (Projects, Data): the Shiny apps load only on request, so the page stays light
+   and nobody faces a blank frame while the free server wakes up. */
+document.addEventListener("click", function (e) {
+  var b = e.target.closest && e.target.closest("button.app-load");
+  if (!b) return;
+  var card = b.closest(".app-card");
+  var open = card.querySelector("iframe");
+  if (open) { open.remove(); b.innerHTML = '<i class="bi bi-window"></i>Load it here'; b.setAttribute("aria-expanded", "false"); return; }
+  var f = document.createElement("iframe");
+  f.src = b.dataset.src; f.title = b.dataset.title || "Interactive app"; f.loading = "lazy";
+  f.style.height = (b.dataset.h || 1200) + "px";
+  card.appendChild(f);
+  b.innerHTML = '<i class="bi bi-x-lg"></i>Close'; b.setAttribute("aria-expanded", "true");
+});
+</script>
+
+<script>
+/* A link to an element inside a collapsed description (e.g. projects.html#dublin-explorer) opens it first */
+(function () {
+  function openTarget() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    if (!id || id.indexOf("=") >= 0) return;
+    var el = document.getElementById(id);
+    var d = el && el.closest("details");
+    if (d && !d.open) { d.open = true; el.scrollIntoView({ block: "start" }); }
+  }
+  document.addEventListener("DOMContentLoaded", openTarget);
+  window.addEventListener("hashchange", openTarget);
+})();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
