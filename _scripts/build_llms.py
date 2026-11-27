@@ -59,7 +59,7 @@ def home():
         q = re.search(r'<p class="agenda-q">(.*?)</p>', body, re.S)
         text = re.sub(r"<p class=\"agenda-(q|links)\">.*?</p>", "", body, flags=re.S)
         agendas.append((clean(m.group(1)), clean(q.group(1)) if q else "", clean(text)))
-    bio = clean(bio).split("\n\n")[0]           # the research summary; the navigation lines are left out
+    bio = "\n\n".join(p for p in clean(bio).split("\n\n") if not p.startswith(("Feel free", "You'll find")))   # summary and vision; contact line left out
     return clean(lead), bio, agendas
 
 
@@ -107,8 +107,8 @@ def main():
                 ("Bluesky", "https://bsky.app/profile/lutzphilipp.bsky.social"),
                 ("LinkedIn", "https://www.linkedin.com/in/philipp-lutz-78254489")]
 
-    summary = re.sub(r"^Welcome!\s*I'm a", "Philipp Lutz is a", lead)
-    eng = read("engagement.qmd")
+    summary = re.sub(r"^(Welcome!\s*)?I(?:'m| am) a", "Philipp Lutz is a", lead)
+    eng = read("cv.qmd")
     mb = re.search(r'<p class="bio-text" lang="en">(.*?)</p>', eng, re.S)
     short_bio = clean(mb.group(1)) if mb else ""
     s = ["# Philipp Lutz", "", "> " + summary, "", bio, "", "## Research agendas", ""]
@@ -121,7 +121,7 @@ def main():
     (ROOT / "llms.txt").write_text("\n".join(s), encoding="utf-8")
 
     f = ["# Philipp Lutz", "", "Source: %s (generated from the site's pages at each build)" % SITE, "",
-         re.sub(r"^Welcome!\s*I'm a", "Philipp Lutz is a", lead), "", bio, "", "## Research agendas", ""]
+         re.sub(r"^(Welcome!\s*)?I(?:'m| am) a", "Philipp Lutz is a", lead), "", bio, "", "## Research agendas", ""]
     for h, q, text in agendas:
         f += ["### " + h, "", "*" + q + "*", "", text, ""]
     f += ["## Publications", "", re.sub(r"^## ", "### ", re.sub(r"^### ", "#### ", publications(), flags=re.M), flags=re.M), "",
