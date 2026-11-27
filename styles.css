@@ -439,11 +439,14 @@ body.pub-timeline section.level3 > ul > li::before {
 .reception a:hover { color: var(--bs-link-color, #2761e3); border-bottom-color: currentColor; }
 
 /* Citation totals at the top of the publications page (filled from scholar.json) */
-.scholar-stats { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 1.4rem; margin: 0 0 1.2rem;
+.scholar-stats { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem 1.2rem; margin: 0 0 1.2rem;
   font-size: 0.95rem; color: var(--bs-secondary-color, #6b7280); }
 .scholar-stats .ss strong { font-size: 1.15rem; font-weight: 600; color: var(--bs-body-color, #1f2937); margin: 0 0.1rem; }
 .scholar-stats .bi { color: var(--bs-tertiary-color, #9aa3ae); margin-right: 0.35rem; }
-.scholar-stats .ss-src { font-size: 0.85rem; }
+.scholar-stats .ss-src { display: inline-block; font-size: 0.85rem; line-height: 1.3; }
+.scholar-stats .ss-date { display: block; }
+.scholar-stats .pub-search { align-self: center; flex: 1 1 11rem; min-width: 10rem; }
+.scholar-stats > p { margin: 0; }
 .scholar-stats a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--bs-border-color, #cfd4da); }
 .scholar-stats a:hover { color: var(--bs-link-color, #2761e3); border-bottom-color: currentColor; }
 
@@ -658,4 +661,8 @@ body:not(.quarto-dark) .news-type { color: #1d64b8; }
   font-size: 0.9rem; border: 1px solid #c8d3e6; border-radius: 999px; background: transparent; color: inherit; }
 .pub-search:focus { outline: 2px solid #1d64b8; outline-offset: 1px; }
 @media (max-width: 767.98px) { .pub-search { margin-left: 0; max-width: none; } }
+
+/* Publications: one-line takeaway under each journal article */
+.pub-takeaway { display: block; margin: 0.15rem 0 0.3rem; font-size: 0.93rem; line-height: 1.45; color: #4b5563; }
+.quarto-dark .pub-takeaway { color: #b5bcc4; }
 

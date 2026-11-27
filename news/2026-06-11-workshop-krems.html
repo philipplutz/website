@@ -51,9 +51,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-bdee7f7ba7ce3de9d6c7348142b0e203.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e1ff599981aebc214154414376dcc4b3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -447,7 +447,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795817703421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768435200000" data-listing-file-modified-sort="1795823349292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../news/2026-01-15-dublin-paper.html" class="no-external-icon">New article in <em>European Union Politics</em></a>
@@ -533,7 +533,8 @@ document.addEventListener("DOMContentLoaded", function () {
       note.className = "proj-filter-note"; note.hidden = true;
       var search = document.createElement("input");
       search.type = "search"; search.className = "pub-search";
-      search.placeholder = "Search titles, authors, journals, abstracts";
+      search.placeholder = "Search publications";
+      search.title = "Searches titles, authors, journals and abstracts";
       search.setAttribute("aria-label", "Search publications");
       var cur = { k: "all", proj: null };
       function apply(k, proj) {
@@ -579,7 +580,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         bar.appendChild(b);
       });
-      bar.appendChild(search);
+      var statsRow = document.getElementById("scholar-stats");   // search sits at the right end of the citation line
+      (statsRow || bar).appendChild(search);
       search.addEventListener("input", function () { apply(cur.k, cur.proj); });
       bar.appendChild(note);
       function fromHash() {
@@ -773,14 +775,15 @@ document.addEventListener("DOMContentLoaded", function () {
       try { sch = JSON.parse(res[1]) || {}; } catch (e) { sch = {}; }
       cites = sch.items || [];
       var box = document.getElementById("scholar-stats"), t = sch.totals || {};
-      if (box && t.citations) {      // "954 citations · h-index 14 · Google Scholar, November 2026"
+      if (box && t.citations) {      // "954 citations · h-index 14 · bars · Google Scholar / November 2026 · search"
         var u = (sch.updated || "").split("-"), mo = parseInt(u[1], 10);
-        box.innerHTML = '<span class="ss"><i class="bi bi-quote" aria-hidden="true"></i><strong>' +
+        box.querySelectorAll(":scope > p").forEach(function (n) { n.remove(); });   // drop the fallback sentence, keep the search field
+        box.insertAdjacentHTML("afterbegin", '<span class="ss"><i class="bi bi-quote" aria-hidden="true"></i><strong>' +
           Number(t.citations).toLocaleString("en-US") + "</strong> citations</span>" +
           (t.h_index ? '<span class="ss">h-index <strong>' + t.h_index + "</strong></span>" : "") +
           (sch.by_year && sch.by_year.length >= 3 ? '<span class="ss ss-chart">' + yearBars(sch.by_year, sch.updated) + "</span>" : "") +
           '<span class="ss ss-src"><a href="' + esc(sch.profile || "") + '">Google Scholar</a>' +
-          (mo ? ", " + MONTHS[mo - 1] + " " + u[0] : "") + "</span>";
+          (mo ? '<span class="ss-date">' + MONTHS[mo - 1] + " " + u[0] + "</span>" : "") + "</span>");
       }
       if (pol) {
         var prows = rows.filter(function (r) {
