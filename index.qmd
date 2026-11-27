@@ -1,4 +1,5 @@
 ---
+description: "Philipp Lutz, political scientist at the University of Geneva and the Vrije Universiteit Amsterdam, studies the politics of immigration in Europe's liberal democracies."
 title: ""
 pagetitle: "Philipp Lutz"
 body-classes: home
@@ -13,7 +14,7 @@ include-in-header: person-ld.html
 <!-- ===================== main column ===================== -->
 ::: {.g-col-12 .g-col-lg-8}
 
-<div class="home-name" role="heading" aria-level="1">Philipp Lutz</div>
+<div class="home-name" role="heading" aria-level="1"><img class="home-portrait-mobile" src="prof_pic.jpg" alt="Portrait of Philipp Lutz" width="88" height="88">Philipp Lutz</div>
 
 <p class="home-lead">I am a political scientist at the <a href="https://www.unige.ch/sciences-societe/speri/membres/enseignants-chercheurs/philipp-lutz">University of Geneva</a> (SNSF Ambizione Fellow) and the <a href="https://research.vu.nl/en/persons/philipp-lutz/">Vrije Universiteit Amsterdam</a> (Senior Assistant Professor).</p>
 
@@ -35,7 +36,7 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 
 Immigration policies decide who may enter a country and on what terms immigrants may stay. I seek to explain why some countries are more open to immigration than others, how they combine different instruments in their policy mix, and how political parties and ideology shape these policies.
 
-<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#reset">RESET-OECD data</a></p>
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#policy-datasets">Policy datasets</a></p>
 :::
 :::
 
@@ -49,7 +50,7 @@ Immigration policies decide who may enter a country and on what terms immigrants
 
 I study how Europeans form attitudes and policy preferences on immigration and European integration, in particular how they navigate conflicting pressures and the ambivalence these create. Public opinion also rests on perceptions that often diverge from reality: I study how accurate these perceptions are, how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
 
-<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#misperceptions">Misperceptions project</a></p>
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mosaich-2023">Survey data</a></p>
 :::
 :::
 
@@ -63,7 +64,7 @@ I study how Europeans form attitudes and policy preferences on immigration and E
 
 Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how the EU combines internal free movement with external border control, and how European states share responsibility for refugee protection under the pressures of functional interdependence and domestic political contestation. The overarching question is how Europe can organise migration cooperation that is effective and that states and citizens accept as fair.
 
-<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#uraf">Datasets</a></p>
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a></p>
 :::
 :::
 
@@ -77,7 +78,7 @@ Open borders within Europe and exposure to external immigration require collecti
 
 Trade and migration are two facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States and the European Union increasingly use trade agreements to facilitate mobility, strengthen migration control or protect migrant rights. With the MITA dataset, which covers migration provisions in preferential trade agreements worldwide since 1960, I study why states include such provisions, how they combine them and how they shape national immigration regimes and the EU's external migration policy.
 
-<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mita">MITA data</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
+<p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
 :::
 :::
 
@@ -90,7 +91,7 @@ I teach comparative and European politics, research design and migration policy 
 
 ## Public engagement {.home-section}
 
-My research engages with public and policy debates on migration, asylum and European integration through public talks, think-tank work, policy advocacy and media commentary, with features in outlets such as SRF, NZZ, Le Temps, Die Zeit and The Telegraph.
+My research engages with public and policy debates on migration, asylum and European integration through public talks, think-tank work, policy advocacy and media commentary. Reports by the European Parliamentary Research Service, the World Bank and the Swiss Parliament draw on my research.
 
 <p class="agenda-links"><i class="bi bi-file-earmark-text"></i><a href="engagement.html#policy-papers">Policy papers</a> <span class="sep">·</span> <i class="bi bi-bank"></i><a href="engagement.html#policy-uptake">Policy uptake</a> <span class="sep">·</span> <i class="bi bi-newspaper"></i><a href="engagement.html#recent-media">Media</a></p>
 
@@ -112,43 +113,27 @@ Annual Conference of the Swiss Political Science Association<br>
 :::
 
 ::: {.side-block}
-#### Recent publications
-
-<div class="side-item">
-[Trading migration? Explaining mobility provisions in preferential trade agreements](https://doi.org/10.1007/s11558-026-09654-2)<br>
-<span class="side-meta"><em>The Review of International Organizations</em>, 2026</span>
-</div>
-
-<div class="side-item">
-[Fair enough? Citizens' preferences on refugee distribution in the EU](https://doi.org/10.1017/S1475676526101595)<br>
-<span class="side-meta"><em>European Journal of Political Research</em>, 2026</span>
-</div>
-
-<div class="side-item">
-[Seeing divides: Citizens' biased perceptions of political cleavages](https://doi.org/10.1007/s11109-026-10181-4)<br>
-<span class="side-meta"><em>Political Behavior</em>, 2026</span>
-</div>
-:::
-
-::: {.side-block}
 #### News
 
-<div class="side-item">
-<span class="side-date">2 Nov 2026</span>
-Guido Priem joins my NWO project at VU Amsterdam as postdoctoral researcher.
-</div>
-
-<div class="side-item">
-<span class="side-date">24 Oct 2026</span>
-New article in <em>The Review of International Organizations</em> on mobility provisions in trade agreements.
-</div>
-
-<div class="side-item">
-<span class="side-date">14 Oct 2026</span>
-Our article on measuring misperceptions about immigration is now in print in <em>Political Science Research and Methods</em>.
-</div>
+<div id="news-latest" class="news-latest"></div>
 
 <p class="side-all">[All news →](news.qmd)</p>
+:::
+
+::: {.side-block .side-contact}
+#### Contact
+
+<div class="side-item">
+Vrije Universiteit Amsterdam<br>
+<span class="side-meta">Department of Political Science and Public Administration<br>De Boelelaan 1105, 1081 HV Amsterdam</span><br>
+<a href="mailto:p.lutz@vu.nl">p.lutz@vu.nl</a>
+</div>
+
+<div class="side-item">
+University of Geneva<br>
+<span class="side-meta">Department of Political Science and International Relations<br>Boulevard du Pont d'Arve 40, 1205 Geneva</span><br>
+<a href="mailto:philipp.lutz@unige.ch">philipp.lutz@unige.ch</a>
+</div>
 :::
 
 :::

@@ -450,7 +450,7 @@ body.pub-timeline section.level3 > ul > li::before {
 .mentions li { margin-bottom: 0.55rem; }
 
 /* Homepage: the name is the page heading, so hide the duplicate in the navigation bar (space kept so the menu does not shift) */
-body.home .navbar-brand .navbar-title { visibility: hidden; }
+body.home .navbar-brand { visibility: hidden; }
 
 /* Line drawing of Amsterdam canal houses, a lake and the Swiss Alps, above the footer on every page */
 footer.footer { position: relative; margin-top: calc(clamp(70px, 9vw, 135px) + 1.5rem); }
@@ -600,6 +600,7 @@ button.pub-btn { border: 0; font-family: inherit; line-height: inherit; cursor: 
 
 /* Teaching page: compact course and supervision lists (title, years on the right, details below) */
 h3.teach-inst { font-size: 1.05rem; margin-top: 1.4rem; color: var(--bs-secondary-color, #4b5563); }
+body:not(.quarto-dark) h3.teach-inst { color: #5f6368; }
 .teach-list ul { list-style: none; padding-left: 0; margin: 0.4rem 0 1rem; }
 .teach-list li { display: grid; grid-template-columns: minmax(0, 1fr) max-content; column-gap: 1rem;
   padding: 0.45rem 0; border-bottom: 1px solid var(--bs-border-color, #e5e7eb); }
@@ -610,4 +611,51 @@ h3.teach-inst { font-size: 1.05rem; margin-top: 1.4rem; color: var(--bs-secondar
 /* Engagement page: short bio in three languages */
 .bio-tabs .bio-text { margin-bottom: 0.6rem; }
 .bio-tabs .tab-content { padding-top: 0.6rem; }
+
+/* Accessibility: darker blue for small text on light backgrounds (WCAG AA contrast) */
+body:not(.quarto-dark) .pub-btn,
+body:not(.quarto-dark) .side-date,
+body:not(.quarto-dark).pub-timeline section.level3 > h3 { color: #1d64b8; }
+body:not(.quarto-dark) .pub-btn:hover { color: #fff; }
+/* Page descriptions are for search engines and link previews; the pages keep their own intros */
+#title-block-header .description { display: none; }
+
+/* Phones and tablets: small portrait beside the name; the large side portrait stays on desktop only */
+.home-portrait-mobile { display: none; }
+@media (max-width: 991.98px) {
+  .home-portrait-mobile { display: block; float: right; width: 88px; height: 88px; margin: 0.1rem 0 0.5rem 1rem;
+    border-radius: 50%; object-fit: cover; object-position: 50% 20%; }
+  .home-side .home-portrait { display: none; }
+}
+/* Dark mode: soften the light tiles */
+.quarto-dark .agenda-tile { background: #2b2f33; }
+.quarto-dark .agenda-tile img { filter: brightness(.78) saturate(.9); }
+.quarto-dark .tile-icon .tile-pending { color: #8a8f95; }
+.video-card { padding: 0.6rem 1rem; margin-top: 0.6rem; }
+.video-card .app-actions { margin: 0.2rem 0 0; }
+
+/* News page: date and type on the left, one sentence and links */
+.news-list ul { list-style: none; padding-left: 0; }
+.news-list li { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 1rem; padding: 0.65rem 0;
+  border-bottom: 1px solid var(--bs-border-color, #e5e7eb); }
+.news-list li:last-child { border-bottom: 0; }
+.news-date { grid-column: 1; grid-row: 1 / span 2; font-weight: 700; font-size: 0.85rem; color: var(--bs-secondary-color, #4b5563); padding-top: 0.15rem; }
+.news-type { grid-column: 2; grid-row: 1; display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--bs-primary); margin-bottom: 0.1rem; }
+body:not(.quarto-dark) .news-type { color: #1d64b8; }
+.news-text { grid-column: 2; grid-row: 2; }
+.news-links { font-size: 0.9rem; margin-left: 0.2rem; }
+.news-links a { white-space: normal; }
+@media (max-width: 575.98px) {
+  .news-list li { grid-template-columns: 1fr; }
+  .news-date, .news-type, .news-text { grid-column: 1; grid-row: auto; }
+}
+.news-latest .side-item p { margin: 0.1rem 0 0; font-size: 0.86rem; line-height: 1.45; }
+.news-latest .news-links { white-space: normal; font-size: 0.82rem; display: block; margin-top: 0.15rem; }
+
+/* Publications page: text search next to the agenda filters */
+.pub-search { flex: 1 1 14rem; min-width: 12rem; max-width: 22rem; margin-left: auto; padding: 0.22rem 0.8rem;
+  font-size: 0.9rem; border: 1px solid #c8d3e6; border-radius: 999px; background: transparent; color: inherit; }
+.pub-search:focus { outline: 2px solid #1d64b8; outline-offset: 1px; }
+@media (max-width: 767.98px) { .pub-search { margin-left: 0; max-width: none; } }
 

@@ -1,4 +1,5 @@
 ---
+description: "Curriculum vitae of Philipp Lutz, political scientist at the University of Geneva and the Vrije Universiteit Amsterdam."
 title: "CV"
 ---
 

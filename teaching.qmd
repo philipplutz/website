@@ -1,4 +1,5 @@
 ---
+description: "Courses, thesis supervision and mentoring by Philipp Lutz at the Vrije Universiteit Amsterdam and the Universities of Geneva and Bern."
 title: "Teaching"
 image: prof_pic.jpg
 image-alt: "Portrait of Philipp Lutz"

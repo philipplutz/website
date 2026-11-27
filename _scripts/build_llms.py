@@ -71,7 +71,7 @@ def publications():
     for line in t.split("\n"):
         if line.strip().startswith("<details>"):
             continue
-        if "<summary>" in line:
+        if "<summary>Abstract</summary>" in line:
             out.append("\n  Abstract: ")
             continue
         if line.strip().startswith("</details>"):
