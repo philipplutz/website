@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": "Google Scholar (via SerpApi)",
  "profile": "https://scholar.google.com/citations?user=Ml32muAAAAAJ",
  "totals": {
-  "citations": 954,
+  "citations": 955,
   "h_index": 14,
-  "i10_index": 19
+  "i10_index": 20
  },
  "by_year": [
   [
@@ -42,7 +42,7 @@
   ],
   [
    2026,
-   224
+   225
   ]
  ],
  "items": [
@@ -149,6 +149,12 @@
    "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5676869650904782023"
   },
   {
+   "doi": "10.1111/gove.70072",
+   "key": "",
+   "cites": 10,
+   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14841395072371138419"
+  },
+  {
    "doi": "10.1111/jcms.13563",
    "key": "",
    "cites": 10,
@@ -159,12 +165,6 @@
    "key": "",
    "cites": 10,
    "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7931503706346689392"
-  },
-  {
-   "doi": "10.1111/gove.70072",
-   "key": "",
-   "cites": 9,
-   "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14841395072371138419"
   },
   {
    "doi": "10.1017/s1537592724001014",
@@ -267,6 +267,42 @@
    "key": "migrationimkonfliktzwischenaussenundinnenpolitik",
    "cites": 1,
    "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6299056382513422108"
+  },
+  {
+   "doi": "10.1007/s11558-026-09654-2",
+   "key": "",
+   "cites": 0,
+   "link": ""
+  },
+  {
+   "doi": "",
+   "key": "warumdasmigrationslandschweizeineneueerzahlungbraucht",
+   "cites": 0,
+   "link": ""
+  },
+  {
+   "doi": "10.1017/s1475676526101595",
+   "key": "",
+   "cites": 0,
+   "link": ""
+  },
+  {
+   "doi": "",
+   "key": "migrationgovernancethroughtradeagreementsatwolevelanalysis",
+   "cites": 0,
+   "link": ""
+  },
+  {
+   "doi": "",
+   "key": "migrationconflictsbetweenforeignanddomesticpolicy",
+   "cites": 0,
+   "link": ""
+  },
+  {
+   "doi": "",
+   "key": "migrationunesourcedeconflitsentrelespolitiquesexterieureetinterieure",
+   "cites": 0,
+   "link": ""
   }
  ]
 }
