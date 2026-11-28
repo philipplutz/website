@@ -2,38 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://philipplutz.org/cv.html</loc>
-    <lastmod>2026-11-28T08:41:29.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/engagement.html</loc>
-    <lastmod>2026-11-28T08:41:29.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/data.html</loc>
-    <lastmod>2026-11-28T08:41:29.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/projects.html</loc>
-    <lastmod>2026-11-28T08:41:29.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/publications.html</loc>
-    <lastmod>2026-11-28T08:41:29.394Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/index.html</loc>
-    <lastmod>2026-11-28T08:41:29.381Z</lastmod>
-  </url>
-  <url>
-    <loc>https://philipplutz.org/news.html</loc>
-    <lastmod>2026-11-28T08:41:29.392Z</lastmod>
+    <lastmod>2026-11-28T08:41:52.173Z</lastmod>
   </url>
   <url>
     <loc>https://philipplutz.org/teaching.html</loc>
-    <lastmod>2026-11-28T08:41:29.570Z</lastmod>
+    <lastmod>2026-11-28T08:41:52.374Z</lastmod>
   </url>
   <url>
-    <loc>https://philipplutz.org/news/2026-06-11-workshop-krems.html</loc>
-    <lastmod>2026-11-28T08:41:29.392Z</lastmod>
+    <loc>https://philipplutz.org/news.html</loc>
+    <lastmod>2026-11-28T08:41:52.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/index.html</loc>
+    <lastmod>2026-11-28T08:41:52.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/publications.html</loc>
+    <lastmod>2026-11-28T08:41:52.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/projects.html</loc>
+    <lastmod>2026-11-28T08:41:52.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/data.html</loc>
+    <lastmod>2026-11-28T08:41:52.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://philipplutz.org/engagement.html</loc>
+    <lastmod>2026-11-28T08:41:52.173Z</lastmod>
   </url>
 </urlset>
