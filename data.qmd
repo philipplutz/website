@@ -10,7 +10,7 @@ A central component of my research is the development of new data resources that
 ## Policy datasets
 
 ::: {.agenda-row .data-entry}
-<span class="agenda-tile tile-icon" aria-hidden="true"><span class="tile-pending"><i class="bi bi-cash-coin"></i></span></span>
+<span class="agenda-tile tile-icon tile-colour" style="--tile-bg:#0063a2" aria-hidden="true"><span class="tile-pending"><i class="bi bi-cash-coin"></i></span></span>
 
 ::: {.agenda-body}
 ### UN Refugee Agencies Funding (URAF) Dataset {#uraf}
