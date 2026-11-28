@@ -1,5 +1,4 @@
 ---
-description: "Funded research projects of Philipp Lutz on migration policy, public opinion and European migration governance."
 title: "Projects"
 image: prof_pic.jpg
 image-alt: "Portrait of Philipp Lutz"
@@ -14,7 +13,7 @@ image-alt: "Portrait of Philipp Lutz"
 ## The Normative Integration Regime: How Differential Expectations Shape Immigrant Societies {#nwo}
 
 <dl class="proj-meta">
-<dt>Funding</dt><dd>Dutch Research Council (NWO), Open Competition XS (2026–2027)<br>nccr – on the move, collaborative project grant “Contested Liberalism in Diverse Societies: Migration, Diversity and Support for Liberal Values” (2020)</dd>
+<dt>Funding</dt><dd><img class="funder-logo funder-tall" src="nwo.jpg" alt="">Dutch Research Council (NWO), Open Competition XS (2026–2027)<br>nccr – on the move, collaborative project grant “Contested Liberalism in Diverse Societies: Migration, Diversity and Support for Liberal Values” (2020)</dd>
 <dt>Role</dt><dd>Principal investigator, Vrije Universiteit Amsterdam</dd>
 <dt>Team &amp; collaborators</dt><dd>Guido Priem, Stefan Manser-Egli</dd>
 </dl>
@@ -37,7 +36,7 @@ Beyond formal immigration policies, societies hold unwritten expectations about 
 ## Connecting countries and dividing people: The politics of burden-sharing in European migration governance {#ambizione}
 
 <dl class="proj-meta">
-<dt>Funding</dt><dd>Swiss National Science Foundation, Ambizione grant (2023–2027)</dd>
+<dt>Funding</dt><dd><img class="funder-logo" src="snsf.png" alt="">Swiss National Science Foundation, Ambizione grant (2023–2027)</dd>
 <dt>Role</dt><dd>Principal investigator, University of Geneva</dd>
 <dt>Team &amp; collaborators</dt><dd>Maud Bachelet, Frowin Rausis, Walter Bartl, Ben Crum, Diego Caballero-Vélez, Florian Trauner, Philipp Stutz</dd>
 </dl>

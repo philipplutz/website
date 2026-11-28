@@ -671,3 +671,17 @@ body:not(.quarto-dark) .news-type { color: #1d64b8; }
 .pub-award .bi { margin-right: 0.35rem; }
 .quarto-dark .pub-award { color: #e3b55c; }
 
+/* Publications filter: break after "Public opinion and perceptions" so the two rows are balanced */
+.agenda-filter .ag-break { flex-basis: 100%; height: 0; }
+@media (max-width: 575.98px) { .agenda-filter .ag-break { display: none; } }
+
+/* Icon tiles in a brand colour (e.g. the nccr – on the move survey): white icon on a coloured ground */
+.tile-icon.tile-colour { background: var(--tile-bg); border-color: var(--tile-bg); }
+.tile-icon.tile-colour .tile-pending, .quarto-dark .tile-icon.tile-colour .tile-pending { color: #fff; }
+.tile-icon.tile-colour:hover { border-color: var(--tile-bg); }
+
+/* Projects: funder logos next to the funding line (NWO, SNSF) */
+.funder-logo { float: right; height: 24px; width: auto; margin: 0 0 0.3rem 1rem; }
+.funder-logo.funder-tall { height: 46px; }   /* NWO's logo is portrait */
+.quarto-dark .funder-logo { background: #fff; padding: 2px 4px; border-radius: 3px; }
+

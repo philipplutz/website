@@ -264,7 +264,7 @@ The effectiveness of immigrant integration policies has gained considerable atte
 
 ## PhD thesis
 
-- []{.cite data-key="Lutz2019inside"}[]{.ag data-ag="policy" data-pr="phd"} **Lutz, P.** (2019) *Inside the Migration State: The Quest for Democratic Legitimacy*. Doctoral dissertation, Institute of Political Science, University of Bern. DOI: 10.48549/4882  
+- []{.no-cites}[]{.cite data-key="Lutz2019inside"}[]{.ag data-ag="policy" data-pr="phd"} **Lutz, P.** (2019) *Inside the Migration State: The Quest for Democratic Legitimacy*. Doctoral dissertation, Institute of Political Science, University of Bern. DOI: 10.48549/4882  
 <span class="pub-takeaway">Studying immigration policy-making from the perspective of democratic legitimacy, the thesis asks how liberal democracies reconcile the economic imperative for open borders with the political imperative for closed borders. The argument is that governments follow economic needs in admission policy, where their room for manoeuvre is narrow, and respond to political demands in integration policy, where they have more discretion. Across 18 West European democracies (1980–2014), admission policies became more liberal regardless of who governed, while integration policies became more restrictive and partisan. A case study of the 2014 Swiss referendum on immigration quotas shows the same logic: the clash with free movement was settled by strengthening the labour market integration of residents, a solution the public largely accepted.</span>
 Advisors: Prof. Klaus Armingeon (Bern) and Prof. Marc Helbling (Bamberg).  
 [Full text](https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e){.pub-btn} 

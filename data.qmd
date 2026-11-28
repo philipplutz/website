@@ -284,7 +284,7 @@ Our questionnaire in MOSAiCH 2017, the biennial population survey of social atti
 :::
 
 ::: {.agenda-row .data-entry}
-<span class="agenda-tile tile-icon" aria-hidden="true"><span class="tile-pending"><i class="bi bi-people"></i></span></span>
+<span class="agenda-tile tile-icon tile-colour" style="--tile-bg:#ff3b30" aria-hidden="true"><span class="tile-pending"><i class="bi bi-briefcase"></i></span></span>
 
 ::: {.agenda-body}
 ### Business migration items, Migration-Mobility Survey {#mms}
