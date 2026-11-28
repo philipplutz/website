@@ -1964,7 +1964,7 @@ Figure 1. Capability-Aspiration-Framework for Integration Outcomes.
 <section id="phd-thesis" class="level2">
 <h2 class="anchored" data-anchor-id="phd-thesis">PhD thesis</h2>
 <ul>
-<li><span class="cite" data-key="Lutz2019inside"></span><span class="ag" data-ag="policy" data-pr="phd"></span> <strong>Lutz, P.</strong> (2019) <em>Inside the Migration State: The Quest for Democratic Legitimacy</em>. Doctoral dissertation, Institute of Political Science, University of Bern. DOI: 10.48549/4882<br>
+<li><span class="no-cites"></span><span class="cite" data-key="Lutz2019inside"></span><span class="ag" data-ag="policy" data-pr="phd"></span> <strong>Lutz, P.</strong> (2019) <em>Inside the Migration State: The Quest for Democratic Legitimacy</em>. Doctoral dissertation, Institute of Political Science, University of Bern. DOI: 10.48549/4882<br>
 <span class="pub-takeaway">Studying immigration policy-making from the perspective of democratic legitimacy, the thesis asks how liberal democracies reconcile the economic imperative for open borders with the political imperative for closed borders. The argument is that governments follow economic needs in admission policy, where their room for manoeuvre is narrow, and respond to political demands in integration policy, where they have more discretion. Across 18 West European democracies (1980–2014), admission policies became more liberal regardless of who governed, while integration policies became more restrictive and partisan. A case study of the 2014 Swiss referendum on immigration quotas shows the same logic: the clash with free movement was settled by strengthening the labour market integration of residents, a solution the public largely accepted.</span> Advisors: Prof.&nbsp;Klaus Armingeon (Bern) and Prof.&nbsp;Marc Helbling (Bamberg).<br>
 <a href="https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e" class="pub-btn">Full text</a></li>
 </ul>
@@ -2186,6 +2186,10 @@ document.addEventListener("DOMContentLoaded", function () {
           apply(k);
         });
         bar.appendChild(b);
+        if (k === "opinion") {          // second row starts with the two governance agendas
+          var br = document.createElement("span"); br.className = "ag-break"; br.setAttribute("aria-hidden", "true");
+          bar.appendChild(br);
+        }
       });
       var statsRow = document.getElementById("scholar-stats");   // search sits at the right end of the citation line
       (statsRow || bar).appendChild(search);
@@ -2312,6 +2316,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var k = textKey(li.innerText);
     var c = cites.filter(function (x) { return x.doi ? x.doi === d : (x.key && k.indexOf(x.key) >= 0); })[0];
     var details = li.querySelector(":scope > details");
+    if (li.querySelector(".no-cites")) c = null;   // entries marked []{.no-cites} show no count (e.g. the PhD thesis)
     if (c && c.cites >= MIN_CITES) {   // grey chip at the end of the button row
       var chip = document.createElement("a");
       chip.className = "cite-chip";

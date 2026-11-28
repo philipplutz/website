@@ -595,6 +595,10 @@ document.addEventListener("DOMContentLoaded", function () {
           apply(k);
         });
         bar.appendChild(b);
+        if (k === "opinion") {          // second row starts with the two governance agendas
+          var br = document.createElement("span"); br.className = "ag-break"; br.setAttribute("aria-hidden", "true");
+          bar.appendChild(br);
+        }
       });
       var statsRow = document.getElementById("scholar-stats");   // search sits at the right end of the citation line
       (statsRow || bar).appendChild(search);
@@ -721,6 +725,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var k = textKey(li.innerText);
     var c = cites.filter(function (x) { return x.doi ? x.doi === d : (x.key && k.indexOf(x.key) >= 0); })[0];
     var details = li.querySelector(":scope > details");
+    if (li.querySelector(".no-cites")) c = null;   // entries marked []{.no-cites} show no count (e.g. the PhD thesis)
     if (c && c.cites >= MIN_CITES) {   // grey chip at the end of the button row
       var chip = document.createElement("a");
       chip.className = "cite-chip";
