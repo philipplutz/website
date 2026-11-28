@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bdee7f7ba7ce3de9d6c7348142b0e203.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e1ff599981aebc214154414376dcc4b3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1110,6 +1110,7 @@ document.addEventListener("DOMContentLoaded", function () {
 (function () {
   var NAMES = { policy: "Migration policy-making", opinion: "Public opinion and perceptions",
                 sharing: "European migration governance", trade: "Migration in trade agreements" };
+  var SHORT = { policy: "Policy-making", opinion: "Public opinion", sharing: "European governance", trade: "Trade agreements" };   // filter button labels, short enough for one row
   var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
                    ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
                    misperceptions: "Perceptions and Misperceptions about Immigration",
@@ -1176,16 +1177,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       ["all", "policy", "opinion", "sharing", "trade"].forEach(function (k) {
         var b = document.createElement("button");
-        b.type = "button"; b.dataset.ag = k; b.textContent = k === "all" ? "All" : NAMES[k];
+        b.type = "button"; b.dataset.ag = k; b.textContent = k === "all" ? "All" : SHORT[k];
+        if (k !== "all") b.title = NAMES[k];
         b.addEventListener("click", function () {
           history.replaceState(null, "", k === "all" ? location.pathname : "#agenda=" + k);
           apply(k);
         });
         bar.appendChild(b);
-        if (k === "opinion") {          // second row starts with the two governance agendas
-          var br = document.createElement("span"); br.className = "ag-break"; br.setAttribute("aria-hidden", "true");
-          bar.appendChild(br);
-        }
       });
       var statsRow = document.getElementById("scholar-stats");   // search sits at the right end of the citation line
       (statsRow || bar).appendChild(search);
