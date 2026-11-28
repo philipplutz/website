@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 (function () {
   var NAMES = { policy: "Migration policy-making", opinion: "Public opinion and perceptions",
                 sharing: "European migration governance", trade: "Migration in trade agreements" };
+  var SHORT = { policy: "Policy-making", opinion: "Public opinion", sharing: "European governance", trade: "Trade agreements" };   // filter button labels, short enough for one row
   var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
                    ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
                    misperceptions: "Perceptions and Misperceptions about Immigration",
@@ -107,16 +108,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       ["all", "policy", "opinion", "sharing", "trade"].forEach(function (k) {
         var b = document.createElement("button");
-        b.type = "button"; b.dataset.ag = k; b.textContent = k === "all" ? "All" : NAMES[k];
+        b.type = "button"; b.dataset.ag = k; b.textContent = k === "all" ? "All" : SHORT[k];
+        if (k !== "all") b.title = NAMES[k];
         b.addEventListener("click", function () {
           history.replaceState(null, "", k === "all" ? location.pathname : "#agenda=" + k);
           apply(k);
         });
         bar.appendChild(b);
-        if (k === "opinion") {          // second row starts with the two governance agendas
-          var br = document.createElement("span"); br.className = "ag-break"; br.setAttribute("aria-hidden", "true");
-          bar.appendChild(br);
-        }
       });
       var statsRow = document.getElementById("scholar-stats");   // search sits at the right end of the citation line
       (statsRow || bar).appendChild(search);

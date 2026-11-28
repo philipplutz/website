@@ -37,23 +37,25 @@ For media requests, public talks, or advisory work, please [email me](mailto:p.l
 
 ## Public events
 
-### Medien-Dialog Migration: Der EU-Migrations- und Asylpakt: Was die Reform bezweckt, wie sie umgesetzt wird und was sich konkret verändert
+### Medien-Dialog Migration (20. August 2025): Der EU-Migrations- und Asylpakt: Was die Reform bezweckt, wie sie umgesetzt wird und was sich konkret verändert
+
+Mit **Philipp Lutz**, Adriana Romer und Maud Bachelet, moderiert von Natalie Avanzino.
 
 <div class="app-card video-card">
 <i class="bi bi-play-btn app-icon" aria-hidden="true"></i>
 <div class="app-text">
-<p class="app-title">German edition, 20 August 2025</p>
-<p>Mit <strong>Philipp Lutz</strong>, Adriana Romer und Maud Bachelet, moderiert von Natalie Avanzino.</p>
 <p class="app-actions"><a class="app-open" href="https://www.youtube.com/watch?v=2OLIoficTyU&t=1674s" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i>Watch on YouTube</a><button type="button" class="app-load" data-src="https://www.youtube-nocookie.com/embed/2OLIoficTyU?start=1674" data-title="Medien-Dialog Migration, 20 August 2025" data-ratio="16 / 9"><i class="bi bi-window"></i>Play here</button></p>
 </div>
 </div>
 
+### Point de Presse Migration (23 mai 2024) : Pacte sur la migration et l'asile de l'UE
+
+Avec **Philipp Lutz**, Maud Bachelet et Simon Noori. Organisé par asile.ch et nccr – on the move.
+
 <div class="app-card video-card">
 <i class="bi bi-play-btn app-icon" aria-hidden="true"></i>
 <div class="app-text">
-<p class="app-title">French edition, 23 May 2024</p>
-<p>Avec <strong>Philipp Lutz</strong>, Maud Bachelet et Simon Noori.</p>
-<p class="app-actions"><a class="app-open" href="https://www.youtube.com/watch?v=5fVJmVN69Qo" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i>Watch on YouTube</a><button type="button" class="app-load" data-src="https://www.youtube-nocookie.com/embed/5fVJmVN69Qo" data-title="Medien-Dialog Migration, French edition, 23 May 2024" data-ratio="16 / 9"><i class="bi bi-window"></i>Play here</button></p>
+<p class="app-actions"><a class="app-open" href="https://www.youtube.com/watch?v=5fVJmVN69Qo" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i>Watch on YouTube</a><button type="button" class="app-load" data-src="https://www.youtube-nocookie.com/embed/5fVJmVN69Qo" data-title="Point de Presse Migration, 23 May 2024" data-ratio="16 / 9"><i class="bi bi-window"></i>Play here</button></p>
 </div>
 </div>
 

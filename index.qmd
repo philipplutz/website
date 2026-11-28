@@ -76,7 +76,7 @@ Open borders within Europe and exposure to external immigration require collecti
 
 <p class="agenda-q">Why do states govern migration through trade agreements?</p>
 
-States struggle to cooperate on migration at the multilateral level, yet they increasingly include migration provisions in trade agreements to facilitate mobility, control migration or protect migrant rights. I study why they do so and how these provisions shape national immigration regimes and the EU's external migration policy.
+States struggle to cooperate on migration at the multilateral level, yet they increasingly include migration provisions in trade agreements to facilitate mobility, control migration or protect migrant rights. I map these provisions, explain why states adopt them and study their role in broader migration governance.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
 :::
