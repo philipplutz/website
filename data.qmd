@@ -1,5 +1,4 @@
 ---
-description: "Datasets, survey modules and replication files by Philipp Lutz: URAF, MITA, RDP and RESET-OECD."
 title: "Data"
 image: prof_pic.jpg
 image-alt: "Portrait of Philipp Lutz"
@@ -25,6 +24,7 @@ The URAF dataset records the financial contributions of all 193 UN member states
 <dt>Version</dt><dd>1.0</dd>
 <dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></dd>
 <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.17983862">10.5281/zenodo.17983862</a></dd>
+<dt>Downloads</dt><dd><span class="dl-count" data-zenodo="17983862">256</span> on Zenodo, all versions (<span class="dl-date">November 2026</span>)</dd>
 </dl>
 
 ::: {.data-links}
@@ -67,6 +67,7 @@ The MITA dataset codes the migration-related content of all preferential trade a
 <dt>Version</dt><dd>2</dd>
 <dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></dd>
 <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.20692494">10.5281/zenodo.20692494</a></dd>
+<dt>Downloads</dt><dd><span class="dl-count" data-zenodo="20692494">1,552</span> on Zenodo, all versions (<span class="dl-date">November 2026</span>)</dd>
 </dl>
 
 ::: {.data-links}
@@ -88,9 +89,9 @@ The MITA dataset codes the migration-related content of all preferential trade a
 <summary>Publications using the data (7)</summary>
 
 - **Lutz, P.**, Lavenex, S., & Hoffmeyer-Zlotnik, P. (2026) [Trading migration? Explaining mobility provisions in preferential trade agreements](https://doi.org/10.1007/s11558-026-09654-2). *The Review of International Organizations*, FirstView.
-- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) [Business migration between labour and trade: Evidence from Switzerland](https://doi.org/10.1186/s40878-025-00483-7). *Comparative Migration Studies*, 13: 60.
+- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) [Business migration between labour and trade: Evidence from Switzerland](https://doi.org/10.1186/s40878-025-00483-7). *Comparative Migration Studies*, 13(1): 60.
 - Lavenex, S., Alvarado, M., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2025) [Business mobility as a privileged form of temporary labour migration: Insights from the MITA database and Switzerland](publications/ilo_chapter.pdf). In: Temporary labour migration: Towards social justice?, edited by Christiane Kuptsch and Fabiola Mieres. Geneva: International Labour Organisation, pp.107-128.
-- Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) [Migration governance through trade agreements: Insights from the MITA dataset](https://doi.org/10.1007/s11558-023-09493-5). *Review of International Organizations*, 19: 147–173.
+- Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) [Migration governance through trade agreements: Insights from the MITA dataset](https://doi.org/10.1007/s11558-023-09493-5). *The Review of International Organizations*, 19(1): 147–173.
 - Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) [The limits of EU market power in migration externalization: Explaining migration control provisions in EU preferential trade agreements](https://doi.org/10.1111/jcms.13563). *Journal of Common Market Studies*, 62(5): 1351–1378.
 - Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2024) [Migration governance through trade agreements: A two-level analysis](publications/mita_twolevel.pdf). In W. Sievers, R. Bauböck, M. Czaika, & A. Kraler (Eds.), *Drawing boundaries and crossing borders: Migration in Theorie und Praxis. Jahrbuch Migrationsforschung 7*. Vienna: Verlag der Österreichischen Akademie der Wissenschaften, pp. 169–184.
 - Lavenex, S., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2023) [Expanding, complementing, or substituting multilateralism? EU preferential trade agreements in the migration regime complex](https://doi.org/10.17645/pag.v11i2.6341). *Politics and Governance*, 11(2): 49–61.
@@ -122,6 +123,7 @@ The RDP dataset codes how 32 European countries allocate asylum seekers across t
 <dt>Files</dt><dd>CSV, technical report (PDF), replication code</dd>
 <dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></dd>
 <dt>DOI</dt><dd><a href="https://doi.org/10.25673/1914118-10">10.25673/1914118-10</a></dd>
+<dt>Downloads</dt><dd>560 file downloads on SADAR, all files combined (November 2026)</dd>
 </dl>
 
 ::: {.data-links}
@@ -160,7 +162,9 @@ The RESET-OECD dataset provides quantitative indicators of the refugee resettlem
 <dt>Coverage</dt><dd>OECD countries, 1980–2019</dd>
 <dt>Files</dt><dd>Stata (.dta), codebook (PDF)</dd>
 <dt>Version</dt><dd>1</dd>
+<dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></dd>
 <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.5762158">10.5281/zenodo.5762158</a></dd>
+<dt>Downloads</dt><dd><span class="dl-count" data-zenodo="5762158">384</span> on Zenodo, all versions (<span class="dl-date">November 2026</span>)</dd>
 </dl>
 
 ::: {.data-links}
@@ -244,7 +248,7 @@ Our module in MOSAiCH 2023, the biennial population survey of social attitudes i
 <details>
 <summary>Publications using the data (1)</summary>
 
-- **Lutz, P.** & Bitschnau, M. (2026) [Beyond innumeracy: Measuring public misperceptions about immigration](https://doi.org/10.1017/psrm.2025.10055). *Political Science Research and Methods*, 14(4), 1326-1343.
+- **Lutz, P.** & Bitschnau, M. (2026) [Beyond innumeracy: Measuring public misperceptions about immigration](https://doi.org/10.1017/psrm.2025.10055). *Political Science Research and Methods*, 14(4): 1326–1343.
 
 </details>
 :::
@@ -272,8 +276,8 @@ Our questionnaire in MOSAiCH 2017, the biennial population survey of social atti
 <details>
 <summary>Publications using the data (2)</summary>
 
-- Armingeon, K. & **Lutz, P.** (2023) [Citizens' response to a non-responsive government: The case of the Swiss initiative on mass immigration](https://doi.org/10.1057/s41295-022-00306-4). *Comparative European Politics*, 21: 133–151.
-- Armingeon, K. & **Lutz, P.** (2020) [Muddling between responsiveness and responsibility: The Swiss case of a non-implementation of a constitutional rule](https://doi.org/10.1057/s41295-019-00185-2). *Comparative European Politics*, 18: 256–280.
+- Armingeon, K. & **Lutz, P.** (2023) [Citizens' response to a non-responsive government: The case of the Swiss initiative on mass immigration](https://doi.org/10.1057/s41295-022-00306-4). *Comparative European Politics*, 21(2): 133–151.
+- Armingeon, K. & **Lutz, P.** (2020) [Muddling between responsiveness and responsibility: The Swiss case of a non-implementation of a constitutional rule](https://doi.org/10.1057/s41295-019-00185-2). *Comparative European Politics*, 18(2): 256–280.
 
 </details>
 :::
@@ -301,7 +305,7 @@ Our items on business migration are part of the Migration-Mobility Survey, the n
 <details>
 <summary>Publications using the data (2)</summary>
 
-- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) [Business migration between labour and trade: Evidence from Switzerland](https://doi.org/10.1186/s40878-025-00483-7). *Comparative Migration Studies*, 13: 60.
+- Alvarado, M., Hoffmeyer-Zlotnik, P., Lavenex, S., & **Lutz, P.** (2025) [Business migration between labour and trade: Evidence from Switzerland](https://doi.org/10.1186/s40878-025-00483-7). *Comparative Migration Studies*, 13(1): 60.
 - Lavenex, S., Alvarado, M., Hoffmeyer-Zlotnik, P., & **Lutz, P.** (2025) [Business mobility as a privileged form of temporary labour migration: Insights from the MITA database and Switzerland](publications/ilo_chapter.pdf). In: Temporary labour migration: Towards social justice?, edited by Christiane Kuptsch and Fabiola Mieres. Geneva: International Labour Organisation, pp.107-128.
 
 </details>
@@ -315,13 +319,13 @@ Replication packages for 11 publications. Each publication with its abstract is 
 ::: {.replication-list}
 - **Lutz, P.**, Lavenex, S., & Hoffmeyer-Zlotnik, P. (2026) Trading migration? Explaining mobility provisions in preferential trade agreements. *The Review of International Organizations*, FirstView. [Replication files](https://zenodo.org/records/22900298){.pub-btn}
 - **Lutz, P.**, & Crum, B. (2026) Fair enough? Citizens’ preferences on refugee distribution in the EU. *European Journal of Political Research*, FirstView. [Replication files](publications/Lutz_Crum_EJPR_replication_files.zip){.pub-btn}
-- **Lutz, P.**, & Does, S. (2026) Seeing Divides: Citizens’ Biased Perceptions of Political Cleavages. *Political Behavior*, OnlineFirst. [Replication files](https://doi.org/10.7910/DVN/WIMUVL){.pub-btn}
-- **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, FirstView. [Replication files](EUP_replication_files.zip){.pub-btn}
+- **Lutz, P.**, & Does, S. (2026) Seeing divides: Citizens’ biased perceptions of political cleavages. *Political Behavior*, OnlineFirst. [Replication files](https://doi.org/10.7910/DVN/WIMUVL){.pub-btn}
+- **Lutz, P.**, Trauner, F., & Stutz, P. (2026) Towards more fairness among states: How Dublin transfers redistribute asylum responsibility. *European Union Politics*, 27(3): 533–556. [Replication files](EUP_replication_files.zip){.pub-btn}
 - **Lutz, P.** & Bachelet, M. (2026) Europe's immigration divide: multidimensional responsibility-sharing as a solution? *Journal of European Public Policy*, FirstView. [Replication files](lutz_bachelet2026_replication.zip){.pub-btn}
 - Manser-Egli, S. & **Lutz, P.** (2026) Integration for whom? The migration bias in social norms. *European Societies*, 28(3): 569–588. [Replication files](lutz_manseregli_replication.zip){.pub-btn}
-- **Lutz, P.** & Bitschnau, M. (2026) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, 14(4), 1326-1343. [Replication files](https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/EPX9VY){.pub-btn}
+- **Lutz, P.** & Bitschnau, M. (2026) Beyond innumeracy: Measuring public misperceptions about immigration. *Political Science Research and Methods*, 14(4): 1326–1343. [Replication files](https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/EPX9VY){.pub-btn}
 - **Lutz, P.** (2025) Do immigrants at bay keep the xenophobes away? Post-entry rights and public opposition to immigrant admission. *European Political Science Review*, 17(1): 128–142. [Replication files](replication_files_EPSR_LUTZ2025.zip){.pub-btn}
 - **Lutz, P.** (2024) Between common responsibility and national interest: When do Europeans support a common European migration policy? *European Union Politics*, 25(2): 313–332. [Replication files](Lutz2024_replication.zip){.pub-btn}
-- Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) Migration governance through trade agreements: Insights from the MITA dataset. *Review of International Organizations*, 19: 147–173. [Replication files](https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM2_ESM.zip){.pub-btn}
+- Lavenex, S., **Lutz, P.**, & Hoffmeyer-Zlotnik, P. (2024) Migration governance through trade agreements: Insights from the MITA dataset. *The Review of International Organizations*, 19(1): 147–173. [Replication files](https://static-content.springer.com/esm/art%3A10.1007%2Fs11558-023-09493-5/MediaObjects/11558_2023_9493_MOESM2_ESM.zip){.pub-btn}
 - Schultz, C., **Lutz, P.**, & Simon, S. (2021) Explaining the immigration policy mix: Countries’ relative openness to asylum and labour migration. *European Journal of Political Research*, 60(4): 763–784. [Replication files](Schultz2021_replication.zip){.pub-btn}
 :::

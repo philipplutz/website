@@ -1,43 +1,39 @@
 ---
-description: "Policy papers, policy uptake, media coverage and public events of Philipp Lutz on migration and European integration."
+description: "Policy papers, public events, short articles, media coverage and policy uptake of Philipp Lutz on migration and European integration."
 title: "Public engagement"
 ---
 
 ![](nccr4.jpg){.column-margin .engagement-photo fig-alt="Public panel at University of Neuchatel"}
 
-My research engages with public and policy debates on migration, asylum, and European integration through public talks, think-tank work, policy advocacy, and media commentary. Media coverage includes SRF, Tages-Anzeiger, Le Temps, NZZ, Die Zeit, Swissinfo, Euractiv, EUobserver and The Telegraph.
+Immigration has become a key issue of political contestation in Europe. I bring the findings of my research into policy-making and public debate: through policy papers for think tanks and public institutions, public events, short articles in English, German, French and Dutch, and media commentary.
 
 For media requests, public talks, or advisory work, please [email me](mailto:p.lutz@vu.nl).
 
 [Download portrait photo (high resolution)](prof_pic.jpg){.pub-btn download="prof_pic.jpg"} *Photo: Peter Gerritsen.*
 
-## Policy uptake
-
-Policy reports and parliamentary documents that draw on my research:
-
-::: {#mentions-policy .mentions}
-:::
-
 ## Policy papers
 
 - Trauner, F., **Lutz, P.**, & Stutz, P. (November 2025) [*Towards a fairer EU asylum policy: Lessons from the Dublin system for the EU's Solidarity Mechanism*](https://www.epc.eu/publication/towards-a-fairer-eu-asylum-policy-lessons-from-the-dublin-system-for-the-eus-solidarity-mechanism/). Discussion Paper. Brussels: European Policy Centre.
+<span class="pub-takeaway">Lessons from the Dublin system for the EU's new solidarity mechanism: make fairness a transparent criterion for responsibility transfers and prioritise transfers from more to less pressured member states.</span>
 
 - Bachelet, M. & **Lutz, P.** (August 2025) [*Europe's divide on immigration: Making responsibility-sharing work*](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-EN-Web2pdf.pdf). Policy Brief in a Nutshell 26. Neuchâtel: nccr – on the move. Also available in [French](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-FR-Web.pdf) and [German](https://nccr-onthemove.ch/wp_live14/wp-content/uploads/2025/08/Policy-Brief-nccr-on-the-move-26-DE-Web.pdf).
+<span class="pub-takeaway">Responsibility-sharing in Europe needs binding and transparent fairness rules with enforcement, combined with flexibility for states to contribute in different ways, such as financial or operational support.</span>
 
 - Herrmann, M., Zogg, P., & **Lutz, P.** (February 2025) [*Analyse des Algorithmus und seiner Nutzung zur Verteilung der Asylsuchenden auf die Kantone*](https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx?ID=DOCID-1-12618). Report for the Swiss Parliamentary Administrative Control. Ostermundigen: PrivatePublicConsulting. [In German]
+<span class="pub-takeaway">An assessment of the algorithm the State Secretariat for Migration uses to allocate asylum seekers to cantons: the algorithm covers most legal criteria, yet actual allocations often deviate from its targets and rely heavily on manual corrections.</span>
 
 - **Lutz, P.**, Solenthaler, N., & Sutter, N. (October 2020) [*Die Zirkulär-Bewilligung: Das brachliegende Potenzial der Drittstaatenmigration*](https://www.foraus.ch/publications/die-zirkulaer-bewilligung/). foraus policy brief. Zurich. [In German]
+<span class="pub-takeaway">A proposal for a circular permit that makes the residence status of third-country migrants more flexible, so that Switzerland, migrants and their countries of origin can use the development potential of circular migration.</span>
 
 - Brantschen, S., **Lutz, P.**, Portmann, L., Faoro, N., & Wäspi, F. (February 2019) [*Swiss Refugee Partnership: Eine neue Zulassungspolitik im Schweizer Asylwesen*](https://www.foraus.ch/wp-content/uploads/2019/02/foraus_Swiss-Refugee-Partnership.pdf). foraus Discussion Paper No. 38. Zurich/Geneva. [Summary in [AsylNews](https://t.co/PZ0jPkqgsT?amp=1), No. 3, September 2019]
+<span class="pub-takeaway">A proposal for a new admission model in which private persons and civil society contribute on their own initiative to refugee protection, making Switzerland's resettlement policy more institutionalised and flexible.</span>
 
-- **Lutz, P.**, Kaufmann, D., Stünzi, A., & Egli, S. (2017) [*Prisoners of the Dublin Dilemma: How to reform the Common European Asylum System?*](https://www.foraus.ch/wp-content/uploads/2017/08/foraus-Dublin_ENG.pdf) foraus Discussion Paper No. 32. Zurich/Geneva. [German version: Gefangen im Dublin-Dilemma](https://www.foraus.ch/wp-content/uploads/2016/12/foraus_Diskussionspapier-Dublin.pdf){.pub-btn} · [Op-ed (NZZ)](publications/nzz_oped_dublin.pdf){.pub-btn}
+- **Lutz, P.**, Kaufmann, D., Stünzi, A., & Egli, S. (2017) [*Prisoners of the Dublin Dilemma: How to reform the Common European Asylum System?*](https://www.foraus.ch/wp-content/uploads/2017/08/foraus-Dublin_ENG.pdf) foraus Discussion Paper No. 32. Zurich/Geneva.
+<span class="pub-takeaway">The Dublin rules give frontline states and asylum seekers incentives to circumvent them; the paper proposes separating registration from processing, considering applicants' preferred destinations and sharing costs through a distribution key with financial compensation.</span>
+[German version: Gefangen im Dublin-Dilemma](https://www.foraus.ch/wp-content/uploads/2016/12/foraus_Diskussionspapier-Dublin.pdf){.pub-btn} · [Op-ed (NZZ)](publications/nzz_oped_dublin.pdf){.pub-btn}
 
 - Kaufmann, D. & **Lutz, P.** (February 2015) [*Gefangen im Nullsummenspiel: Eine Bewertung der MEI-Umsetzungsvorschläge*](https://www.foraus.ch/wp-content/uploads/2015/02/foraus-Gefangen-Im-Nullsummenspiel.pdf). foraus Discussion Paper No. 23. Zurich/Geneva. [In German]
-
-## Recent media
-
-::: {#mentions-media .mentions}
-:::
+<span class="pub-takeaway">An assessment of four ways to implement the mass immigration initiative: quotas and domestic priority raise costs for firms, migrants and the state, so lawmakers must decide which of the initiative's conflicting goals to prioritise.</span>
 
 ## Public events
 
@@ -92,3 +88,15 @@ Podiumsdiskussion mit Jonathan Zufferey, Sarah Progin-Theuerkauf, Ensar Can, **P
 - **Lutz, P.** (2017) [*Wie Migranten Muslime wurden*](https://www.haus-der-religionen.ch/file/repository/SAGW_Bulletin_2_17_web_Einzelseiten.pdf). *Bulletin der Schweizerischen Akademie der Geistes- und Sozialwissenschaften*, 2/2017. [In German]
 
 </details>
+
+## Recent media
+
+::: {#mentions-media .mentions}
+:::
+
+## Policy uptake
+
+Policy reports and parliamentary documents that draw on my research:
+
+::: {#mentions-policy .mentions}
+:::

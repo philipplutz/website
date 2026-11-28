@@ -1,0 +1,9 @@
+{
+  "updated": "2026-11-28",
+  "note": "Zenodo statistics for all versions of each record, as shown on the record page. Refreshed monthly by _scripts/update_zenodo.py.",
+  "records": {
+    "17983862": {"name": "URAF", "downloads": 256, "views": 322},
+    "20692494": {"name": "MITA", "downloads": 1552, "views": 2502},
+    "5762158": {"name": "RESET-OECD", "downloads": 384, "views": 538}
+  }
+}

@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
    On the publications page this adds filter buttons (and reads #agenda=... from the address);
    on the homepage it adds the number of publications to each agenda's "Publications" link. */
 (function () {
-  var NAMES = { policy: "Migration policies", opinion: "Public opinion and perceptions",
-                sharing: "European governance", trade: "Trade agreements" };
+  var NAMES = { policy: "Migration policy-making", opinion: "Public opinion and perceptions",
+                sharing: "European migration governance", trade: "Migration in trade agreements" };
   var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
                    ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
                    misperceptions: "Perceptions and Misperceptions about Immigration",
@@ -412,7 +412,8 @@ document.addEventListener("DOMContentLoaded", function () {
       addCite(a.closest("li"), byDoi[doi], a);
     });
     content.querySelectorAll("li span.cite[data-key]").forEach(function (s) {
-      var li = s.closest("li"), btns = li ? li.querySelectorAll(":scope > a.pub-btn") : [];
+      var li = s.closest("li");    // buttons may sit inside a <p> (loose lists), so search the whole entry outside the abstract
+      var btns = li ? [].filter.call(li.querySelectorAll("a.pub-btn"), function (a) { return !a.closest("details"); }) : [];
       addCite(li, cit["key:" + s.getAttribute("data-key")], btns.length ? btns[btns.length - 1] : null);
     });
   }).catch(function () {});
@@ -528,3 +529,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+<script>
+/* Data page: dataset download counts on Zenodo (zenodo.json, refreshed monthly by the workflow) */
+document.addEventListener("DOMContentLoaded", function () {
+  var spans = document.querySelectorAll(".dl-count[data-zenodo]");
+  if (!spans.length) return;
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  fetch("zenodo.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (z) {
+    if (!z || !z.records) return;
+    var u = (z.updated || "").split("-"), mo = parseInt(u[1], 10);
+    spans.forEach(function (s) {
+      var rec = z.records[s.getAttribute("data-zenodo")];
+      if (!rec || rec.downloads == null) return;
+      s.textContent = Number(rec.downloads).toLocaleString("en-US");
+      var d = s.parentNode.querySelector(".dl-date");
+      if (d && mo) d.textContent = MONTHS[mo - 1] + " " + u[0];
+    });
+  }).catch(function () {});
+});
+</script>

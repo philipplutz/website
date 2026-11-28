@@ -5,6 +5,7 @@ project:
     - fonts/
     - mentions.yml
     - scholar.json
+    - zenodo.json
     - skyline.svg
     - figures/
     - citations.json

@@ -30,11 +30,11 @@ Feel free to [get in touch](mailto:p.lutz@vu.nl).
 <a class="agenda-tile" href="publications.html#agenda=policy" tabindex="-1" aria-hidden="true" title="Asylum and labour policy restrictiveness by country (Schultz, Lutz &amp; Simon 2021)"><img src="figures/tile_policy.svg" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### Comparative analysis of migration policies
+### Migration policy-making
 
 <p class="agenda-q">How do liberal democracies balance openness and closure in their migration policies?</p>
 
-Immigration policies decide who may enter a country and on what terms immigrants may stay. I seek to explain why some countries are more open to immigration than others, how they combine different instruments in their policy mix, and how political parties and ideology shape these policies.
+Migration policies decide who may enter a country and on what terms immigrants may stay. I explain why some countries are more open than others, how they combine instruments in their policy mix, and how parties and ideology shape these choices.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="policy" href="publications.html#agenda=policy">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#phd">PhD project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#policy-datasets">Policy datasets</a></p>
 :::
@@ -48,7 +48,7 @@ Immigration policies decide who may enter a country and on what terms immigrants
 
 <p class="agenda-q">What do citizens want and believe about immigration, and why does it matter for democracy?</p>
 
-I study how Europeans form attitudes and policy preferences on immigration and European integration, in particular how they navigate conflicting pressures and the ambivalence these create. Public opinion also rests on perceptions that often diverge from reality: I study how accurate these perceptions are, how to measure them, and whether people who hold misperceptions are misinformed or merely uninformed. A newer line of research examines how citizens perceive each other's views, including what they believe society expects of immigrants.
+Public opinion on immigration rests on preferences shaped by conflicting pressures and on perceptions that often diverge from reality. I study how citizens form these attitudes and perceptions on immigration and European integration, including how they perceive each other's views.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="opinion" href="publications.html#agenda=opinion">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#nwo">NWO project</a> <span class="sep">·</span> <i class="bi bi-database"></i><a href="data.html#mosaich-2023">Survey data</a></p>
 :::
@@ -60,9 +60,9 @@ I study how Europeans form attitudes and policy preferences on immigration and E
 ::: {.agenda-body}
 ### European migration governance
 
-<p class="agenda-q">When and how do European states cooperate on migration?</p>
+<p class="agenda-q">How can European states cooperate on migration in ways that are effective and fair?</p>
 
-Open borders within Europe and exposure to external immigration require collective efforts to govern migration. I study how the EU combines internal free movement with external border control, and how European states share responsibility for refugee protection under the pressures of functional interdependence and domestic political contestation. The overarching question is how Europe can organise migration cooperation that is effective and that states and citizens accept as fair.
+Open borders within Europe and exposure to external immigration require collective governance. I study how the EU combines internal free movement with external border control and how states share responsibility for refugee protection under functional interdependence and domestic contestation.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="sharing" href="publications.html#agenda=sharing">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#ambizione">Ambizione project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="projects.html#dublin-explorer">Dublin Explorer</a></p>
 :::
@@ -72,11 +72,11 @@ Open borders within Europe and exposure to external immigration require collecti
 <a class="agenda-tile" href="publications.html#agenda=trade" tabindex="-1" aria-hidden="true" title="Cumulative number of preferential trade agreements with mobility, rights and control provisions, 1960–2020 (MITA dataset)"><img src="figures/tile_trade.svg" alt="" loading="lazy" width="120" height="120"></a>
 
 ::: {.agenda-body}
-### Migration governance through trade agreements
+### Migration in trade agreements
 
 <p class="agenda-q">Why do states govern migration through trade agreements?</p>
 
-Trade and migration are two facets of an increasingly interconnected world, yet the links between trade and migration policies remain little researched. States and the European Union increasingly use trade agreements to facilitate mobility, strengthen migration control or protect migrant rights. With the MITA dataset, which covers migration provisions in preferential trade agreements worldwide since 1960, I study why states include such provisions, how they combine them and how they shape national immigration regimes and the EU's external migration policy.
+States struggle to cooperate on migration at the multilateral level, yet they increasingly include migration provisions in trade agreements to facilitate mobility, control migration or protect migrant rights. I study why they do so and how these provisions shape national immigration regimes and the EU's external migration policy.
 
 <p class="agenda-links"><i class="bi bi-journal-text"></i><a class="agenda-pubs" data-ag="trade" href="publications.html#agenda=trade">Publications</a> <span class="sep">·</span> <i class="bi bi-folder2-open"></i><a href="projects.html#trade-mobilities">nccr project</a> <span class="sep">·</span> <i class="bi bi-bar-chart-line"></i><a href="https://philipplutz.shinyapps.io/MITA/">MITA Explorer</a></p>
 :::
@@ -91,7 +91,7 @@ I teach comparative and European politics, research design and migration policy 
 
 ## Public engagement {.home-section}
 
-My research engages with public and policy debates on migration, asylum and European integration through public talks, think-tank work, policy advocacy and media commentary. Reports by the European Parliamentary Research Service, the World Bank and the Swiss Parliament draw on my research.
+My research engages with public and policy debates on migration, asylum and European integration through public talks, think-tank work, policy advocacy and media commentary.
 
 <p class="agenda-links"><i class="bi bi-file-earmark-text"></i><a href="engagement.html#policy-papers">Policy papers</a> <span class="sep">·</span> <i class="bi bi-bank"></i><a href="engagement.html#policy-uptake">Policy uptake</a> <span class="sep">·</span> <i class="bi bi-newspaper"></i><a href="engagement.html#recent-media">Media</a></p>
 
