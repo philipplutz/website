@@ -666,3 +666,8 @@ body:not(.quarto-dark) .news-type { color: #1d64b8; }
 .pub-takeaway { display: block; margin: 0.15rem 0 0.3rem; font-size: 0.93rem; line-height: 1.45; color: #4b5563; }
 .quarto-dark .pub-takeaway { color: #b5bcc4; }
 
+/* Publications: prize won by an article */
+.pub-award { display: block; width: fit-content; margin: 0.2rem 0 0.1rem; font-size: 0.85rem; font-weight: 500; color: #8a5a00; }
+.pub-award .bi { margin-right: 0.35rem; }
+.quarto-dark .pub-award { color: #e3b55c; }
+

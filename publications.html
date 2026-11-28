@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-e1ff599981aebc214154414376dcc4b3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-f465299bd18310206fc2b8f07ac4464f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bdee7f7ba7ce3de9d6c7348142b0e203.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0584de43abe11d50ce7ece8a7aaa63e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1847,7 +1847,7 @@ Figure A6. Predicted bordering preferences by survey wave in countries directly 
 </figure>
 </details></li>
 <li><span class="ag" data-ag="opinion sharing"></span> <strong>Lutz, P.</strong> (2021) Loved and feared: Citizens’ ambivalence towards free movement in the European Union. <em>Journal of European Public Policy</em>, 28(2): 268–288.<br>
-<span class="pub-takeaway">Many EU citizens are ambivalent about free movement: they value their own mobility and fear immigration from other member states.</span> <a href="publications/Lutz2021_prepring.pdf" class="pub-btn">PDF</a> · <a href="https://doi.org/10.1080/13501763.2020.1720782" class="pub-btn">DOI</a> · <a href="https://ndownloader.figstatic.com/files/21711534" class="pub-btn">Supplementary material</a> · <a href="https://ukandeu.ac.uk/brexit-and-public-support-for-free-movement/" class="pub-btn">Blog post (EN)</a> · <a href="https://nccr-onthemove.ch/blog/personenfreizugigkeit-in-der-krise/" class="pub-btn">Blog post (DE)</a>
+<span class="pub-award"><i class="bi bi-award" aria-hidden="true"></i>ECSA Suisse Best Article Prize 2021</span> <span class="pub-takeaway">Many EU citizens are ambivalent about free movement: they value their own mobility and fear immigration from other member states.</span> <a href="publications/Lutz2021_prepring.pdf" class="pub-btn">PDF</a> · <a href="https://doi.org/10.1080/13501763.2020.1720782" class="pub-btn">DOI</a> · <a href="https://ndownloader.figstatic.com/files/21711534" class="pub-btn">Supplementary material</a> · <a href="https://ukandeu.ac.uk/brexit-and-public-support-for-free-movement/" class="pub-btn">Blog post (EN)</a> · <a href="https://nccr-onthemove.ch/blog/personenfreizugigkeit-in-der-krise/" class="pub-btn">Blog post (DE)</a>
 <details>
 <summary>
 Abstract
@@ -1965,7 +1965,7 @@ Figure 1. Capability-Aspiration-Framework for Integration Outcomes.
 <h2 class="anchored" data-anchor-id="phd-thesis">PhD thesis</h2>
 <ul>
 <li><span class="cite" data-key="Lutz2019inside"></span><span class="ag" data-ag="policy" data-pr="phd"></span> <strong>Lutz, P.</strong> (2019) <em>Inside the Migration State: The Quest for Democratic Legitimacy</em>. Doctoral dissertation, Institute of Political Science, University of Bern. DOI: 10.48549/4882<br>
-Advisors: Prof.&nbsp;Klaus Armingeon (Bern) and Prof.&nbsp;Marc Helbling (Bamberg).<br>
+<span class="pub-takeaway">Studying immigration policy-making from the perspective of democratic legitimacy, the thesis asks how liberal democracies reconcile the economic imperative for open borders with the political imperative for closed borders. The argument is that governments follow economic needs in admission policy, where their room for manoeuvre is narrow, and respond to political demands in integration policy, where they have more discretion. Across 18 West European democracies (1980–2014), admission policies became more liberal regardless of who governed, while integration policies became more restrictive and partisan. A case study of the 2014 Swiss referendum on immigration quotas shows the same logic: the clash with free movement was settled by strengthening the labour market integration of residents, a solution the public largely accepted.</span> Advisors: Prof.&nbsp;Klaus Armingeon (Bern) and Prof.&nbsp;Marc Helbling (Bamberg).<br>
 <a href="https://boris-portal.unibe.ch/entities/thesis/6b8c739d-ce3a-423d-9a3d-7bef42cf272e" class="pub-btn">Full text</a></li>
 </ul>
 </section>
@@ -2112,8 +2112,8 @@ document.addEventListener("DOMContentLoaded", function () {
    On the publications page this adds filter buttons (and reads #agenda=... from the address);
    on the homepage it adds the number of publications to each agenda's "Publications" link. */
 (function () {
-  var NAMES = { policy: "Migration policies", opinion: "Public opinion and perceptions",
-                sharing: "European governance", trade: "Trade agreements" };
+  var NAMES = { policy: "Migration policy-making", opinion: "Public opinion and perceptions",
+                sharing: "European migration governance", trade: "Migration in trade agreements" };
   var PROJECTS = { nwo: "The Normative Integration Regime (NWO)",
                    ambizione: "Connecting countries and dividing people (SNSF Ambizione)",
                    misperceptions: "Perceptions and Misperceptions about Immigration",
@@ -2485,7 +2485,8 @@ document.addEventListener("DOMContentLoaded", function () {
       addCite(a.closest("li"), byDoi[doi], a);
     });
     content.querySelectorAll("li span.cite[data-key]").forEach(function (s) {
-      var li = s.closest("li"), btns = li ? li.querySelectorAll(":scope > a.pub-btn") : [];
+      var li = s.closest("li");    // buttons may sit inside a <p> (loose lists), so search the whole entry outside the abstract
+      var btns = li ? [].filter.call(li.querySelectorAll("a.pub-btn"), function (a) { return !a.closest("details"); }) : [];
       addCite(li, cit["key:" + s.getAttribute("data-key")], btns.length ? btns[btns.length - 1] : null);
     });
   }).catch(function () {});
@@ -2601,6 +2602,25 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+<script>
+/* Data page: dataset download counts on Zenodo (zenodo.json, refreshed monthly by the workflow) */
+document.addEventListener("DOMContentLoaded", function () {
+  var spans = document.querySelectorAll(".dl-count[data-zenodo]");
+  if (!spans.length) return;
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  fetch("zenodo.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (z) {
+    if (!z || !z.records) return;
+    var u = (z.updated || "").split("-"), mo = parseInt(u[1], 10);
+    spans.forEach(function (s) {
+      var rec = z.records[s.getAttribute("data-zenodo")];
+      if (!rec || rec.downloads == null) return;
+      s.textContent = Number(rec.downloads).toLocaleString("en-US");
+      var d = s.parentNode.querySelector(".dl-date");
+      if (d && mo) d.textContent = MONTHS[mo - 1] + " " + u[0];
+    });
+  }).catch(function () {});
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
