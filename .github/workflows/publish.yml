@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "37 4 1 * *"   # 04:37 UTC on the 1st of each month: refresh Google Scholar counts
 
 permissions:
   contents: write
@@ -15,6 +17,56 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Monthly run (and manual runs only): fetch citation counts through SerpApi and save scholar.json.
+      # Needs the repository secret SERPAPI_KEY. If the fetch fails, the site is built with the old counts.
+      - name: Update Google Scholar citation counts
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          if [ -z "$SERPAPI_KEY" ]; then echo "No SERPAPI_KEY secret: counts not updated"; exit 0; fi
+          python3 _scripts/update_scholar.py
+          if ! git diff --quiet -- scholar.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add scholar.json
+            git commit -m "Update Google Scholar citation counts"
+            git pull --rebase && git push
+          fi
+
+      # Monthly run (and manual runs only): download counts of the datasets on Zenodo, saved in zenodo.json.
+      - name: Update dataset download counts (Zenodo)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python3 _scripts/update_zenodo.py
+          if ! git diff --quiet -- zenodo.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add zenodo.json
+            git commit -m "Update dataset download counts"
+            git pull --rebase && git push
+          fi
+
+      # Publication metadata for the Cite buttons, publications.bib and the structured data on the publications page.
+      # Monthly and manual runs refresh every DOI from Crossref; pushes only fetch DOIs that are new.
+      - name: Update citation metadata (Crossref)
+        continue-on-error: true
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then python3 _scripts/update_citations.py --missing-only; else python3 _scripts/update_citations.py; fi
+          if ! git diff --quiet -- citations.json publications.bib pub-ld.html; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add citations.json publications.bib pub-ld.html
+            git commit -m "Update citation metadata"
+            git pull --rebase && git push
+          fi
+
+      # llms.txt and llms-full.txt for AI agents, rebuilt from the pages at every build.
+      - name: Build llms.txt
+        run: python3 _scripts/build_llms.py
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
